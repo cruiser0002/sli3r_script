@@ -355,10 +355,7 @@ G1 X6.854 Y12.206 E19.57439 ; infill
 G1 X-12.206 Y-6.854 E19.89243 ; infill
 G1 X-12.206 Y-7.077 E19.89506 ; infill
 G1 X7.077 Y12.206 E20.21683 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X7.300 Y12.206 E20.21946 ; infill
 G1 X-12.206 Y-7.300 E20.54494 ; infill
 G1 X-12.206 Y-7.523 E20.54758 ; infill
@@ -473,10 +470,7 @@ G1 X-4.847 Y-12.206 E39.86114 ; infill
 G1 X12.206 Y4.847 E40.14570 ; infill
 G1 X12.206 Y4.624 E40.14833 ; infill
 G1 X-4.624 Y-12.206 E40.42917 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-4.401 Y-12.206 E40.43180 ; infill
 G1 X12.206 Y4.401 E40.70892 ; infill
 G1 X12.206 Y4.178 E40.71155 ; infill
@@ -628,7 +622,7 @@ G1 X11.876 Y-12.206 E51.08079 ; infill
 G1 X12.099 Y-12.206 E51.08342 ; infill
 G1 X12.206 Y-12.099 E51.08520 ; infill
 M106 S255 ; enable fan
-G1 Z0.300 F60000.000 ; move to next layer (1)
+G1 Z0.200 F60000.000 ; move to next layer (0)
 G1 X14.978 Y0.000 F60000.000 ; move to first brim point
 G1 X14.978 Y13.643 E0.16038 F6000.000 ; brim
 G1 X13.643 Y14.978 E0.18256 ; brim
@@ -966,10 +960,7 @@ G1 X6.854 Y12.206 E19.57439 ; infill
 G1 X-12.206 Y-6.854 E19.89243 ; infill
 G1 X-12.206 Y-7.077 E19.89506 ; infill
 G1 X7.077 Y12.206 E20.21683 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X7.300 Y12.206 E20.21946 ; infill
 G1 X-12.206 Y-7.300 E20.54494 ; infill
 G1 X-12.206 Y-7.523 E20.54758 ; infill
@@ -1084,10 +1075,7 @@ G1 X-4.847 Y-12.206 E39.86114 ; infill
 G1 X12.206 Y4.847 E40.14570 ; infill
 G1 X12.206 Y4.624 E40.14833 ; infill
 G1 X-4.624 Y-12.206 E40.42917 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-4.401 Y-12.206 E40.43180 ; infill
 G1 X12.206 Y4.401 E40.70892 ; infill
 G1 X12.206 Y4.178 E40.71155 ; infill
@@ -1239,7 +1227,7 @@ G1 X11.876 Y-12.206 E51.08079 ; infill
 G1 X12.099 Y-12.206 E51.08342 ; infill
 G1 X12.206 Y-12.099 E51.08520 ; infill
 M106 S255 ; enable fan
-G1 Z0.300 F60000.000 ; move to next layer (1)
+G1 Z0.200 F60000.000 ; move to next layer (0)
 G1 X14.978 Y0.000 F60000.000 ; move to first brim point
 G1 X14.978 Y13.643 E0.16038 F6000.000 ; brim
 G1 X13.643 Y14.978 E0.18256 ; brim
@@ -1577,10 +1565,7 @@ G1 X6.854 Y12.206 E19.57439 ; infill
 G1 X-12.206 Y-6.854 E19.89243 ; infill
 G1 X-12.206 Y-7.077 E19.89506 ; infill
 G1 X7.077 Y12.206 E20.21683 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X7.300 Y12.206 E20.21946 ; infill
 G1 X-12.206 Y-7.300 E20.54494 ; infill
 G1 X-12.206 Y-7.523 E20.54758 ; infill
@@ -1695,10 +1680,7 @@ G1 X-4.847 Y-12.206 E39.86114 ; infill
 G1 X12.206 Y4.847 E40.14570 ; infill
 G1 X12.206 Y4.624 E40.14833 ; infill
 G1 X-4.624 Y-12.206 E40.42917 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-4.401 Y-12.206 E40.43180 ; infill
 G1 X12.206 Y4.401 E40.70892 ; infill
 G1 X12.206 Y4.178 E40.71155 ; infill
@@ -1850,7 +1832,7 @@ G1 X11.876 Y-12.206 E51.08079 ; infill
 G1 X12.099 Y-12.206 E51.08342 ; infill
 G1 X12.206 Y-12.099 E51.08520 ; infill
 M106 S255 ; enable fan
-G1 Z0.300 F60000.000 ; move to next layer (1)
+G1 Z0.200 F60000.000 ; move to next layer (0)
 G1 X14.978 Y0.000 F60000.000 ; move to first brim point
 G1 X14.978 Y13.643 E0.16038 F6000.000 ; brim
 G1 X13.643 Y14.978 E0.18256 ; brim
@@ -2022,10 +2004,7 @@ G1 X-12.206 Y11.653 E5.92902 ; infill
 G1 X-11.653 Y12.206 E5.93824 ; infill
 G1 X-11.430 Y12.206 E5.94087 ; infill
 G1 X-12.206 Y11.430 E5.95381 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-12.206 Y11.207 E5.95644 ; infill
 G1 X-11.207 Y12.206 E5.97310 ; infill
 G1 X-10.984 Y12.206 E5.97573 ; infill
@@ -2238,10 +2217,7 @@ G1 X-12.206 Y-11.983 E27.89129 ; infill
 G1 X11.983 Y12.206 E28.29492 ; infill
 G1 X12.186 Y12.186 E28.29733 ; infill
 G1 X-12.186 Y-12.186 E28.70400 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.983 Y-12.206 E28.70641 ; infill
 G1 X12.206 Y11.983 E29.11004 ; infill
 G1 X12.206 Y11.760 E29.11267 ; infill
@@ -2461,11 +2437,8 @@ G1 X11.876 Y-12.206 E51.08079 ; infill
 G1 X12.099 Y-12.206 E51.08342 ; infill
 G1 X12.206 Y-12.099 E51.08520 ; infill
 M106 S255 ; enable fan
+
 G1 Z0.300 F60000.000 ; move to next layer (1)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E51.51214 F2788.021 ; perimeter
 G1 X-11.678 Y-11.678 E51.93909 ; perimeter
@@ -2536,10 +2509,7 @@ G1 X11.386 Y-6.188 E61.48688 ; infill
 G1 X-6.188 Y11.386 E61.94265 ; infill
 G1 X-6.881 Y11.386 E61.95536 ; infill
 G1 X11.386 Y-6.881 E62.42911 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.386 Y-7.574 E62.44182 ; infill
 G1 X-7.574 Y11.386 E62.93354 ; infill
 G1 X-8.267 Y11.386 E62.94625 ; infill
@@ -2584,10 +2554,7 @@ G1 X1.336 Y-11.386 E72.41886 ; infill
 G1 X-11.386 Y1.336 E72.74881 ; infill
 G1 X-11.386 Y0.643 E72.76152 ; infill
 G1 X0.643 Y-11.386 E73.07350 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-0.050 Y-11.386 E73.08621 ; infill
 G1 X-11.386 Y-0.050 E73.38021 ; infill
 G1 X-11.386 Y-0.743 E73.39292 ; infill
@@ -2622,11 +2589,8 @@ G1 X-11.386 Y-10.446 E75.79956 ; infill
 G1 X-10.446 Y-11.386 E75.82395 ; infill
 G1 X-11.139 Y-11.386 E75.83666 ; infill
 G1 X-11.386 Y-11.139 E75.84307 ; infill
+
 G1 Z0.400 F60000.000 ; move to next layer (2)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E76.27002 F2788.021 ; perimeter
 G1 X-11.678 Y-11.678 E76.69696 ; perimeter
@@ -2697,10 +2661,7 @@ G1 X-6.188 Y-11.386 E86.24475 ; infill
 G1 X11.386 Y6.188 E86.70052 ; infill
 G1 X11.386 Y6.881 E86.71323 ; infill
 G1 X-6.881 Y-11.386 E87.18698 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-7.574 Y-11.386 E87.19969 ; infill
 G1 X11.386 Y7.574 E87.69141 ; infill
 G1 X11.386 Y8.267 E87.70412 ; infill
@@ -2745,10 +2706,7 @@ G1 X-11.386 Y-1.336 E97.17673 ; infill
 G1 X1.336 Y11.386 E97.50668 ; infill
 G1 X0.643 Y11.386 E97.51939 ; infill
 G1 X-11.386 Y-0.643 E97.83137 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.386 Y0.050 E97.84408 ; infill
 G1 X-0.050 Y11.386 E98.13808 ; infill
 G1 X-0.743 Y11.386 E98.15079 ; infill
@@ -2783,11 +2741,8 @@ G1 X-10.446 Y11.386 E100.55743 ; infill
 G1 X-11.386 Y10.446 E100.58182 ; infill
 G1 X-11.386 Y11.139 E100.59453 ; infill
 G1 X-11.139 Y11.386 E100.60094 ; infill
+
 G1 Z0.500 F60000.000 ; move to next layer (3)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E101.02789 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E101.45483 ; perimeter
@@ -2806,10 +2761,7 @@ G1 X12.550 Y12.505 E105.13223 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E105.25891 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E105.34704 ; infill
 G1 X4.605 Y11.323 E105.59836 ; infill
 G1 X1.272 Y11.323 E105.68649 ; infill
@@ -2824,10 +2776,7 @@ G1 X-11.323 Y10.591 E108.27396 ; infill
 G1 X10.591 Y-11.323 E109.09365 ; infill
 G1 X7.259 Y-11.323 E109.18178 ; infill
 G1 X-11.323 Y7.259 E109.87683 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E109.96496 ; infill
 G1 X3.926 Y-11.323 E110.53538 ; infill
 G1 X0.594 Y-11.323 E110.62351 ; infill
@@ -2838,11 +2787,8 @@ G1 X-6.070 Y-11.323 E111.56668 ; infill
 G1 X-11.323 Y-6.070 E111.76318 ; infill
 G1 X-11.323 Y-9.402 E111.85132 ; infill
 G1 X-9.402 Y-11.323 E111.92318 ; infill
+
 G1 Z0.600 F60000.000 ; move to next layer (4)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E112.35012 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E112.77707 ; perimeter
@@ -2861,10 +2807,7 @@ G1 X12.550 Y12.505 E116.45447 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E116.58115 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E116.66928 ; infill
 G1 X11.323 Y-4.605 E116.92059 ; infill
 G1 X11.323 Y-1.272 E117.00873 ; infill
@@ -2879,10 +2822,7 @@ G1 X10.591 Y11.323 E119.59620 ; infill
 G1 X-11.323 Y-10.591 E120.41589 ; infill
 G1 X-11.323 Y-7.259 E120.50402 ; infill
 G1 X7.259 Y11.323 E121.19907 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E121.28720 ; infill
 G1 X-11.323 Y-3.926 E121.85761 ; infill
 G1 X-11.323 Y-0.594 E121.94575 ; infill
@@ -2893,11 +2833,8 @@ G1 X-11.323 Y6.070 E122.88892 ; infill
 G1 X-6.070 Y11.323 E123.08542 ; infill
 G1 X-9.402 Y11.323 E123.17355 ; infill
 G1 X-11.323 Y9.402 E123.24541 ; infill
+
 G1 Z0.700 F60000.000 ; move to next layer (5)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E123.67236 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E124.09930 ; perimeter
@@ -2916,10 +2853,7 @@ G1 X12.550 Y12.505 E127.77670 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E127.90338 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E127.99151 ; infill
 G1 X4.605 Y11.323 E128.24283 ; infill
 G1 X1.272 Y11.323 E128.33096 ; infill
@@ -2934,10 +2868,7 @@ G1 X-11.323 Y10.591 E130.91843 ; infill
 G1 X10.591 Y-11.323 E131.73812 ; infill
 G1 X7.259 Y-11.323 E131.82626 ; infill
 G1 X-11.323 Y7.259 E132.52131 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E132.60944 ; infill
 G1 X3.926 Y-11.323 E133.17985 ; infill
 G1 X0.594 Y-11.323 E133.26798 ; infill
@@ -2948,11 +2879,8 @@ G1 X-6.070 Y-11.323 E134.21116 ; infill
 G1 X-11.323 Y-6.070 E134.40766 ; infill
 G1 X-11.323 Y-9.402 E134.49579 ; infill
 G1 X-9.402 Y-11.323 E134.56765 ; infill
+
 G1 Z0.800 F60000.000 ; move to next layer (6)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E134.99460 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E135.42154 ; perimeter
@@ -2971,10 +2899,7 @@ G1 X12.550 Y12.505 E139.09894 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E139.22562 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E139.31375 ; infill
 G1 X11.323 Y-4.605 E139.56507 ; infill
 G1 X11.323 Y-1.272 E139.65320 ; infill
@@ -2989,10 +2914,7 @@ G1 X10.591 Y11.323 E142.24067 ; infill
 G1 X-11.323 Y-10.591 E143.06036 ; infill
 G1 X-11.323 Y-7.259 E143.14849 ; infill
 G1 X7.259 Y11.323 E143.84354 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E143.93168 ; infill
 G1 X-11.323 Y-3.926 E144.50209 ; infill
 G1 X-11.323 Y-0.594 E144.59022 ; infill
@@ -3003,11 +2925,8 @@ G1 X-11.323 Y6.070 E145.53340 ; infill
 G1 X-6.070 Y11.323 E145.72990 ; infill
 G1 X-9.402 Y11.323 E145.81803 ; infill
 G1 X-11.323 Y9.402 E145.88989 ; infill
+
 G1 Z0.900 F60000.000 ; move to next layer (7)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E146.31683 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E146.74378 ; perimeter
@@ -3026,10 +2945,7 @@ G1 X12.550 Y12.505 E150.42118 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E150.54786 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E150.63599 ; infill
 G1 X4.605 Y11.323 E150.88731 ; infill
 G1 X1.272 Y11.323 E150.97544 ; infill
@@ -3044,10 +2960,7 @@ G1 X-11.323 Y10.591 E153.56291 ; infill
 G1 X10.591 Y-11.323 E154.38260 ; infill
 G1 X7.259 Y-11.323 E154.47073 ; infill
 G1 X-11.323 Y7.259 E155.16578 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E155.25391 ; infill
 G1 X3.926 Y-11.323 E155.82433 ; infill
 G1 X0.594 Y-11.323 E155.91246 ; infill
@@ -3058,11 +2971,8 @@ G1 X-6.070 Y-11.323 E156.85563 ; infill
 G1 X-11.323 Y-6.070 E157.05213 ; infill
 G1 X-11.323 Y-9.402 E157.14026 ; infill
 G1 X-9.402 Y-11.323 E157.21213 ; infill
+
 G1 Z1.000 F60000.000 ; move to next layer (8)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E157.63907 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E158.06602 ; perimeter
@@ -3081,10 +2991,7 @@ G1 X12.550 Y12.505 E161.74342 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E161.87009 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E161.95823 ; infill
 G1 X11.323 Y-4.605 E162.20954 ; infill
 G1 X11.323 Y-1.272 E162.29768 ; infill
@@ -3099,10 +3006,7 @@ G1 X10.591 Y11.323 E164.88515 ; infill
 G1 X-11.323 Y-10.591 E165.70483 ; infill
 G1 X-11.323 Y-7.259 E165.79297 ; infill
 G1 X7.259 Y11.323 E166.48802 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E166.57615 ; infill
 G1 X-11.323 Y-3.926 E167.14656 ; infill
 G1 X-11.323 Y-0.594 E167.23469 ; infill
@@ -3113,11 +3017,8 @@ G1 X-11.323 Y6.070 E168.17787 ; infill
 G1 X-6.070 Y11.323 E168.37437 ; infill
 G1 X-9.402 Y11.323 E168.46250 ; infill
 G1 X-11.323 Y9.402 E168.53436 ; infill
+
 G1 Z1.100 F60000.000 ; move to next layer (9)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E168.96131 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E169.38825 ; perimeter
@@ -3136,10 +3037,7 @@ G1 X12.550 Y12.505 E173.06565 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E173.19233 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E173.28046 ; infill
 G1 X4.605 Y11.323 E173.53178 ; infill
 G1 X1.272 Y11.323 E173.61991 ; infill
@@ -3154,10 +3052,7 @@ G1 X-11.323 Y10.591 E176.20738 ; infill
 G1 X10.591 Y-11.323 E177.02707 ; infill
 G1 X7.259 Y-11.323 E177.11520 ; infill
 G1 X-11.323 Y7.259 E177.81025 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E177.89839 ; infill
 G1 X3.926 Y-11.323 E178.46880 ; infill
 G1 X0.594 Y-11.323 E178.55693 ; infill
@@ -3168,11 +3063,8 @@ G1 X-6.070 Y-11.323 E179.50011 ; infill
 G1 X-11.323 Y-6.070 E179.69661 ; infill
 G1 X-11.323 Y-9.402 E179.78474 ; infill
 G1 X-9.402 Y-11.323 E179.85660 ; infill
+
 G1 Z1.200 F60000.000 ; move to next layer (10)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E180.28355 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E180.71049 ; perimeter
@@ -3191,10 +3083,7 @@ G1 X12.550 Y12.505 E184.38789 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E184.51457 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E184.60270 ; infill
 G1 X11.323 Y-4.605 E184.85402 ; infill
 G1 X11.323 Y-1.272 E184.94215 ; infill
@@ -3209,10 +3098,7 @@ G1 X10.591 Y11.323 E187.52962 ; infill
 G1 X-11.323 Y-10.591 E188.34931 ; infill
 G1 X-11.323 Y-7.259 E188.43744 ; infill
 G1 X7.259 Y11.323 E189.13249 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E189.22062 ; infill
 G1 X-11.323 Y-3.926 E189.79104 ; infill
 G1 X-11.323 Y-0.594 E189.87917 ; infill
@@ -3223,11 +3109,8 @@ G1 X-11.323 Y6.070 E190.82235 ; infill
 G1 X-6.070 Y11.323 E191.01884 ; infill
 G1 X-9.402 Y11.323 E191.10698 ; infill
 G1 X-11.323 Y9.402 E191.17884 ; infill
+
 G1 Z1.300 F60000.000 ; move to next layer (11)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E191.60578 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E192.03273 ; perimeter
@@ -3246,10 +3129,7 @@ G1 X12.550 Y12.505 E195.71013 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E195.83681 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E195.92494 ; infill
 G1 X4.605 Y11.323 E196.17625 ; infill
 G1 X1.272 Y11.323 E196.26439 ; infill
@@ -3264,10 +3144,7 @@ G1 X-11.323 Y10.591 E198.85186 ; infill
 G1 X10.591 Y-11.323 E199.67155 ; infill
 G1 X7.259 Y-11.323 E199.75968 ; infill
 G1 X-11.323 Y7.259 E200.45473 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E200.54286 ; infill
 G1 X3.926 Y-11.323 E201.11327 ; infill
 G1 X0.594 Y-11.323 E201.20141 ; infill
@@ -3278,11 +3155,8 @@ G1 X-6.070 Y-11.323 E202.14458 ; infill
 G1 X-11.323 Y-6.070 E202.34108 ; infill
 G1 X-11.323 Y-9.402 E202.42921 ; infill
 G1 X-9.402 Y-11.323 E202.50107 ; infill
+
 G1 Z1.400 F60000.000 ; move to next layer (12)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E202.92802 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E203.35496 ; perimeter
@@ -3301,10 +3175,7 @@ G1 X12.550 Y12.505 E207.03236 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E207.15904 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E207.24718 ; infill
 G1 X11.323 Y-4.605 E207.49849 ; infill
 G1 X11.323 Y-1.272 E207.58662 ; infill
@@ -3319,10 +3190,7 @@ G1 X10.591 Y11.323 E210.17410 ; infill
 G1 X-11.323 Y-10.591 E210.99378 ; infill
 G1 X-11.323 Y-7.259 E211.08192 ; infill
 G1 X7.259 Y11.323 E211.77697 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E211.86510 ; infill
 G1 X-11.323 Y-3.926 E212.43551 ; infill
 G1 X-11.323 Y-0.594 E212.52364 ; infill
@@ -3333,11 +3201,8 @@ G1 X-11.323 Y6.070 E213.46682 ; infill
 G1 X-6.070 Y11.323 E213.66332 ; infill
 G1 X-9.402 Y11.323 E213.75145 ; infill
 G1 X-11.323 Y9.402 E213.82331 ; infill
+
 G1 Z1.500 F60000.000 ; move to next layer (13)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E214.25026 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E214.67720 ; perimeter
@@ -3356,10 +3221,7 @@ G1 X12.550 Y12.505 E218.35460 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E218.48128 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E218.56941 ; infill
 G1 X4.605 Y11.323 E218.82073 ; infill
 G1 X1.272 Y11.323 E218.90886 ; infill
@@ -3374,10 +3236,7 @@ G1 X-11.323 Y10.591 E221.49633 ; infill
 G1 X10.591 Y-11.323 E222.31602 ; infill
 G1 X7.259 Y-11.323 E222.40415 ; infill
 G1 X-11.323 Y7.259 E223.09920 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E223.18734 ; infill
 G1 X3.926 Y-11.323 E223.75775 ; infill
 G1 X0.594 Y-11.323 E223.84588 ; infill
@@ -3388,11 +3247,8 @@ G1 X-6.070 Y-11.323 E224.78906 ; infill
 G1 X-11.323 Y-6.070 E224.98556 ; infill
 G1 X-11.323 Y-9.402 E225.07369 ; infill
 G1 X-9.402 Y-11.323 E225.14555 ; infill
+
 G1 Z1.600 F60000.000 ; move to next layer (14)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E225.57249 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E225.99944 ; perimeter
@@ -3411,10 +3267,7 @@ G1 X12.550 Y12.505 E229.67684 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E229.80352 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E229.89165 ; infill
 G1 X11.323 Y-4.605 E230.14297 ; infill
 G1 X11.323 Y-1.272 E230.23110 ; infill
@@ -3429,10 +3282,7 @@ G1 X10.591 Y11.323 E232.81857 ; infill
 G1 X-11.323 Y-10.591 E233.63826 ; infill
 G1 X-11.323 Y-7.259 E233.72639 ; infill
 G1 X7.259 Y11.323 E234.42144 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E234.50957 ; infill
 G1 X-11.323 Y-3.926 E235.07999 ; infill
 G1 X-11.323 Y-0.594 E235.16812 ; infill
@@ -3443,11 +3293,8 @@ G1 X-11.323 Y6.070 E236.11129 ; infill
 G1 X-6.070 Y11.323 E236.30779 ; infill
 G1 X-9.402 Y11.323 E236.39593 ; infill
 G1 X-11.323 Y9.402 E236.46779 ; infill
+
 G1 Z1.700 F60000.000 ; move to next layer (15)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E236.89473 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E237.32168 ; perimeter
@@ -3466,10 +3313,7 @@ G1 X12.550 Y12.505 E240.99908 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E241.12575 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E241.21389 ; infill
 G1 X4.605 Y11.323 E241.46520 ; infill
 G1 X1.272 Y11.323 E241.55334 ; infill
@@ -3484,10 +3328,7 @@ G1 X-11.323 Y10.591 E244.14081 ; infill
 G1 X10.591 Y-11.323 E244.96049 ; infill
 G1 X7.259 Y-11.323 E245.04863 ; infill
 G1 X-11.323 Y7.259 E245.74368 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E245.83181 ; infill
 G1 X3.926 Y-11.323 E246.40222 ; infill
 G1 X0.594 Y-11.323 E246.49035 ; infill
@@ -3498,11 +3339,8 @@ G1 X-6.070 Y-11.323 E247.43353 ; infill
 G1 X-11.323 Y-6.070 E247.63003 ; infill
 G1 X-11.323 Y-9.402 E247.71816 ; infill
 G1 X-9.402 Y-11.323 E247.79002 ; infill
+
 G1 Z1.800 F60000.000 ; move to next layer (16)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E248.21697 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E248.64391 ; perimeter
@@ -3521,10 +3359,7 @@ G1 X12.550 Y12.505 E252.32131 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E252.44799 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E252.53612 ; infill
 G1 X11.323 Y-4.605 E252.78744 ; infill
 G1 X11.323 Y-1.272 E252.87557 ; infill
@@ -3539,10 +3374,7 @@ G1 X10.591 Y11.323 E255.46304 ; infill
 G1 X-11.323 Y-10.591 E256.28273 ; infill
 G1 X-11.323 Y-7.259 E256.37086 ; infill
 G1 X7.259 Y11.323 E257.06592 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E257.15405 ; infill
 G1 X-11.323 Y-3.926 E257.72446 ; infill
 G1 X-11.323 Y-0.594 E257.81259 ; infill
@@ -3553,11 +3385,8 @@ G1 X-11.323 Y6.070 E258.75577 ; infill
 G1 X-6.070 Y11.323 E258.95227 ; infill
 G1 X-9.402 Y11.323 E259.04040 ; infill
 G1 X-11.323 Y9.402 E259.11226 ; infill
+
 G1 Z1.900 F60000.000 ; move to next layer (17)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E259.53921 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E259.96615 ; perimeter
@@ -3576,10 +3405,7 @@ G1 X12.550 Y12.505 E263.64355 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E263.77023 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E263.85836 ; infill
 G1 X4.605 Y11.323 E264.10968 ; infill
 G1 X1.272 Y11.323 E264.19781 ; infill
@@ -3594,10 +3420,7 @@ G1 X-11.323 Y10.591 E266.78528 ; infill
 G1 X10.591 Y-11.323 E267.60497 ; infill
 G1 X7.259 Y-11.323 E267.69310 ; infill
 G1 X-11.323 Y7.259 E268.38815 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E268.47628 ; infill
 G1 X3.926 Y-11.323 E269.04670 ; infill
 G1 X0.594 Y-11.323 E269.13483 ; infill
@@ -3608,11 +3431,8 @@ G1 X-6.070 Y-11.323 E270.07801 ; infill
 G1 X-11.323 Y-6.070 E270.27450 ; infill
 G1 X-11.323 Y-9.402 E270.36264 ; infill
 G1 X-9.402 Y-11.323 E270.43450 ; infill
+
 G1 Z2.000 F60000.000 ; move to next layer (18)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E270.86144 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E271.28839 ; perimeter
@@ -3631,10 +3451,7 @@ G1 X12.550 Y12.505 E274.96579 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E275.09247 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E275.18060 ; infill
 G1 X11.323 Y-4.605 E275.43191 ; infill
 G1 X11.323 Y-1.272 E275.52005 ; infill
@@ -3649,10 +3466,7 @@ G1 X10.591 Y11.323 E278.10752 ; infill
 G1 X-11.323 Y-10.591 E278.92721 ; infill
 G1 X-11.323 Y-7.259 E279.01534 ; infill
 G1 X7.259 Y11.323 E279.71039 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E279.79852 ; infill
 G1 X-11.323 Y-3.926 E280.36893 ; infill
 G1 X-11.323 Y-0.594 E280.45707 ; infill
@@ -3663,11 +3477,8 @@ G1 X-11.323 Y6.070 E281.40024 ; infill
 G1 X-6.070 Y11.323 E281.59674 ; infill
 G1 X-9.402 Y11.323 E281.68487 ; infill
 G1 X-11.323 Y9.402 E281.75674 ; infill
+
 G1 Z2.100 F60000.000 ; move to next layer (19)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E282.18368 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E282.61063 ; perimeter
@@ -3686,10 +3497,7 @@ G1 X12.550 Y12.505 E286.28803 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E286.41470 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E286.50284 ; infill
 G1 X4.605 Y11.323 E286.75415 ; infill
 G1 X1.272 Y11.323 E286.84228 ; infill
@@ -3704,10 +3512,7 @@ G1 X-11.323 Y10.591 E289.42976 ; infill
 G1 X10.591 Y-11.323 E290.24944 ; infill
 G1 X7.259 Y-11.323 E290.33758 ; infill
 G1 X-11.323 Y7.259 E291.03263 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E291.12076 ; infill
 G1 X3.926 Y-11.323 E291.69117 ; infill
 G1 X0.594 Y-11.323 E291.77930 ; infill
@@ -3718,11 +3523,8 @@ G1 X-6.070 Y-11.323 E292.72248 ; infill
 G1 X-11.323 Y-6.070 E292.91898 ; infill
 G1 X-11.323 Y-9.402 E293.00711 ; infill
 G1 X-9.402 Y-11.323 E293.07897 ; infill
+
 G1 Z2.200 F60000.000 ; move to next layer (20)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E293.50592 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E293.93286 ; perimeter
@@ -3741,10 +3543,7 @@ G1 X12.550 Y12.505 E297.61026 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E297.73694 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E297.82507 ; infill
 G1 X11.323 Y-4.605 E298.07639 ; infill
 G1 X11.323 Y-1.272 E298.16452 ; infill
@@ -3759,10 +3558,7 @@ G1 X10.591 Y11.323 E300.75199 ; infill
 G1 X-11.323 Y-10.591 E301.57168 ; infill
 G1 X-11.323 Y-7.259 E301.65981 ; infill
 G1 X7.259 Y11.323 E302.35486 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E302.44300 ; infill
 G1 X-11.323 Y-3.926 E303.01341 ; infill
 G1 X-11.323 Y-0.594 E303.10154 ; infill
@@ -3773,11 +3569,8 @@ G1 X-11.323 Y6.070 E304.04472 ; infill
 G1 X-6.070 Y11.323 E304.24122 ; infill
 G1 X-9.402 Y11.323 E304.32935 ; infill
 G1 X-11.323 Y9.402 E304.40121 ; infill
+
 G1 Z2.300 F60000.000 ; move to next layer (21)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E304.82815 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E305.25510 ; perimeter
@@ -3796,10 +3589,7 @@ G1 X12.550 Y12.505 E308.93250 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E309.05918 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E309.14731 ; infill
 G1 X4.605 Y11.323 E309.39863 ; infill
 G1 X1.272 Y11.323 E309.48676 ; infill
@@ -3814,10 +3604,7 @@ G1 X-11.323 Y10.591 E312.07423 ; infill
 G1 X10.591 Y-11.323 E312.89392 ; infill
 G1 X7.259 Y-11.323 E312.98205 ; infill
 G1 X-11.323 Y7.259 E313.67710 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E313.76523 ; infill
 G1 X3.926 Y-11.323 E314.33565 ; infill
 G1 X0.594 Y-11.323 E314.42378 ; infill
@@ -3828,11 +3615,8 @@ G1 X-6.070 Y-11.323 E315.36695 ; infill
 G1 X-11.323 Y-6.070 E315.56345 ; infill
 G1 X-11.323 Y-9.402 E315.65159 ; infill
 G1 X-9.402 Y-11.323 E315.72345 ; infill
+
 G1 Z2.400 F60000.000 ; move to next layer (22)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E316.15039 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E316.57734 ; perimeter
@@ -3851,10 +3635,7 @@ G1 X12.550 Y12.505 E320.25474 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E320.38141 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E320.46955 ; infill
 G1 X11.323 Y-4.605 E320.72086 ; infill
 G1 X11.323 Y-1.272 E320.80900 ; infill
@@ -3869,10 +3650,7 @@ G1 X10.591 Y11.323 E323.39647 ; infill
 G1 X-11.323 Y-10.591 E324.21616 ; infill
 G1 X-11.323 Y-7.259 E324.30429 ; infill
 G1 X7.259 Y11.323 E324.99934 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E325.08747 ; infill
 G1 X-11.323 Y-3.926 E325.65788 ; infill
 G1 X-11.323 Y-0.594 E325.74602 ; infill
@@ -3883,11 +3661,8 @@ G1 X-11.323 Y6.070 E326.68919 ; infill
 G1 X-6.070 Y11.323 E326.88569 ; infill
 G1 X-9.402 Y11.323 E326.97382 ; infill
 G1 X-11.323 Y9.402 E327.04568 ; infill
+
 G1 Z2.500 F60000.000 ; move to next layer (23)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E327.47263 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E327.89957 ; perimeter
@@ -3906,10 +3681,7 @@ G1 X12.550 Y12.505 E331.57697 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E331.70365 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E331.79178 ; infill
 G1 X4.605 Y11.323 E332.04310 ; infill
 G1 X1.272 Y11.323 E332.13123 ; infill
@@ -3924,10 +3696,7 @@ G1 X-11.323 Y10.591 E334.71870 ; infill
 G1 X10.591 Y-11.323 E335.53839 ; infill
 G1 X7.259 Y-11.323 E335.62652 ; infill
 G1 X-11.323 Y7.259 E336.32158 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E336.40971 ; infill
 G1 X3.926 Y-11.323 E336.98012 ; infill
 G1 X0.594 Y-11.323 E337.06825 ; infill
@@ -3938,11 +3707,8 @@ G1 X-6.070 Y-11.323 E338.01143 ; infill
 G1 X-11.323 Y-6.070 E338.20793 ; infill
 G1 X-11.323 Y-9.402 E338.29606 ; infill
 G1 X-9.402 Y-11.323 E338.36792 ; infill
+
 G1 Z2.600 F60000.000 ; move to next layer (24)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E338.79487 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E339.22181 ; perimeter
@@ -3961,10 +3727,7 @@ G1 X12.550 Y12.505 E342.89921 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E343.02589 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E343.11402 ; infill
 G1 X11.323 Y-4.605 E343.36534 ; infill
 G1 X11.323 Y-1.272 E343.45347 ; infill
@@ -3979,10 +3742,7 @@ G1 X10.591 Y11.323 E346.04094 ; infill
 G1 X-11.323 Y-10.591 E346.86063 ; infill
 G1 X-11.323 Y-7.259 E346.94876 ; infill
 G1 X7.259 Y11.323 E347.64381 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E347.73194 ; infill
 G1 X-11.323 Y-3.926 E348.30236 ; infill
 G1 X-11.323 Y-0.594 E348.39049 ; infill
@@ -3993,11 +3753,8 @@ G1 X-11.323 Y6.070 E349.33367 ; infill
 G1 X-6.070 Y11.323 E349.53016 ; infill
 G1 X-9.402 Y11.323 E349.61830 ; infill
 G1 X-11.323 Y9.402 E349.69016 ; infill
+
 G1 Z2.700 F60000.000 ; move to next layer (25)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E350.11710 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E350.54405 ; perimeter
@@ -4016,10 +3773,7 @@ G1 X12.550 Y12.505 E354.22145 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E354.34813 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E354.43626 ; infill
 G1 X4.605 Y11.323 E354.68757 ; infill
 G1 X1.272 Y11.323 E354.77571 ; infill
@@ -4034,10 +3788,7 @@ G1 X-11.323 Y10.591 E357.36318 ; infill
 G1 X10.591 Y-11.323 E358.18287 ; infill
 G1 X7.259 Y-11.323 E358.27100 ; infill
 G1 X-11.323 Y7.259 E358.96605 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E359.05418 ; infill
 G1 X3.926 Y-11.323 E359.62459 ; infill
 G1 X0.594 Y-11.323 E359.71273 ; infill
@@ -4048,11 +3799,8 @@ G1 X-6.070 Y-11.323 E360.65590 ; infill
 G1 X-11.323 Y-6.070 E360.85240 ; infill
 G1 X-11.323 Y-9.402 E360.94053 ; infill
 G1 X-9.402 Y-11.323 E361.01240 ; infill
+
 G1 Z2.800 F60000.000 ; move to next layer (26)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E361.43934 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E361.86629 ; perimeter
@@ -4071,10 +3819,7 @@ G1 X12.550 Y12.505 E365.54369 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E365.67036 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E365.75850 ; infill
 G1 X11.323 Y-4.605 E366.00981 ; infill
 G1 X11.323 Y-1.272 E366.09794 ; infill
@@ -4089,10 +3834,7 @@ G1 X10.591 Y11.323 E368.68542 ; infill
 G1 X-11.323 Y-10.591 E369.50510 ; infill
 G1 X-11.323 Y-7.259 E369.59324 ; infill
 G1 X7.259 Y11.323 E370.28829 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E370.37642 ; infill
 G1 X-11.323 Y-3.926 E370.94683 ; infill
 G1 X-11.323 Y-0.594 E371.03496 ; infill
@@ -4103,11 +3845,8 @@ G1 X-11.323 Y6.070 E371.97814 ; infill
 G1 X-6.070 Y11.323 E372.17464 ; infill
 G1 X-9.402 Y11.323 E372.26277 ; infill
 G1 X-11.323 Y9.402 E372.33463 ; infill
+
 G1 Z2.900 F60000.000 ; move to next layer (27)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E372.76158 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E373.18852 ; perimeter
@@ -4126,10 +3865,7 @@ G1 X12.550 Y12.505 E376.86592 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E376.99260 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E377.08073 ; infill
 G1 X4.605 Y11.323 E377.33205 ; infill
 G1 X1.272 Y11.323 E377.42018 ; infill
@@ -4144,10 +3880,7 @@ G1 X-11.323 Y10.591 E380.00765 ; infill
 G1 X10.591 Y-11.323 E380.82734 ; infill
 G1 X7.259 Y-11.323 E380.91547 ; infill
 G1 X-11.323 Y7.259 E381.61052 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E381.69866 ; infill
 G1 X3.926 Y-11.323 E382.26907 ; infill
 G1 X0.594 Y-11.323 E382.35720 ; infill
@@ -4158,11 +3891,8 @@ G1 X-6.070 Y-11.323 E383.30038 ; infill
 G1 X-11.323 Y-6.070 E383.49688 ; infill
 G1 X-11.323 Y-9.402 E383.58501 ; infill
 G1 X-9.402 Y-11.323 E383.65687 ; infill
+
 G1 Z3.000 F60000.000 ; move to next layer (28)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E384.08381 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E384.51076 ; perimeter
@@ -4181,10 +3911,7 @@ G1 X12.550 Y12.505 E388.18816 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E388.31484 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E388.40297 ; infill
 G1 X11.323 Y-4.605 E388.65429 ; infill
 G1 X11.323 Y-1.272 E388.74242 ; infill
@@ -4199,10 +3926,7 @@ G1 X10.591 Y11.323 E391.32989 ; infill
 G1 X-11.323 Y-10.591 E392.14958 ; infill
 G1 X-11.323 Y-7.259 E392.23771 ; infill
 G1 X7.259 Y11.323 E392.93276 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E393.02089 ; infill
 G1 X-11.323 Y-3.926 E393.59131 ; infill
 G1 X-11.323 Y-0.594 E393.67944 ; infill
@@ -4213,11 +3937,8 @@ G1 X-11.323 Y6.070 E394.62261 ; infill
 G1 X-6.070 Y11.323 E394.81911 ; infill
 G1 X-9.402 Y11.323 E394.90725 ; infill
 G1 X-11.323 Y9.402 E394.97911 ; infill
+
 G1 Z3.100 F60000.000 ; move to next layer (29)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E395.40605 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E395.83300 ; perimeter
@@ -4236,10 +3957,7 @@ G1 X12.550 Y12.505 E399.51040 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E399.63708 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E399.72521 ; infill
 G1 X4.605 Y11.323 E399.97652 ; infill
 G1 X1.272 Y11.323 E400.06466 ; infill
@@ -4254,10 +3972,7 @@ G1 X-11.323 Y10.591 E402.65213 ; infill
 G1 X10.591 Y-11.323 E403.47182 ; infill
 G1 X7.259 Y-11.323 E403.55995 ; infill
 G1 X-11.323 Y7.259 E404.25500 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E404.34313 ; infill
 G1 X3.926 Y-11.323 E404.91354 ; infill
 G1 X0.594 Y-11.323 E405.00168 ; infill
@@ -4268,11 +3983,8 @@ G1 X-6.070 Y-11.323 E405.94485 ; infill
 G1 X-11.323 Y-6.070 E406.14135 ; infill
 G1 X-11.323 Y-9.402 E406.22948 ; infill
 G1 X-9.402 Y-11.323 E406.30134 ; infill
+
 G1 Z3.200 F60000.000 ; move to next layer (30)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E406.72829 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E407.15523 ; perimeter
@@ -4291,10 +4003,7 @@ G1 X12.550 Y12.505 E410.83263 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E410.95931 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E411.04744 ; infill
 G1 X11.323 Y-4.605 E411.29876 ; infill
 G1 X11.323 Y-1.272 E411.38689 ; infill
@@ -4309,10 +4018,7 @@ G1 X10.591 Y11.323 E413.97436 ; infill
 G1 X-11.323 Y-10.591 E414.79405 ; infill
 G1 X-11.323 Y-7.259 E414.88219 ; infill
 G1 X7.259 Y11.323 E415.57724 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E415.66537 ; infill
 G1 X-11.323 Y-3.926 E416.23578 ; infill
 G1 X-11.323 Y-0.594 E416.32391 ; infill
@@ -4323,11 +4029,8 @@ G1 X-11.323 Y6.070 E417.26709 ; infill
 G1 X-6.070 Y11.323 E417.46359 ; infill
 G1 X-9.402 Y11.323 E417.55172 ; infill
 G1 X-11.323 Y9.402 E417.62358 ; infill
+
 G1 Z3.300 F60000.000 ; move to next layer (31)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E418.05053 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E418.47747 ; perimeter
@@ -4346,10 +4049,7 @@ G1 X12.550 Y12.505 E422.15487 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E422.28155 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E422.36968 ; infill
 G1 X4.605 Y11.323 E422.62100 ; infill
 G1 X1.272 Y11.323 E422.70913 ; infill
@@ -4364,10 +4064,7 @@ G1 X-11.323 Y10.591 E425.29660 ; infill
 G1 X10.591 Y-11.323 E426.11629 ; infill
 G1 X7.259 Y-11.323 E426.20442 ; infill
 G1 X-11.323 Y7.259 E426.89947 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E426.98761 ; infill
 G1 X3.926 Y-11.323 E427.55802 ; infill
 G1 X0.594 Y-11.323 E427.64615 ; infill
@@ -4378,11 +4075,8 @@ G1 X-6.070 Y-11.323 E428.58933 ; infill
 G1 X-11.323 Y-6.070 E428.78583 ; infill
 G1 X-11.323 Y-9.402 E428.87396 ; infill
 G1 X-9.402 Y-11.323 E428.94582 ; infill
+
 G1 Z3.400 F60000.000 ; move to next layer (32)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E429.37276 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E429.79971 ; perimeter
@@ -4401,10 +4095,7 @@ G1 X12.550 Y12.505 E433.47711 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E433.60379 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E433.69192 ; infill
 G1 X11.323 Y-4.605 E433.94324 ; infill
 G1 X11.323 Y-1.272 E434.03137 ; infill
@@ -4419,10 +4110,7 @@ G1 X10.591 Y11.323 E436.61884 ; infill
 G1 X-11.323 Y-10.591 E437.43853 ; infill
 G1 X-11.323 Y-7.259 E437.52666 ; infill
 G1 X7.259 Y11.323 E438.22171 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E438.30984 ; infill
 G1 X-11.323 Y-3.926 E438.88026 ; infill
 G1 X-11.323 Y-0.594 E438.96839 ; infill
@@ -4433,11 +4121,8 @@ G1 X-11.323 Y6.070 E439.91156 ; infill
 G1 X-6.070 Y11.323 E440.10806 ; infill
 G1 X-9.402 Y11.323 E440.19619 ; infill
 G1 X-11.323 Y9.402 E440.26806 ; infill
+
 G1 Z3.500 F60000.000 ; move to next layer (33)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E440.69500 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E441.12195 ; perimeter
@@ -4456,10 +4141,7 @@ G1 X12.550 Y12.505 E444.79935 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E444.92602 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E445.01416 ; infill
 G1 X4.605 Y11.323 E445.26547 ; infill
 G1 X1.272 Y11.323 E445.35360 ; infill
@@ -4474,10 +4156,7 @@ G1 X-11.323 Y10.591 E447.94108 ; infill
 G1 X10.591 Y-11.323 E448.76076 ; infill
 G1 X7.259 Y-11.323 E448.84890 ; infill
 G1 X-11.323 Y7.259 E449.54395 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E449.63208 ; infill
 G1 X3.926 Y-11.323 E450.20249 ; infill
 G1 X0.594 Y-11.323 E450.29062 ; infill
@@ -4488,11 +4167,8 @@ G1 X-6.070 Y-11.323 E451.23380 ; infill
 G1 X-11.323 Y-6.070 E451.43030 ; infill
 G1 X-11.323 Y-9.402 E451.51843 ; infill
 G1 X-9.402 Y-11.323 E451.59029 ; infill
+
 G1 Z3.600 F60000.000 ; move to next layer (34)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E452.01724 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E452.44418 ; perimeter
@@ -4511,10 +4187,7 @@ G1 X12.550 Y12.505 E456.12158 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E456.24826 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E456.33639 ; infill
 G1 X11.323 Y-4.605 E456.58771 ; infill
 G1 X11.323 Y-1.272 E456.67584 ; infill
@@ -4529,10 +4202,7 @@ G1 X10.591 Y11.323 E459.26331 ; infill
 G1 X-11.323 Y-10.591 E460.08300 ; infill
 G1 X-11.323 Y-7.259 E460.17113 ; infill
 G1 X7.259 Y11.323 E460.86618 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E460.95432 ; infill
 G1 X-11.323 Y-3.926 E461.52473 ; infill
 G1 X-11.323 Y-0.594 E461.61286 ; infill
@@ -4543,11 +4213,8 @@ G1 X-11.323 Y6.070 E462.55604 ; infill
 G1 X-6.070 Y11.323 E462.75254 ; infill
 G1 X-9.402 Y11.323 E462.84067 ; infill
 G1 X-11.323 Y9.402 E462.91253 ; infill
+
 G1 Z3.700 F60000.000 ; move to next layer (35)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E463.33948 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E463.76642 ; perimeter
@@ -4566,10 +4233,7 @@ G1 X12.550 Y12.505 E467.44382 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E467.57050 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E467.65863 ; infill
 G1 X4.605 Y11.323 E467.90995 ; infill
 G1 X1.272 Y11.323 E467.99808 ; infill
@@ -4584,10 +4248,7 @@ G1 X-11.323 Y10.591 E470.58555 ; infill
 G1 X10.591 Y-11.323 E471.40524 ; infill
 G1 X7.259 Y-11.323 E471.49337 ; infill
 G1 X-11.323 Y7.259 E472.18842 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E472.27655 ; infill
 G1 X3.926 Y-11.323 E472.84697 ; infill
 G1 X0.594 Y-11.323 E472.93510 ; infill
@@ -4598,11 +4259,8 @@ G1 X-6.070 Y-11.323 E473.87827 ; infill
 G1 X-11.323 Y-6.070 E474.07477 ; infill
 G1 X-11.323 Y-9.402 E474.16291 ; infill
 G1 X-9.402 Y-11.323 E474.23477 ; infill
+
 G1 Z3.800 F60000.000 ; move to next layer (36)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E474.66171 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E475.08866 ; perimeter
@@ -4621,10 +4279,7 @@ G1 X12.550 Y12.505 E478.76606 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E478.89274 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E478.98087 ; infill
 G1 X11.323 Y-4.605 E479.23218 ; infill
 G1 X11.323 Y-1.272 E479.32032 ; infill
@@ -4639,10 +4294,7 @@ G1 X10.591 Y11.323 E481.90779 ; infill
 G1 X-11.323 Y-10.591 E482.72748 ; infill
 G1 X-11.323 Y-7.259 E482.81561 ; infill
 G1 X7.259 Y11.323 E483.51066 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E483.59879 ; infill
 G1 X-11.323 Y-3.926 E484.16920 ; infill
 G1 X-11.323 Y-0.594 E484.25734 ; infill
@@ -4653,11 +4305,8 @@ G1 X-11.323 Y6.070 E485.20051 ; infill
 G1 X-6.070 Y11.323 E485.39701 ; infill
 G1 X-9.402 Y11.323 E485.48514 ; infill
 G1 X-11.323 Y9.402 E485.55700 ; infill
+
 G1 Z3.900 F60000.000 ; move to next layer (37)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E485.98395 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E486.41089 ; perimeter
@@ -4676,10 +4325,7 @@ G1 X12.550 Y12.505 E490.08829 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E490.21497 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E490.30310 ; infill
 G1 X4.605 Y11.323 E490.55442 ; infill
 G1 X1.272 Y11.323 E490.64255 ; infill
@@ -4694,10 +4340,7 @@ G1 X-11.323 Y10.591 E493.23002 ; infill
 G1 X10.591 Y-11.323 E494.04971 ; infill
 G1 X7.259 Y-11.323 E494.13785 ; infill
 G1 X-11.323 Y7.259 E494.83290 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E494.92103 ; infill
 G1 X3.926 Y-11.323 E495.49144 ; infill
 G1 X0.594 Y-11.323 E495.57957 ; infill
@@ -4708,11 +4351,8 @@ G1 X-6.070 Y-11.323 E496.52275 ; infill
 G1 X-11.323 Y-6.070 E496.71925 ; infill
 G1 X-11.323 Y-9.402 E496.80738 ; infill
 G1 X-9.402 Y-11.323 E496.87924 ; infill
+
 G1 Z4.000 F60000.000 ; move to next layer (38)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E497.30619 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E497.73313 ; perimeter
@@ -4731,10 +4371,7 @@ G1 X12.550 Y12.505 E501.41053 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E501.53721 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E501.62534 ; infill
 G1 X11.323 Y-4.605 E501.87666 ; infill
 G1 X11.323 Y-1.272 E501.96479 ; infill
@@ -4749,10 +4386,7 @@ G1 X10.591 Y11.323 E504.55226 ; infill
 G1 X-11.323 Y-10.591 E505.37195 ; infill
 G1 X-11.323 Y-7.259 E505.46008 ; infill
 G1 X7.259 Y11.323 E506.15513 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E506.24327 ; infill
 G1 X-11.323 Y-3.926 E506.81368 ; infill
 G1 X-11.323 Y-0.594 E506.90181 ; infill
@@ -4763,11 +4397,8 @@ G1 X-11.323 Y6.070 E507.84499 ; infill
 G1 X-6.070 Y11.323 E508.04149 ; infill
 G1 X-9.402 Y11.323 E508.12962 ; infill
 G1 X-11.323 Y9.402 E508.20148 ; infill
+
 G1 Z4.100 F60000.000 ; move to next layer (39)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E508.62842 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E509.05537 ; perimeter
@@ -4786,10 +4417,7 @@ G1 X12.550 Y12.505 E512.73277 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E512.85945 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E512.94758 ; infill
 G1 X4.605 Y11.323 E513.19890 ; infill
 G1 X1.272 Y11.323 E513.28703 ; infill
@@ -4804,10 +4432,7 @@ G1 X-11.323 Y10.591 E515.87450 ; infill
 G1 X10.591 Y-11.323 E516.69419 ; infill
 G1 X7.259 Y-11.323 E516.78232 ; infill
 G1 X-11.323 Y7.259 E517.47737 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E517.56550 ; infill
 G1 X3.926 Y-11.323 E518.13592 ; infill
 G1 X0.594 Y-11.323 E518.22405 ; infill
@@ -4818,11 +4443,8 @@ G1 X-6.070 Y-11.323 E519.16722 ; infill
 G1 X-11.323 Y-6.070 E519.36372 ; infill
 G1 X-11.323 Y-9.402 E519.45185 ; infill
 G1 X-9.402 Y-11.323 E519.52372 ; infill
+
 G1 Z4.200 F60000.000 ; move to next layer (40)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E519.95066 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E520.37761 ; perimeter
@@ -4841,10 +4463,7 @@ G1 X12.550 Y12.505 E524.05501 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E524.18168 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E524.26982 ; infill
 G1 X11.323 Y-4.605 E524.52113 ; infill
 G1 X11.323 Y-1.272 E524.60927 ; infill
@@ -4859,10 +4478,7 @@ G1 X10.591 Y11.323 E527.19674 ; infill
 G1 X-11.323 Y-10.591 E528.01642 ; infill
 G1 X-11.323 Y-7.259 E528.10456 ; infill
 G1 X7.259 Y11.323 E528.79961 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E528.88774 ; infill
 G1 X-11.323 Y-3.926 E529.45815 ; infill
 G1 X-11.323 Y-0.594 E529.54628 ; infill
@@ -4873,11 +4489,8 @@ G1 X-11.323 Y6.070 E530.48946 ; infill
 G1 X-6.070 Y11.323 E530.68596 ; infill
 G1 X-9.402 Y11.323 E530.77409 ; infill
 G1 X-11.323 Y9.402 E530.84595 ; infill
+
 G1 Z4.300 F60000.000 ; move to next layer (41)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E531.27290 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E531.69984 ; perimeter
@@ -4896,10 +4509,7 @@ G1 X12.550 Y12.505 E535.37724 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E535.50392 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E535.59205 ; infill
 G1 X4.605 Y11.323 E535.84337 ; infill
 G1 X1.272 Y11.323 E535.93150 ; infill
@@ -4914,10 +4524,7 @@ G1 X-11.323 Y10.591 E538.51897 ; infill
 G1 X10.591 Y-11.323 E539.33866 ; infill
 G1 X7.259 Y-11.323 E539.42679 ; infill
 G1 X-11.323 Y7.259 E540.12184 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E540.20998 ; infill
 G1 X3.926 Y-11.323 E540.78039 ; infill
 G1 X0.594 Y-11.323 E540.86852 ; infill
@@ -4928,11 +4535,8 @@ G1 X-6.070 Y-11.323 E541.81170 ; infill
 G1 X-11.323 Y-6.070 E542.00820 ; infill
 G1 X-11.323 Y-9.402 E542.09633 ; infill
 G1 X-9.402 Y-11.323 E542.16819 ; infill
+
 G1 Z4.400 F60000.000 ; move to next layer (42)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E542.59514 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E543.02208 ; perimeter
@@ -4951,10 +4555,7 @@ G1 X12.550 Y12.505 E546.69948 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E546.82616 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E546.91429 ; infill
 G1 X11.323 Y-4.605 E547.16561 ; infill
 G1 X11.323 Y-1.272 E547.25374 ; infill
@@ -4969,10 +4570,7 @@ G1 X10.591 Y11.323 E549.84121 ; infill
 G1 X-11.323 Y-10.591 E550.66090 ; infill
 G1 X-11.323 Y-7.259 E550.74903 ; infill
 G1 X7.259 Y11.323 E551.44408 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E551.53221 ; infill
 G1 X-11.323 Y-3.926 E552.10263 ; infill
 G1 X-11.323 Y-0.594 E552.19076 ; infill
@@ -4983,11 +4581,8 @@ G1 X-11.323 Y6.070 E553.13394 ; infill
 G1 X-6.070 Y11.323 E553.33043 ; infill
 G1 X-9.402 Y11.323 E553.41857 ; infill
 G1 X-11.323 Y9.402 E553.49043 ; infill
+
 G1 Z4.500 F60000.000 ; move to next layer (43)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E553.91737 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E554.34432 ; perimeter
@@ -5006,10 +4601,7 @@ G1 X12.550 Y12.505 E558.02172 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E558.14840 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E558.23653 ; infill
 G1 X4.605 Y11.323 E558.48784 ; infill
 G1 X1.272 Y11.323 E558.57598 ; infill
@@ -5024,10 +4616,7 @@ G1 X-11.323 Y10.591 E561.16345 ; infill
 G1 X10.591 Y-11.323 E561.98314 ; infill
 G1 X7.259 Y-11.323 E562.07127 ; infill
 G1 X-11.323 Y7.259 E562.76632 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E562.85445 ; infill
 G1 X3.926 Y-11.323 E563.42486 ; infill
 G1 X0.594 Y-11.323 E563.51300 ; infill
@@ -5038,11 +4627,8 @@ G1 X-6.070 Y-11.323 E564.45617 ; infill
 G1 X-11.323 Y-6.070 E564.65267 ; infill
 G1 X-11.323 Y-9.402 E564.74080 ; infill
 G1 X-9.402 Y-11.323 E564.81266 ; infill
+
 G1 Z4.600 F60000.000 ; move to next layer (44)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E565.23961 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E565.66655 ; perimeter
@@ -5061,10 +4647,7 @@ G1 X12.550 Y12.505 E569.34395 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E569.47063 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E569.55877 ; infill
 G1 X11.323 Y-4.605 E569.81008 ; infill
 G1 X11.323 Y-1.272 E569.89821 ; infill
@@ -5079,10 +4662,7 @@ G1 X10.591 Y11.323 E572.48569 ; infill
 G1 X-11.323 Y-10.591 E573.30537 ; infill
 G1 X-11.323 Y-7.259 E573.39351 ; infill
 G1 X7.259 Y11.323 E574.08856 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E574.17669 ; infill
 G1 X-11.323 Y-3.926 E574.74710 ; infill
 G1 X-11.323 Y-0.594 E574.83523 ; infill
@@ -5093,11 +4673,8 @@ G1 X-11.323 Y6.070 E575.77841 ; infill
 G1 X-6.070 Y11.323 E575.97491 ; infill
 G1 X-9.402 Y11.323 E576.06304 ; infill
 G1 X-11.323 Y9.402 E576.13490 ; infill
+
 G1 Z4.700 F60000.000 ; move to next layer (45)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E576.56185 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E576.98879 ; perimeter
@@ -5116,10 +4693,7 @@ G1 X12.550 Y12.505 E580.66619 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E580.79287 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E580.88100 ; infill
 G1 X4.605 Y11.323 E581.13232 ; infill
 G1 X1.272 Y11.323 E581.22045 ; infill
@@ -5134,10 +4708,7 @@ G1 X-11.323 Y10.591 E583.80792 ; infill
 G1 X10.591 Y-11.323 E584.62761 ; infill
 G1 X7.259 Y-11.323 E584.71574 ; infill
 G1 X-11.323 Y7.259 E585.41079 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E585.49893 ; infill
 G1 X3.926 Y-11.323 E586.06934 ; infill
 G1 X0.594 Y-11.323 E586.15747 ; infill
@@ -5148,11 +4719,8 @@ G1 X-6.070 Y-11.323 E587.10065 ; infill
 G1 X-11.323 Y-6.070 E587.29715 ; infill
 G1 X-11.323 Y-9.402 E587.38528 ; infill
 G1 X-9.402 Y-11.323 E587.45714 ; infill
+
 G1 Z4.800 F60000.000 ; move to next layer (46)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E587.88408 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E588.31103 ; perimeter
@@ -5171,10 +4739,7 @@ G1 X12.550 Y12.505 E591.98843 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E592.11511 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E592.20324 ; infill
 G1 X11.323 Y-4.605 E592.45456 ; infill
 G1 X11.323 Y-1.272 E592.54269 ; infill
@@ -5189,10 +4754,7 @@ G1 X10.591 Y11.323 E595.13016 ; infill
 G1 X-11.323 Y-10.591 E595.94985 ; infill
 G1 X-11.323 Y-7.259 E596.03798 ; infill
 G1 X7.259 Y11.323 E596.73303 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E596.82116 ; infill
 G1 X-11.323 Y-3.926 E597.39158 ; infill
 G1 X-11.323 Y-0.594 E597.47971 ; infill
@@ -5203,11 +4765,8 @@ G1 X-11.323 Y6.070 E598.42288 ; infill
 G1 X-6.070 Y11.323 E598.61938 ; infill
 G1 X-9.402 Y11.323 E598.70752 ; infill
 G1 X-11.323 Y9.402 E598.77938 ; infill
+
 G1 Z4.900 F60000.000 ; move to next layer (47)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E599.20632 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E599.63327 ; perimeter
@@ -5226,10 +4785,7 @@ G1 X12.550 Y12.505 E603.31067 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E603.43734 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E603.52548 ; infill
 G1 X4.605 Y11.323 E603.77679 ; infill
 G1 X1.272 Y11.323 E603.86493 ; infill
@@ -5244,10 +4800,7 @@ G1 X-11.323 Y10.591 E606.45240 ; infill
 G1 X10.591 Y-11.323 E607.27208 ; infill
 G1 X7.259 Y-11.323 E607.36022 ; infill
 G1 X-11.323 Y7.259 E608.05527 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E608.14340 ; infill
 G1 X3.926 Y-11.323 E608.71381 ; infill
 G1 X0.594 Y-11.323 E608.80194 ; infill
@@ -5258,11 +4811,8 @@ G1 X-6.070 Y-11.323 E609.74512 ; infill
 G1 X-11.323 Y-6.070 E609.94162 ; infill
 G1 X-11.323 Y-9.402 E610.02975 ; infill
 G1 X-9.402 Y-11.323 E610.10161 ; infill
+
 G1 Z5.000 F60000.000 ; move to next layer (48)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E610.52856 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E610.95550 ; perimeter
@@ -5281,10 +4831,7 @@ G1 X12.550 Y12.505 E614.63290 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E614.75958 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E614.84771 ; infill
 G1 X11.323 Y-4.605 E615.09903 ; infill
 G1 X11.323 Y-1.272 E615.18716 ; infill
@@ -5299,10 +4846,7 @@ G1 X10.591 Y11.323 E617.77463 ; infill
 G1 X-11.323 Y-10.591 E618.59432 ; infill
 G1 X-11.323 Y-7.259 E618.68245 ; infill
 G1 X7.259 Y11.323 E619.37751 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E619.46564 ; infill
 G1 X-11.323 Y-3.926 E620.03605 ; infill
 G1 X-11.323 Y-0.594 E620.12418 ; infill
@@ -5313,11 +4857,8 @@ G1 X-11.323 Y6.070 E621.06736 ; infill
 G1 X-6.070 Y11.323 E621.26386 ; infill
 G1 X-9.402 Y11.323 E621.35199 ; infill
 G1 X-11.323 Y9.402 E621.42385 ; infill
+
 G1 Z5.100 F60000.000 ; move to next layer (49)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E621.85080 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E622.27774 ; perimeter
@@ -5336,10 +4877,7 @@ G1 X12.550 Y12.505 E625.95514 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E626.08182 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E626.16995 ; infill
 G1 X4.605 Y11.323 E626.42127 ; infill
 G1 X1.272 Y11.323 E626.50940 ; infill
@@ -5354,10 +4892,7 @@ G1 X-11.323 Y10.591 E629.09687 ; infill
 G1 X10.591 Y-11.323 E629.91656 ; infill
 G1 X7.259 Y-11.323 E630.00469 ; infill
 G1 X-11.323 Y7.259 E630.69974 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E630.78787 ; infill
 G1 X3.926 Y-11.323 E631.35829 ; infill
 G1 X0.594 Y-11.323 E631.44642 ; infill
@@ -5368,11 +4903,8 @@ G1 X-6.070 Y-11.323 E632.38960 ; infill
 G1 X-11.323 Y-6.070 E632.58609 ; infill
 G1 X-11.323 Y-9.402 E632.67423 ; infill
 G1 X-9.402 Y-11.323 E632.74609 ; infill
+
 G1 Z5.200 F60000.000 ; move to next layer (50)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E633.17303 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E633.59998 ; perimeter
@@ -5391,10 +4923,7 @@ G1 X12.550 Y12.505 E637.27738 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E637.40406 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E637.49219 ; infill
 G1 X11.323 Y-4.605 E637.74350 ; infill
 G1 X11.323 Y-1.272 E637.83164 ; infill
@@ -5409,10 +4938,7 @@ G1 X10.591 Y11.323 E640.41911 ; infill
 G1 X-11.323 Y-10.591 E641.23880 ; infill
 G1 X-11.323 Y-7.259 E641.32693 ; infill
 G1 X7.259 Y11.323 E642.02198 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E642.11011 ; infill
 G1 X-11.323 Y-3.926 E642.68052 ; infill
 G1 X-11.323 Y-0.594 E642.76866 ; infill
@@ -5423,11 +4949,8 @@ G1 X-11.323 Y6.070 E643.71183 ; infill
 G1 X-6.070 Y11.323 E643.90833 ; infill
 G1 X-9.402 Y11.323 E643.99646 ; infill
 G1 X-11.323 Y9.402 E644.06833 ; infill
+
 G1 Z5.300 F60000.000 ; move to next layer (51)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E644.49527 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E644.92222 ; perimeter
@@ -5446,10 +4969,7 @@ G1 X12.550 Y12.505 E648.59962 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E648.72629 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E648.81443 ; infill
 G1 X4.605 Y11.323 E649.06574 ; infill
 G1 X1.272 Y11.323 E649.15387 ; infill
@@ -5464,10 +4984,7 @@ G1 X-11.323 Y10.591 E651.74135 ; infill
 G1 X10.591 Y-11.323 E652.56103 ; infill
 G1 X7.259 Y-11.323 E652.64917 ; infill
 G1 X-11.323 Y7.259 E653.34422 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E653.43235 ; infill
 G1 X3.926 Y-11.323 E654.00276 ; infill
 G1 X0.594 Y-11.323 E654.09089 ; infill
@@ -5478,11 +4995,8 @@ G1 X-6.070 Y-11.323 E655.03407 ; infill
 G1 X-11.323 Y-6.070 E655.23057 ; infill
 G1 X-11.323 Y-9.402 E655.31870 ; infill
 G1 X-9.402 Y-11.323 E655.39056 ; infill
+
 G1 Z5.400 F60000.000 ; move to next layer (52)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E655.81751 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E656.24445 ; perimeter
@@ -5501,10 +5015,7 @@ G1 X12.550 Y12.505 E659.92185 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E660.04853 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E660.13666 ; infill
 G1 X11.323 Y-4.605 E660.38798 ; infill
 G1 X11.323 Y-1.272 E660.47611 ; infill
@@ -5519,10 +5030,7 @@ G1 X10.591 Y11.323 E663.06358 ; infill
 G1 X-11.323 Y-10.591 E663.88327 ; infill
 G1 X-11.323 Y-7.259 E663.97140 ; infill
 G1 X7.259 Y11.323 E664.66645 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E664.75459 ; infill
 G1 X-11.323 Y-3.926 E665.32500 ; infill
 G1 X-11.323 Y-0.594 E665.41313 ; infill
@@ -5533,11 +5041,8 @@ G1 X-11.323 Y6.070 E666.35631 ; infill
 G1 X-6.070 Y11.323 E666.55281 ; infill
 G1 X-9.402 Y11.323 E666.64094 ; infill
 G1 X-11.323 Y9.402 E666.71280 ; infill
+
 G1 Z5.500 F60000.000 ; move to next layer (53)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E667.13974 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E667.56669 ; perimeter
@@ -5556,10 +5061,7 @@ G1 X12.550 Y12.505 E671.24409 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E671.37077 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E671.45890 ; infill
 G1 X4.605 Y11.323 E671.71022 ; infill
 G1 X1.272 Y11.323 E671.79835 ; infill
@@ -5574,10 +5076,7 @@ G1 X-11.323 Y10.591 E674.38582 ; infill
 G1 X10.591 Y-11.323 E675.20551 ; infill
 G1 X7.259 Y-11.323 E675.29364 ; infill
 G1 X-11.323 Y7.259 E675.98869 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E676.07682 ; infill
 G1 X3.926 Y-11.323 E676.64724 ; infill
 G1 X0.594 Y-11.323 E676.73537 ; infill
@@ -5588,11 +5087,8 @@ G1 X-6.070 Y-11.323 E677.67854 ; infill
 G1 X-11.323 Y-6.070 E677.87504 ; infill
 G1 X-11.323 Y-9.402 E677.96318 ; infill
 G1 X-9.402 Y-11.323 E678.03504 ; infill
+
 G1 Z5.600 F60000.000 ; move to next layer (54)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E678.46198 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E678.88893 ; perimeter
@@ -5611,10 +5107,7 @@ G1 X12.550 Y12.505 E682.56633 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E682.69301 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E682.78114 ; infill
 G1 X11.323 Y-4.605 E683.03245 ; infill
 G1 X11.323 Y-1.272 E683.12059 ; infill
@@ -5629,10 +5122,7 @@ G1 X10.591 Y11.323 E685.70806 ; infill
 G1 X-11.323 Y-10.591 E686.52775 ; infill
 G1 X-11.323 Y-7.259 E686.61588 ; infill
 G1 X7.259 Y11.323 E687.31093 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E687.39906 ; infill
 G1 X-11.323 Y-3.926 E687.96947 ; infill
 G1 X-11.323 Y-0.594 E688.05761 ; infill
@@ -5643,11 +5133,8 @@ G1 X-11.323 Y6.070 E689.00078 ; infill
 G1 X-6.070 Y11.323 E689.19728 ; infill
 G1 X-9.402 Y11.323 E689.28541 ; infill
 G1 X-11.323 Y9.402 E689.35727 ; infill
+
 G1 Z5.700 F60000.000 ; move to next layer (55)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E689.78422 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E690.21116 ; perimeter
@@ -5666,10 +5153,7 @@ G1 X12.550 Y12.505 E693.88856 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E694.01524 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E694.10337 ; infill
 G1 X4.605 Y11.323 E694.35469 ; infill
 G1 X1.272 Y11.323 E694.44282 ; infill
@@ -5684,10 +5168,7 @@ G1 X-11.323 Y10.591 E697.03029 ; infill
 G1 X10.591 Y-11.323 E697.84998 ; infill
 G1 X7.259 Y-11.323 E697.93811 ; infill
 G1 X-11.323 Y7.259 E698.63317 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E698.72130 ; infill
 G1 X3.926 Y-11.323 E699.29171 ; infill
 G1 X0.594 Y-11.323 E699.37984 ; infill
@@ -5698,11 +5179,8 @@ G1 X-6.070 Y-11.323 E700.32302 ; infill
 G1 X-11.323 Y-6.070 E700.51952 ; infill
 G1 X-11.323 Y-9.402 E700.60765 ; infill
 G1 X-9.402 Y-11.323 E700.67951 ; infill
+
 G1 Z5.800 F60000.000 ; move to next layer (56)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E701.10646 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E701.53340 ; perimeter
@@ -5721,10 +5199,7 @@ G1 X12.550 Y12.505 E705.21080 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E705.33748 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E705.42561 ; infill
 G1 X11.323 Y-4.605 E705.67693 ; infill
 G1 X11.323 Y-1.272 E705.76506 ; infill
@@ -5739,10 +5214,7 @@ G1 X10.591 Y11.323 E708.35253 ; infill
 G1 X-11.323 Y-10.591 E709.17222 ; infill
 G1 X-11.323 Y-7.259 E709.26035 ; infill
 G1 X7.259 Y11.323 E709.95540 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E710.04353 ; infill
 G1 X-11.323 Y-3.926 E710.61395 ; infill
 G1 X-11.323 Y-0.594 E710.70208 ; infill
@@ -5753,11 +5225,8 @@ G1 X-11.323 Y6.070 E711.64526 ; infill
 G1 X-6.070 Y11.323 E711.84175 ; infill
 G1 X-9.402 Y11.323 E711.92989 ; infill
 G1 X-11.323 Y9.402 E712.00175 ; infill
+
 G1 Z5.900 F60000.000 ; move to next layer (57)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E712.42869 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E712.85564 ; perimeter
@@ -5776,10 +5245,7 @@ G1 X12.550 Y12.505 E716.53304 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E716.65972 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E716.74785 ; infill
 G1 X4.605 Y11.323 E716.99916 ; infill
 G1 X1.272 Y11.323 E717.08730 ; infill
@@ -5794,10 +5260,7 @@ G1 X-11.323 Y10.591 E719.67477 ; infill
 G1 X10.591 Y-11.323 E720.49446 ; infill
 G1 X7.259 Y-11.323 E720.58259 ; infill
 G1 X-11.323 Y7.259 E721.27764 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E721.36577 ; infill
 G1 X3.926 Y-11.323 E721.93618 ; infill
 G1 X0.594 Y-11.323 E722.02432 ; infill
@@ -5808,11 +5271,8 @@ G1 X-6.070 Y-11.323 E722.96749 ; infill
 G1 X-11.323 Y-6.070 E723.16399 ; infill
 G1 X-11.323 Y-9.402 E723.25212 ; infill
 G1 X-9.402 Y-11.323 E723.32399 ; infill
+
 G1 Z6.000 F60000.000 ; move to next layer (58)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E723.75093 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E724.17788 ; perimeter
@@ -5831,10 +5291,7 @@ G1 X12.550 Y12.505 E727.85528 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E727.98195 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E728.07009 ; infill
 G1 X11.323 Y-4.605 E728.32140 ; infill
 G1 X11.323 Y-1.272 E728.40953 ; infill
@@ -5849,10 +5306,7 @@ G1 X10.591 Y11.323 E730.99701 ; infill
 G1 X-11.323 Y-10.591 E731.81669 ; infill
 G1 X-11.323 Y-7.259 E731.90483 ; infill
 G1 X7.259 Y11.323 E732.59988 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E732.68801 ; infill
 G1 X-11.323 Y-3.926 E733.25842 ; infill
 G1 X-11.323 Y-0.594 E733.34655 ; infill
@@ -5863,11 +5317,8 @@ G1 X-11.323 Y6.070 E734.28973 ; infill
 G1 X-6.070 Y11.323 E734.48623 ; infill
 G1 X-9.402 Y11.323 E734.57436 ; infill
 G1 X-11.323 Y9.402 E734.64622 ; infill
+
 G1 Z6.100 F60000.000 ; move to next layer (59)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E735.07317 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E735.50011 ; perimeter
@@ -5886,10 +5337,7 @@ G1 X12.550 Y12.505 E739.17751 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E739.30419 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E739.39232 ; infill
 G1 X4.605 Y11.323 E739.64364 ; infill
 G1 X1.272 Y11.323 E739.73177 ; infill
@@ -5904,10 +5352,7 @@ G1 X-11.323 Y10.591 E742.31924 ; infill
 G1 X10.591 Y-11.323 E743.13893 ; infill
 G1 X7.259 Y-11.323 E743.22706 ; infill
 G1 X-11.323 Y7.259 E743.92211 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E744.01025 ; infill
 G1 X3.926 Y-11.323 E744.58066 ; infill
 G1 X0.594 Y-11.323 E744.66879 ; infill
@@ -5918,11 +5363,8 @@ G1 X-6.070 Y-11.323 E745.61197 ; infill
 G1 X-11.323 Y-6.070 E745.80847 ; infill
 G1 X-11.323 Y-9.402 E745.89660 ; infill
 G1 X-9.402 Y-11.323 E745.96846 ; infill
+
 G1 Z6.200 F60000.000 ; move to next layer (60)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E746.39540 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E746.82235 ; perimeter
@@ -5941,10 +5383,7 @@ G1 X12.550 Y12.505 E750.49975 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E750.62643 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E750.71456 ; infill
 G1 X11.323 Y-4.605 E750.96588 ; infill
 G1 X11.323 Y-1.272 E751.05401 ; infill
@@ -5959,10 +5398,7 @@ G1 X10.591 Y11.323 E753.64148 ; infill
 G1 X-11.323 Y-10.591 E754.46117 ; infill
 G1 X-11.323 Y-7.259 E754.54930 ; infill
 G1 X7.259 Y11.323 E755.24435 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E755.33248 ; infill
 G1 X-11.323 Y-3.926 E755.90290 ; infill
 G1 X-11.323 Y-0.594 E755.99103 ; infill
@@ -5973,11 +5409,8 @@ G1 X-11.323 Y6.070 E756.93420 ; infill
 G1 X-6.070 Y11.323 E757.13070 ; infill
 G1 X-9.402 Y11.323 E757.21884 ; infill
 G1 X-11.323 Y9.402 E757.29070 ; infill
+
 G1 Z6.300 F60000.000 ; move to next layer (61)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E757.71764 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E758.14459 ; perimeter
@@ -5996,10 +5429,7 @@ G1 X12.550 Y12.505 E761.82199 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E761.94867 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E762.03680 ; infill
 G1 X4.605 Y11.323 E762.28811 ; infill
 G1 X1.272 Y11.323 E762.37625 ; infill
@@ -6014,10 +5444,7 @@ G1 X-11.323 Y10.591 E764.96372 ; infill
 G1 X10.591 Y-11.323 E765.78341 ; infill
 G1 X7.259 Y-11.323 E765.87154 ; infill
 G1 X-11.323 Y7.259 E766.56659 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E766.65472 ; infill
 G1 X3.926 Y-11.323 E767.22513 ; infill
 G1 X0.594 Y-11.323 E767.31327 ; infill
@@ -6028,11 +5455,8 @@ G1 X-6.070 Y-11.323 E768.25644 ; infill
 G1 X-11.323 Y-6.070 E768.45294 ; infill
 G1 X-11.323 Y-9.402 E768.54107 ; infill
 G1 X-9.402 Y-11.323 E768.61293 ; infill
+
 G1 Z6.400 F60000.000 ; move to next layer (62)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E769.03988 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E769.46682 ; perimeter
@@ -6051,10 +5475,7 @@ G1 X12.550 Y12.505 E773.14422 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E773.27090 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E773.35903 ; infill
 G1 X11.323 Y-4.605 E773.61035 ; infill
 G1 X11.323 Y-1.272 E773.69848 ; infill
@@ -6069,10 +5490,7 @@ G1 X10.591 Y11.323 E776.28595 ; infill
 G1 X-11.323 Y-10.591 E777.10564 ; infill
 G1 X-11.323 Y-7.259 E777.19378 ; infill
 G1 X7.259 Y11.323 E777.88883 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E777.97696 ; infill
 G1 X-11.323 Y-3.926 E778.54737 ; infill
 G1 X-11.323 Y-0.594 E778.63550 ; infill
@@ -6083,11 +5501,8 @@ G1 X-11.323 Y6.070 E779.57868 ; infill
 G1 X-6.070 Y11.323 E779.77518 ; infill
 G1 X-9.402 Y11.323 E779.86331 ; infill
 G1 X-11.323 Y9.402 E779.93517 ; infill
+
 G1 Z6.500 F60000.000 ; move to next layer (63)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E780.36212 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E780.78906 ; perimeter
@@ -6106,10 +5521,7 @@ G1 X12.550 Y12.505 E784.46646 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E784.59314 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E784.68127 ; infill
 G1 X4.605 Y11.323 E784.93259 ; infill
 G1 X1.272 Y11.323 E785.02072 ; infill
@@ -6124,10 +5536,7 @@ G1 X-11.323 Y10.591 E787.60819 ; infill
 G1 X10.591 Y-11.323 E788.42788 ; infill
 G1 X7.259 Y-11.323 E788.51601 ; infill
 G1 X-11.323 Y7.259 E789.21106 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E789.29920 ; infill
 G1 X3.926 Y-11.323 E789.86961 ; infill
 G1 X0.594 Y-11.323 E789.95774 ; infill
@@ -6138,11 +5547,8 @@ G1 X-6.070 Y-11.323 E790.90092 ; infill
 G1 X-11.323 Y-6.070 E791.09742 ; infill
 G1 X-11.323 Y-9.402 E791.18555 ; infill
 G1 X-9.402 Y-11.323 E791.25741 ; infill
+
 G1 Z6.600 F60000.000 ; move to next layer (64)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E791.68435 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E792.11130 ; perimeter
@@ -6161,10 +5567,7 @@ G1 X12.550 Y12.505 E795.78870 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E795.91538 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E796.00351 ; infill
 G1 X11.323 Y-4.605 E796.25483 ; infill
 G1 X11.323 Y-1.272 E796.34296 ; infill
@@ -6179,10 +5582,7 @@ G1 X10.591 Y11.323 E798.93043 ; infill
 G1 X-11.323 Y-10.591 E799.75012 ; infill
 G1 X-11.323 Y-7.259 E799.83825 ; infill
 G1 X7.259 Y11.323 E800.53330 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E800.62143 ; infill
 G1 X-11.323 Y-3.926 E801.19185 ; infill
 G1 X-11.323 Y-0.594 E801.27998 ; infill
@@ -6193,11 +5593,8 @@ G1 X-11.323 Y6.070 E802.22315 ; infill
 G1 X-6.070 Y11.323 E802.41965 ; infill
 G1 X-9.402 Y11.323 E802.50778 ; infill
 G1 X-11.323 Y9.402 E802.57965 ; infill
+
 G1 Z6.700 F60000.000 ; move to next layer (65)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E803.00659 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E803.43354 ; perimeter
@@ -6216,10 +5613,7 @@ G1 X12.550 Y12.505 E807.11094 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E807.23761 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E807.32575 ; infill
 G1 X4.605 Y11.323 E807.57706 ; infill
 G1 X1.272 Y11.323 E807.66519 ; infill
@@ -6234,10 +5628,7 @@ G1 X-11.323 Y10.591 E810.25267 ; infill
 G1 X10.591 Y-11.323 E811.07235 ; infill
 G1 X7.259 Y-11.323 E811.16049 ; infill
 G1 X-11.323 Y7.259 E811.85554 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E811.94367 ; infill
 G1 X3.926 Y-11.323 E812.51408 ; infill
 G1 X0.594 Y-11.323 E812.60221 ; infill
@@ -6248,11 +5639,8 @@ G1 X-6.070 Y-11.323 E813.54539 ; infill
 G1 X-11.323 Y-6.070 E813.74189 ; infill
 G1 X-11.323 Y-9.402 E813.83002 ; infill
 G1 X-9.402 Y-11.323 E813.90188 ; infill
+
 G1 Z6.800 F60000.000 ; move to next layer (66)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E814.32883 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E814.75577 ; perimeter
@@ -6271,10 +5659,7 @@ G1 X12.550 Y12.505 E818.43317 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E818.55985 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E818.64798 ; infill
 G1 X11.323 Y-4.605 E818.89930 ; infill
 G1 X11.323 Y-1.272 E818.98743 ; infill
@@ -6289,10 +5674,7 @@ G1 X10.591 Y11.323 E821.57490 ; infill
 G1 X-11.323 Y-10.591 E822.39459 ; infill
 G1 X-11.323 Y-7.259 E822.48272 ; infill
 G1 X7.259 Y11.323 E823.17777 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E823.26591 ; infill
 G1 X-11.323 Y-3.926 E823.83632 ; infill
 G1 X-11.323 Y-0.594 E823.92445 ; infill
@@ -6303,11 +5685,8 @@ G1 X-11.323 Y6.070 E824.86763 ; infill
 G1 X-6.070 Y11.323 E825.06413 ; infill
 G1 X-9.402 Y11.323 E825.15226 ; infill
 G1 X-11.323 Y9.402 E825.22412 ; infill
+
 G1 Z6.900 F60000.000 ; move to next layer (67)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E825.65107 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E826.07801 ; perimeter
@@ -6326,10 +5705,7 @@ G1 X12.550 Y12.505 E829.75541 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E829.88209 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E829.97022 ; infill
 G1 X4.605 Y11.323 E830.22154 ; infill
 G1 X1.272 Y11.323 E830.30967 ; infill
@@ -6344,10 +5720,7 @@ G1 X-11.323 Y10.591 E832.89714 ; infill
 G1 X10.591 Y-11.323 E833.71683 ; infill
 G1 X7.259 Y-11.323 E833.80496 ; infill
 G1 X-11.323 Y7.259 E834.50001 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E834.58814 ; infill
 G1 X3.926 Y-11.323 E835.15856 ; infill
 G1 X0.594 Y-11.323 E835.24669 ; infill
@@ -6358,11 +5731,8 @@ G1 X-6.070 Y-11.323 E836.18986 ; infill
 G1 X-11.323 Y-6.070 E836.38636 ; infill
 G1 X-11.323 Y-9.402 E836.47450 ; infill
 G1 X-9.402 Y-11.323 E836.54636 ; infill
+
 G1 Z7.000 F60000.000 ; move to next layer (68)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E836.97330 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E837.40025 ; perimeter
@@ -6381,10 +5751,7 @@ G1 X12.550 Y12.505 E841.07765 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E841.20433 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E841.29246 ; infill
 G1 X11.323 Y-4.605 E841.54377 ; infill
 G1 X11.323 Y-1.272 E841.63191 ; infill
@@ -6399,10 +5766,7 @@ G1 X10.591 Y11.323 E844.21938 ; infill
 G1 X-11.323 Y-10.591 E845.03907 ; infill
 G1 X-11.323 Y-7.259 E845.12720 ; infill
 G1 X7.259 Y11.323 E845.82225 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E845.91038 ; infill
 G1 X-11.323 Y-3.926 E846.48079 ; infill
 G1 X-11.323 Y-0.594 E846.56893 ; infill
@@ -6413,11 +5777,8 @@ G1 X-11.323 Y6.070 E847.51210 ; infill
 G1 X-6.070 Y11.323 E847.70860 ; infill
 G1 X-9.402 Y11.323 E847.79673 ; infill
 G1 X-11.323 Y9.402 E847.86859 ; infill
+
 G1 Z7.100 F60000.000 ; move to next layer (69)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E848.29554 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E848.72248 ; perimeter
@@ -6436,10 +5797,7 @@ G1 X12.550 Y12.505 E852.39988 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E852.52656 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E852.61469 ; infill
 G1 X4.605 Y11.323 E852.86601 ; infill
 G1 X1.272 Y11.323 E852.95414 ; infill
@@ -6454,10 +5812,7 @@ G1 X-11.323 Y10.591 E855.54161 ; infill
 G1 X10.591 Y-11.323 E856.36130 ; infill
 G1 X7.259 Y-11.323 E856.44944 ; infill
 G1 X-11.323 Y7.259 E857.14449 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E857.23262 ; infill
 G1 X3.926 Y-11.323 E857.80303 ; infill
 G1 X0.594 Y-11.323 E857.89116 ; infill
@@ -6468,11 +5823,8 @@ G1 X-6.070 Y-11.323 E858.83434 ; infill
 G1 X-11.323 Y-6.070 E859.03084 ; infill
 G1 X-11.323 Y-9.402 E859.11897 ; infill
 G1 X-9.402 Y-11.323 E859.19083 ; infill
+
 G1 Z7.200 F60000.000 ; move to next layer (70)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E859.61778 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E860.04472 ; perimeter
@@ -6491,10 +5843,7 @@ G1 X12.550 Y12.505 E863.72212 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E863.84880 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E863.93693 ; infill
 G1 X11.323 Y-4.605 E864.18825 ; infill
 G1 X11.323 Y-1.272 E864.27638 ; infill
@@ -6509,10 +5858,7 @@ G1 X10.591 Y11.323 E866.86385 ; infill
 G1 X-11.323 Y-10.591 E867.68354 ; infill
 G1 X-11.323 Y-7.259 E867.77167 ; infill
 G1 X7.259 Y11.323 E868.46672 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E868.55486 ; infill
 G1 X-11.323 Y-3.926 E869.12527 ; infill
 G1 X-11.323 Y-0.594 E869.21340 ; infill
@@ -6523,11 +5869,8 @@ G1 X-11.323 Y6.070 E870.15658 ; infill
 G1 X-6.070 Y11.323 E870.35308 ; infill
 G1 X-9.402 Y11.323 E870.44121 ; infill
 G1 X-11.323 Y9.402 E870.51307 ; infill
+
 G1 Z7.300 F60000.000 ; move to next layer (71)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E870.94001 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E871.36696 ; perimeter
@@ -6546,10 +5889,7 @@ G1 X12.550 Y12.505 E875.04436 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E875.17104 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E875.25917 ; infill
 G1 X4.605 Y11.323 E875.51049 ; infill
 G1 X1.272 Y11.323 E875.59862 ; infill
@@ -6564,10 +5904,7 @@ G1 X-11.323 Y10.591 E878.18609 ; infill
 G1 X10.591 Y-11.323 E879.00578 ; infill
 G1 X7.259 Y-11.323 E879.09391 ; infill
 G1 X-11.323 Y7.259 E879.78896 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E879.87709 ; infill
 G1 X3.926 Y-11.323 E880.44751 ; infill
 G1 X0.594 Y-11.323 E880.53564 ; infill
@@ -6578,11 +5915,8 @@ G1 X-6.070 Y-11.323 E881.47881 ; infill
 G1 X-11.323 Y-6.070 E881.67531 ; infill
 G1 X-11.323 Y-9.402 E881.76345 ; infill
 G1 X-9.402 Y-11.323 E881.83531 ; infill
+
 G1 Z7.400 F60000.000 ; move to next layer (72)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E882.26225 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E882.68920 ; perimeter
@@ -6601,10 +5935,7 @@ G1 X12.550 Y12.505 E886.36660 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E886.49327 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E886.58141 ; infill
 G1 X11.323 Y-4.605 E886.83272 ; infill
 G1 X11.323 Y-1.272 E886.92086 ; infill
@@ -6619,10 +5950,7 @@ G1 X10.591 Y11.323 E889.50833 ; infill
 G1 X-11.323 Y-10.591 E890.32801 ; infill
 G1 X-11.323 Y-7.259 E890.41615 ; infill
 G1 X7.259 Y11.323 E891.11120 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E891.19933 ; infill
 G1 X-11.323 Y-3.926 E891.76974 ; infill
 G1 X-11.323 Y-0.594 E891.85787 ; infill
@@ -6633,11 +5961,8 @@ G1 X-11.323 Y6.070 E892.80105 ; infill
 G1 X-6.070 Y11.323 E892.99755 ; infill
 G1 X-9.402 Y11.323 E893.08568 ; infill
 G1 X-11.323 Y9.402 E893.15754 ; infill
+
 G1 Z7.500 F60000.000 ; move to next layer (73)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E893.58449 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E894.01143 ; perimeter
@@ -6656,10 +5981,7 @@ G1 X12.550 Y12.505 E897.68883 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E897.81551 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E897.90364 ; infill
 G1 X4.605 Y11.323 E898.15496 ; infill
 G1 X1.272 Y11.323 E898.24309 ; infill
@@ -6674,10 +5996,7 @@ G1 X-11.323 Y10.591 E900.83056 ; infill
 G1 X10.591 Y-11.323 E901.65025 ; infill
 G1 X7.259 Y-11.323 E901.73838 ; infill
 G1 X-11.323 Y7.259 E902.43343 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E902.52157 ; infill
 G1 X3.926 Y-11.323 E903.09198 ; infill
 G1 X0.594 Y-11.323 E903.18011 ; infill
@@ -6688,11 +6007,8 @@ G1 X-6.070 Y-11.323 E904.12329 ; infill
 G1 X-11.323 Y-6.070 E904.31979 ; infill
 G1 X-11.323 Y-9.402 E904.40792 ; infill
 G1 X-9.402 Y-11.323 E904.47978 ; infill
+
 G1 Z7.600 F60000.000 ; move to next layer (74)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E904.90673 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E905.33367 ; perimeter
@@ -6711,10 +6027,7 @@ G1 X12.550 Y12.505 E909.01107 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E909.13775 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E909.22588 ; infill
 G1 X11.323 Y-4.605 E909.47720 ; infill
 G1 X11.323 Y-1.272 E909.56533 ; infill
@@ -6729,10 +6042,7 @@ G1 X10.591 Y11.323 E912.15280 ; infill
 G1 X-11.323 Y-10.591 E912.97249 ; infill
 G1 X-11.323 Y-7.259 E913.06062 ; infill
 G1 X7.259 Y11.323 E913.75567 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E913.84380 ; infill
 G1 X-11.323 Y-3.926 E914.41422 ; infill
 G1 X-11.323 Y-0.594 E914.50235 ; infill
@@ -6743,11 +6053,8 @@ G1 X-11.323 Y6.070 E915.44553 ; infill
 G1 X-6.070 Y11.323 E915.64202 ; infill
 G1 X-9.402 Y11.323 E915.73016 ; infill
 G1 X-11.323 Y9.402 E915.80202 ; infill
+
 G1 Z7.700 F60000.000 ; move to next layer (75)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E916.22896 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E916.65591 ; perimeter
@@ -6766,10 +6073,7 @@ G1 X12.550 Y12.505 E920.33331 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E920.45999 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E920.54812 ; infill
 G1 X4.605 Y11.323 E920.79943 ; infill
 G1 X1.272 Y11.323 E920.88757 ; infill
@@ -6784,10 +6088,7 @@ G1 X-11.323 Y10.591 E923.47504 ; infill
 G1 X10.591 Y-11.323 E924.29473 ; infill
 G1 X7.259 Y-11.323 E924.38286 ; infill
 G1 X-11.323 Y7.259 E925.07791 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E925.16604 ; infill
 G1 X3.926 Y-11.323 E925.73645 ; infill
 G1 X0.594 Y-11.323 E925.82459 ; infill
@@ -6798,11 +6099,8 @@ G1 X-6.070 Y-11.323 E926.76776 ; infill
 G1 X-11.323 Y-6.070 E926.96426 ; infill
 G1 X-11.323 Y-9.402 E927.05239 ; infill
 G1 X-9.402 Y-11.323 E927.12425 ; infill
+
 G1 Z7.800 F60000.000 ; move to next layer (76)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E927.55120 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E927.97814 ; perimeter
@@ -6821,10 +6119,7 @@ G1 X12.550 Y12.505 E931.65554 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E931.78222 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E931.87036 ; infill
 G1 X11.323 Y-4.605 E932.12167 ; infill
 G1 X11.323 Y-1.272 E932.20980 ; infill
@@ -6839,10 +6134,7 @@ G1 X10.591 Y11.323 E934.79728 ; infill
 G1 X-11.323 Y-10.591 E935.61696 ; infill
 G1 X-11.323 Y-7.259 E935.70510 ; infill
 G1 X7.259 Y11.323 E936.40015 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E936.48828 ; infill
 G1 X-11.323 Y-3.926 E937.05869 ; infill
 G1 X-11.323 Y-0.594 E937.14682 ; infill
@@ -6853,11 +6145,8 @@ G1 X-11.323 Y6.070 E938.09000 ; infill
 G1 X-6.070 Y11.323 E938.28650 ; infill
 G1 X-9.402 Y11.323 E938.37463 ; infill
 G1 X-11.323 Y9.402 E938.44649 ; infill
+
 G1 Z7.900 F60000.000 ; move to next layer (77)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E938.87344 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E939.30038 ; perimeter
@@ -6876,10 +6165,7 @@ G1 X12.550 Y12.505 E942.97778 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E943.10446 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E943.19259 ; infill
 G1 X4.605 Y11.323 E943.44391 ; infill
 G1 X1.272 Y11.323 E943.53204 ; infill
@@ -6894,10 +6180,7 @@ G1 X-11.323 Y10.591 E946.11951 ; infill
 G1 X10.591 Y-11.323 E946.93920 ; infill
 G1 X7.259 Y-11.323 E947.02733 ; infill
 G1 X-11.323 Y7.259 E947.72238 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E947.81052 ; infill
 G1 X3.926 Y-11.323 E948.38093 ; infill
 G1 X0.594 Y-11.323 E948.46906 ; infill
@@ -6908,11 +6191,8 @@ G1 X-6.070 Y-11.323 E949.41224 ; infill
 G1 X-11.323 Y-6.070 E949.60874 ; infill
 G1 X-11.323 Y-9.402 E949.69687 ; infill
 G1 X-9.402 Y-11.323 E949.76873 ; infill
+
 G1 Z8.000 F60000.000 ; move to next layer (78)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E950.19567 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E950.62262 ; perimeter
@@ -6931,10 +6211,7 @@ G1 X12.550 Y12.505 E954.30002 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E954.42670 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E954.51483 ; infill
 G1 X11.323 Y-4.605 E954.76615 ; infill
 G1 X11.323 Y-1.272 E954.85428 ; infill
@@ -6949,10 +6226,7 @@ G1 X10.591 Y11.323 E957.44175 ; infill
 G1 X-11.323 Y-10.591 E958.26144 ; infill
 G1 X-11.323 Y-7.259 E958.34957 ; infill
 G1 X7.259 Y11.323 E959.04462 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E959.13275 ; infill
 G1 X-11.323 Y-3.926 E959.70317 ; infill
 G1 X-11.323 Y-0.594 E959.79130 ; infill
@@ -6963,11 +6237,8 @@ G1 X-11.323 Y6.070 E960.73447 ; infill
 G1 X-6.070 Y11.323 E960.93097 ; infill
 G1 X-9.402 Y11.323 E961.01911 ; infill
 G1 X-11.323 Y9.402 E961.09097 ; infill
+
 G1 Z8.100 F60000.000 ; move to next layer (79)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E961.51791 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E961.94486 ; perimeter
@@ -6986,10 +6257,7 @@ G1 X12.550 Y12.505 E965.62226 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E965.74893 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E965.83707 ; infill
 G1 X4.605 Y11.323 E966.08838 ; infill
 G1 X1.272 Y11.323 E966.17652 ; infill
@@ -7004,10 +6272,7 @@ G1 X-11.323 Y10.591 E968.76399 ; infill
 G1 X10.591 Y-11.323 E969.58367 ; infill
 G1 X7.259 Y-11.323 E969.67181 ; infill
 G1 X-11.323 Y7.259 E970.36686 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E970.45499 ; infill
 G1 X3.926 Y-11.323 E971.02540 ; infill
 G1 X0.594 Y-11.323 E971.11353 ; infill
@@ -7018,11 +6283,8 @@ G1 X-6.070 Y-11.323 E972.05671 ; infill
 G1 X-11.323 Y-6.070 E972.25321 ; infill
 G1 X-11.323 Y-9.402 E972.34134 ; infill
 G1 X-9.402 Y-11.323 E972.41320 ; infill
+
 G1 Z8.200 F60000.000 ; move to next layer (80)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E972.84015 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E973.26709 ; perimeter
@@ -7041,10 +6303,7 @@ G1 X12.550 Y12.505 E976.94449 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E977.07117 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E977.15930 ; infill
 G1 X11.323 Y-4.605 E977.41062 ; infill
 G1 X11.323 Y-1.272 E977.49875 ; infill
@@ -7059,10 +6318,7 @@ G1 X10.591 Y11.323 E980.08622 ; infill
 G1 X-11.323 Y-10.591 E980.90591 ; infill
 G1 X-11.323 Y-7.259 E980.99404 ; infill
 G1 X7.259 Y11.323 E981.68910 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E981.77723 ; infill
 G1 X-11.323 Y-3.926 E982.34764 ; infill
 G1 X-11.323 Y-0.594 E982.43577 ; infill
@@ -7073,11 +6329,8 @@ G1 X-11.323 Y6.070 E983.37895 ; infill
 G1 X-6.070 Y11.323 E983.57545 ; infill
 G1 X-9.402 Y11.323 E983.66358 ; infill
 G1 X-11.323 Y9.402 E983.73544 ; infill
+
 G1 Z8.300 F60000.000 ; move to next layer (81)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E984.16239 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E984.58933 ; perimeter
@@ -7096,10 +6349,7 @@ G1 X12.550 Y12.505 E988.26673 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E988.39341 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E988.48154 ; infill
 G1 X4.605 Y11.323 E988.73286 ; infill
 G1 X1.272 Y11.323 E988.82099 ; infill
@@ -7114,10 +6364,7 @@ G1 X-11.323 Y10.591 E991.40846 ; infill
 G1 X10.591 Y-11.323 E992.22815 ; infill
 G1 X7.259 Y-11.323 E992.31628 ; infill
 G1 X-11.323 Y7.259 E993.01133 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E993.09946 ; infill
 G1 X3.926 Y-11.323 E993.66988 ; infill
 G1 X0.594 Y-11.323 E993.75801 ; infill
@@ -7128,11 +6375,8 @@ G1 X-6.070 Y-11.323 E994.70119 ; infill
 G1 X-11.323 Y-6.070 E994.89768 ; infill
 G1 X-11.323 Y-9.402 E994.98582 ; infill
 G1 X-9.402 Y-11.323 E995.05768 ; infill
+
 G1 Z8.400 F60000.000 ; move to next layer (82)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E995.48462 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E995.91157 ; perimeter
@@ -7151,10 +6395,7 @@ G1 X12.550 Y12.505 E999.58897 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E999.71565 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E999.80378 ; infill
 G1 X11.323 Y-4.605 E1000.05509 ; infill
 G1 X11.323 Y-1.272 E1000.14323 ; infill
@@ -7169,10 +6410,7 @@ G1 X10.591 Y11.323 E1002.73070 ; infill
 G1 X-11.323 Y-10.591 E1003.55039 ; infill
 G1 X-11.323 Y-7.259 E1003.63852 ; infill
 G1 X7.259 Y11.323 E1004.33357 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1004.42170 ; infill
 G1 X-11.323 Y-3.926 E1004.99211 ; infill
 G1 X-11.323 Y-0.594 E1005.08025 ; infill
@@ -7183,11 +6421,8 @@ G1 X-11.323 Y6.070 E1006.02342 ; infill
 G1 X-6.070 Y11.323 E1006.21992 ; infill
 G1 X-9.402 Y11.323 E1006.30805 ; infill
 G1 X-11.323 Y9.402 E1006.37992 ; infill
+
 G1 Z8.500 F60000.000 ; move to next layer (83)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1006.80686 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1007.23381 ; perimeter
@@ -7206,10 +6441,7 @@ G1 X12.550 Y12.505 E1010.91121 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1011.03788 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1011.12602 ; infill
 G1 X4.605 Y11.323 E1011.37733 ; infill
 G1 X1.272 Y11.323 E1011.46546 ; infill
@@ -7224,10 +6456,7 @@ G1 X-11.323 Y10.591 E1014.05294 ; infill
 G1 X10.591 Y-11.323 E1014.87262 ; infill
 G1 X7.259 Y-11.323 E1014.96076 ; infill
 G1 X-11.323 Y7.259 E1015.65581 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1015.74394 ; infill
 G1 X3.926 Y-11.323 E1016.31435 ; infill
 G1 X0.594 Y-11.323 E1016.40248 ; infill
@@ -7238,11 +6467,8 @@ G1 X-6.070 Y-11.323 E1017.34566 ; infill
 G1 X-11.323 Y-6.070 E1017.54216 ; infill
 G1 X-11.323 Y-9.402 E1017.63029 ; infill
 G1 X-9.402 Y-11.323 E1017.70215 ; infill
+
 G1 Z8.600 F60000.000 ; move to next layer (84)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1018.12910 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1018.55604 ; perimeter
@@ -7261,10 +6487,7 @@ G1 X12.550 Y12.505 E1022.23344 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1022.36012 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1022.44825 ; infill
 G1 X11.323 Y-4.605 E1022.69957 ; infill
 G1 X11.323 Y-1.272 E1022.78770 ; infill
@@ -7279,10 +6502,7 @@ G1 X10.591 Y11.323 E1025.37517 ; infill
 G1 X-11.323 Y-10.591 E1026.19486 ; infill
 G1 X-11.323 Y-7.259 E1026.28299 ; infill
 G1 X7.259 Y11.323 E1026.97804 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1027.06618 ; infill
 G1 X-11.323 Y-3.926 E1027.63659 ; infill
 G1 X-11.323 Y-0.594 E1027.72472 ; infill
@@ -7293,11 +6513,8 @@ G1 X-11.323 Y6.070 E1028.66790 ; infill
 G1 X-6.070 Y11.323 E1028.86440 ; infill
 G1 X-9.402 Y11.323 E1028.95253 ; infill
 G1 X-11.323 Y9.402 E1029.02439 ; infill
+
 G1 Z8.700 F60000.000 ; move to next layer (85)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1029.45133 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1029.87828 ; perimeter
@@ -7316,10 +6533,7 @@ G1 X12.550 Y12.505 E1033.55568 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1033.68236 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1033.77049 ; infill
 G1 X4.605 Y11.323 E1034.02181 ; infill
 G1 X1.272 Y11.323 E1034.10994 ; infill
@@ -7334,10 +6548,7 @@ G1 X-11.323 Y10.591 E1036.69741 ; infill
 G1 X10.591 Y-11.323 E1037.51710 ; infill
 G1 X7.259 Y-11.323 E1037.60523 ; infill
 G1 X-11.323 Y7.259 E1038.30028 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1038.38841 ; infill
 G1 X3.926 Y-11.323 E1038.95883 ; infill
 G1 X0.594 Y-11.323 E1039.04696 ; infill
@@ -7348,11 +6559,8 @@ G1 X-6.070 Y-11.323 E1039.99013 ; infill
 G1 X-11.323 Y-6.070 E1040.18663 ; infill
 G1 X-11.323 Y-9.402 E1040.27477 ; infill
 G1 X-9.402 Y-11.323 E1040.34663 ; infill
+
 G1 Z8.800 F60000.000 ; move to next layer (86)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1040.77357 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1041.20052 ; perimeter
@@ -7371,10 +6579,7 @@ G1 X12.550 Y12.505 E1044.87792 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1045.00460 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1045.09273 ; infill
 G1 X11.323 Y-4.605 E1045.34404 ; infill
 G1 X11.323 Y-1.272 E1045.43218 ; infill
@@ -7389,10 +6594,7 @@ G1 X10.591 Y11.323 E1048.01965 ; infill
 G1 X-11.323 Y-10.591 E1048.83934 ; infill
 G1 X-11.323 Y-7.259 E1048.92747 ; infill
 G1 X7.259 Y11.323 E1049.62252 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1049.71065 ; infill
 G1 X-11.323 Y-3.926 E1050.28106 ; infill
 G1 X-11.323 Y-0.594 E1050.36920 ; infill
@@ -7403,11 +6605,8 @@ G1 X-11.323 Y6.070 E1051.31237 ; infill
 G1 X-6.070 Y11.323 E1051.50887 ; infill
 G1 X-9.402 Y11.323 E1051.59700 ; infill
 G1 X-11.323 Y9.402 E1051.66886 ; infill
+
 G1 Z8.900 F60000.000 ; move to next layer (87)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1052.09581 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1052.52275 ; perimeter
@@ -7426,10 +6625,7 @@ G1 X12.550 Y12.505 E1056.20015 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1056.32683 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1056.41496 ; infill
 G1 X4.605 Y11.323 E1056.66628 ; infill
 G1 X1.272 Y11.323 E1056.75441 ; infill
@@ -7444,10 +6640,7 @@ G1 X-11.323 Y10.591 E1059.34188 ; infill
 G1 X10.591 Y-11.323 E1060.16157 ; infill
 G1 X7.259 Y-11.323 E1060.24970 ; infill
 G1 X-11.323 Y7.259 E1060.94476 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1061.03289 ; infill
 G1 X3.926 Y-11.323 E1061.60330 ; infill
 G1 X0.594 Y-11.323 E1061.69143 ; infill
@@ -7458,11 +6651,8 @@ G1 X-6.070 Y-11.323 E1062.63461 ; infill
 G1 X-11.323 Y-6.070 E1062.83111 ; infill
 G1 X-11.323 Y-9.402 E1062.91924 ; infill
 G1 X-9.402 Y-11.323 E1062.99110 ; infill
+
 G1 Z9.000 F60000.000 ; move to next layer (88)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1063.41805 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1063.84499 ; perimeter
@@ -7481,10 +6671,7 @@ G1 X12.550 Y12.505 E1067.52239 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1067.64907 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1067.73720 ; infill
 G1 X11.323 Y-4.605 E1067.98852 ; infill
 G1 X11.323 Y-1.272 E1068.07665 ; infill
@@ -7499,10 +6686,7 @@ G1 X10.591 Y11.323 E1070.66412 ; infill
 G1 X-11.323 Y-10.591 E1071.48381 ; infill
 G1 X-11.323 Y-7.259 E1071.57194 ; infill
 G1 X7.259 Y11.323 E1072.26699 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1072.35512 ; infill
 G1 X-11.323 Y-3.926 E1072.92554 ; infill
 G1 X-11.323 Y-0.594 E1073.01367 ; infill
@@ -7513,11 +6697,8 @@ G1 X-11.323 Y6.070 E1073.95685 ; infill
 G1 X-6.070 Y11.323 E1074.15334 ; infill
 G1 X-9.402 Y11.323 E1074.24148 ; infill
 G1 X-11.323 Y9.402 E1074.31334 ; infill
+
 G1 Z9.100 F60000.000 ; move to next layer (89)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1074.74028 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1075.16723 ; perimeter
@@ -7536,10 +6717,7 @@ G1 X12.550 Y12.505 E1078.84463 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1078.97131 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1079.05944 ; infill
 G1 X4.605 Y11.323 E1079.31075 ; infill
 G1 X1.272 Y11.323 E1079.39889 ; infill
@@ -7554,10 +6732,7 @@ G1 X-11.323 Y10.591 E1081.98636 ; infill
 G1 X10.591 Y-11.323 E1082.80605 ; infill
 G1 X7.259 Y-11.323 E1082.89418 ; infill
 G1 X-11.323 Y7.259 E1083.58923 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1083.67736 ; infill
 G1 X3.926 Y-11.323 E1084.24777 ; infill
 G1 X0.594 Y-11.323 E1084.33591 ; infill
@@ -7568,11 +6743,8 @@ G1 X-6.070 Y-11.323 E1085.27908 ; infill
 G1 X-11.323 Y-6.070 E1085.47558 ; infill
 G1 X-11.323 Y-9.402 E1085.56371 ; infill
 G1 X-9.402 Y-11.323 E1085.63558 ; infill
+
 G1 Z9.200 F60000.000 ; move to next layer (90)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1086.06252 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1086.48947 ; perimeter
@@ -7591,10 +6763,7 @@ G1 X12.550 Y12.505 E1090.16687 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1090.29354 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1090.38168 ; infill
 G1 X11.323 Y-4.605 E1090.63299 ; infill
 G1 X11.323 Y-1.272 E1090.72112 ; infill
@@ -7609,10 +6778,7 @@ G1 X10.591 Y11.323 E1093.30860 ; infill
 G1 X-11.323 Y-10.591 E1094.12828 ; infill
 G1 X-11.323 Y-7.259 E1094.21642 ; infill
 G1 X7.259 Y11.323 E1094.91147 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1094.99960 ; infill
 G1 X-11.323 Y-3.926 E1095.57001 ; infill
 G1 X-11.323 Y-0.594 E1095.65814 ; infill
@@ -7623,11 +6789,8 @@ G1 X-11.323 Y6.070 E1096.60132 ; infill
 G1 X-6.070 Y11.323 E1096.79782 ; infill
 G1 X-9.402 Y11.323 E1096.88595 ; infill
 G1 X-11.323 Y9.402 E1096.95781 ; infill
+
 G1 Z9.300 F60000.000 ; move to next layer (91)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1097.38476 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1097.81170 ; perimeter
@@ -7646,10 +6809,7 @@ G1 X12.550 Y12.505 E1101.48910 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1101.61578 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1101.70391 ; infill
 G1 X4.605 Y11.323 E1101.95523 ; infill
 G1 X1.272 Y11.323 E1102.04336 ; infill
@@ -7664,10 +6824,7 @@ G1 X-11.323 Y10.591 E1104.63083 ; infill
 G1 X10.591 Y-11.323 E1105.45052 ; infill
 G1 X7.259 Y-11.323 E1105.53865 ; infill
 G1 X-11.323 Y7.259 E1106.23370 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1106.32184 ; infill
 G1 X3.926 Y-11.323 E1106.89225 ; infill
 G1 X0.594 Y-11.323 E1106.98038 ; infill
@@ -7678,11 +6835,8 @@ G1 X-6.070 Y-11.323 E1107.92356 ; infill
 G1 X-11.323 Y-6.070 E1108.12006 ; infill
 G1 X-11.323 Y-9.402 E1108.20819 ; infill
 G1 X-9.402 Y-11.323 E1108.28005 ; infill
+
 G1 Z9.400 F60000.000 ; move to next layer (92)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1108.70699 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1109.13394 ; perimeter
@@ -7701,10 +6855,7 @@ G1 X12.550 Y12.505 E1112.81134 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1112.93802 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1113.02615 ; infill
 G1 X11.323 Y-4.605 E1113.27747 ; infill
 G1 X11.323 Y-1.272 E1113.36560 ; infill
@@ -7719,10 +6870,7 @@ G1 X10.591 Y11.323 E1115.95307 ; infill
 G1 X-11.323 Y-10.591 E1116.77276 ; infill
 G1 X-11.323 Y-7.259 E1116.86089 ; infill
 G1 X7.259 Y11.323 E1117.55594 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1117.64407 ; infill
 G1 X-11.323 Y-3.926 E1118.21449 ; infill
 G1 X-11.323 Y-0.594 E1118.30262 ; infill
@@ -7733,11 +6881,8 @@ G1 X-11.323 Y6.070 E1119.24579 ; infill
 G1 X-6.070 Y11.323 E1119.44229 ; infill
 G1 X-9.402 Y11.323 E1119.53043 ; infill
 G1 X-11.323 Y9.402 E1119.60229 ; infill
+
 G1 Z9.500 F60000.000 ; move to next layer (93)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1120.02923 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1120.45618 ; perimeter
@@ -7756,10 +6901,7 @@ G1 X12.550 Y12.505 E1124.13358 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1124.26026 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1124.34839 ; infill
 G1 X4.605 Y11.323 E1124.59970 ; infill
 G1 X1.272 Y11.323 E1124.68784 ; infill
@@ -7774,10 +6916,7 @@ G1 X-11.323 Y10.591 E1127.27531 ; infill
 G1 X10.591 Y-11.323 E1128.09500 ; infill
 G1 X7.259 Y-11.323 E1128.18313 ; infill
 G1 X-11.323 Y7.259 E1128.87818 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1128.96631 ; infill
 G1 X3.926 Y-11.323 E1129.53672 ; infill
 G1 X0.594 Y-11.323 E1129.62486 ; infill
@@ -7788,11 +6927,8 @@ G1 X-6.070 Y-11.323 E1130.56803 ; infill
 G1 X-11.323 Y-6.070 E1130.76453 ; infill
 G1 X-11.323 Y-9.402 E1130.85266 ; infill
 G1 X-9.402 Y-11.323 E1130.92452 ; infill
+
 G1 Z9.600 F60000.000 ; move to next layer (94)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1131.35147 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1131.77841 ; perimeter
@@ -7811,10 +6947,7 @@ G1 X12.550 Y12.505 E1135.45581 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1135.58249 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1135.67062 ; infill
 G1 X11.323 Y-4.605 E1135.92194 ; infill
 G1 X11.323 Y-1.272 E1136.01007 ; infill
@@ -7829,10 +6962,7 @@ G1 X10.591 Y11.323 E1138.59754 ; infill
 G1 X-11.323 Y-10.591 E1139.41723 ; infill
 G1 X-11.323 Y-7.259 E1139.50537 ; infill
 G1 X7.259 Y11.323 E1140.20042 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1140.28855 ; infill
 G1 X-11.323 Y-3.926 E1140.85896 ; infill
 G1 X-11.323 Y-0.594 E1140.94709 ; infill
@@ -7843,11 +6973,8 @@ G1 X-11.323 Y6.070 E1141.89027 ; infill
 G1 X-6.070 Y11.323 E1142.08677 ; infill
 G1 X-9.402 Y11.323 E1142.17490 ; infill
 G1 X-11.323 Y9.402 E1142.24676 ; infill
+
 G1 Z9.700 F60000.000 ; move to next layer (95)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1142.67371 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1143.10065 ; perimeter
@@ -7866,10 +6993,7 @@ G1 X12.550 Y12.505 E1146.77805 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1146.90473 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1146.99286 ; infill
 G1 X4.605 Y11.323 E1147.24418 ; infill
 G1 X1.272 Y11.323 E1147.33231 ; infill
@@ -7884,10 +7008,7 @@ G1 X-11.323 Y10.591 E1149.91978 ; infill
 G1 X10.591 Y-11.323 E1150.73947 ; infill
 G1 X7.259 Y-11.323 E1150.82760 ; infill
 G1 X-11.323 Y7.259 E1151.52265 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1151.61079 ; infill
 G1 X3.926 Y-11.323 E1152.18120 ; infill
 G1 X0.594 Y-11.323 E1152.26933 ; infill
@@ -7898,11 +7019,8 @@ G1 X-6.070 Y-11.323 E1153.21251 ; infill
 G1 X-11.323 Y-6.070 E1153.40901 ; infill
 G1 X-11.323 Y-9.402 E1153.49714 ; infill
 G1 X-9.402 Y-11.323 E1153.56900 ; infill
+
 G1 Z9.800 F60000.000 ; move to next layer (96)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1153.99594 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1154.42289 ; perimeter
@@ -7921,10 +7039,7 @@ G1 X12.550 Y12.505 E1158.10029 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1158.22697 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1158.31510 ; infill
 G1 X11.323 Y-4.605 E1158.56642 ; infill
 G1 X11.323 Y-1.272 E1158.65455 ; infill
@@ -7939,10 +7054,7 @@ G1 X10.591 Y11.323 E1161.24202 ; infill
 G1 X-11.323 Y-10.591 E1162.06171 ; infill
 G1 X-11.323 Y-7.259 E1162.14984 ; infill
 G1 X7.259 Y11.323 E1162.84489 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1162.93302 ; infill
 G1 X-11.323 Y-3.926 E1163.50344 ; infill
 G1 X-11.323 Y-0.594 E1163.59157 ; infill
@@ -7953,11 +7065,8 @@ G1 X-11.323 Y6.070 E1164.53474 ; infill
 G1 X-6.070 Y11.323 E1164.73124 ; infill
 G1 X-9.402 Y11.323 E1164.81937 ; infill
 G1 X-11.323 Y9.402 E1164.89124 ; infill
+
 G1 Z9.900 F60000.000 ; move to next layer (97)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1165.31818 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1165.74513 ; perimeter
@@ -7976,10 +7085,7 @@ G1 X12.550 Y12.505 E1169.42253 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1169.54920 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1169.63734 ; infill
 G1 X4.605 Y11.323 E1169.88865 ; infill
 G1 X1.272 Y11.323 E1169.97678 ; infill
@@ -7994,10 +7100,7 @@ G1 X-11.323 Y10.591 E1172.56426 ; infill
 G1 X10.591 Y-11.323 E1173.38394 ; infill
 G1 X7.259 Y-11.323 E1173.47208 ; infill
 G1 X-11.323 Y7.259 E1174.16713 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1174.25526 ; infill
 G1 X3.926 Y-11.323 E1174.82567 ; infill
 G1 X0.594 Y-11.323 E1174.91380 ; infill
@@ -8008,11 +7111,8 @@ G1 X-6.070 Y-11.323 E1175.85698 ; infill
 G1 X-11.323 Y-6.070 E1176.05348 ; infill
 G1 X-11.323 Y-9.402 E1176.14161 ; infill
 G1 X-9.402 Y-11.323 E1176.21347 ; infill
+
 G1 Z10.000 F60000.000 ; move to next layer (98)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1176.64042 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1177.06736 ; perimeter
@@ -8031,10 +7131,7 @@ G1 X12.550 Y12.505 E1180.74476 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1180.87144 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1180.95957 ; infill
 G1 X11.323 Y-4.605 E1181.21089 ; infill
 G1 X11.323 Y-1.272 E1181.29902 ; infill
@@ -8049,10 +7146,7 @@ G1 X10.591 Y11.323 E1183.88649 ; infill
 G1 X-11.323 Y-10.591 E1184.70618 ; infill
 G1 X-11.323 Y-7.259 E1184.79431 ; infill
 G1 X7.259 Y11.323 E1185.48936 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1185.57750 ; infill
 G1 X-11.323 Y-3.926 E1186.14791 ; infill
 G1 X-11.323 Y-0.594 E1186.23604 ; infill
@@ -8063,11 +7157,8 @@ G1 X-11.323 Y6.070 E1187.17922 ; infill
 G1 X-6.070 Y11.323 E1187.37572 ; infill
 G1 X-9.402 Y11.323 E1187.46385 ; infill
 G1 X-11.323 Y9.402 E1187.53571 ; infill
+
 G1 Z10.100 F60000.000 ; move to next layer (99)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1187.96266 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1188.38960 ; perimeter
@@ -8086,10 +7177,7 @@ G1 X12.550 Y12.505 E1192.06700 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1192.19368 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1192.28181 ; infill
 G1 X4.605 Y11.323 E1192.53313 ; infill
 G1 X1.272 Y11.323 E1192.62126 ; infill
@@ -8104,10 +7192,7 @@ G1 X-11.323 Y10.591 E1195.20873 ; infill
 G1 X10.591 Y-11.323 E1196.02842 ; infill
 G1 X7.259 Y-11.323 E1196.11655 ; infill
 G1 X-11.323 Y7.259 E1196.81160 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1196.89973 ; infill
 G1 X3.926 Y-11.323 E1197.47015 ; infill
 G1 X0.594 Y-11.323 E1197.55828 ; infill
@@ -8118,11 +7203,8 @@ G1 X-6.070 Y-11.323 E1198.50146 ; infill
 G1 X-11.323 Y-6.070 E1198.69795 ; infill
 G1 X-11.323 Y-9.402 E1198.78609 ; infill
 G1 X-9.402 Y-11.323 E1198.85795 ; infill
+
 G1 Z10.200 F60000.000 ; move to next layer (100)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1199.28489 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1199.71184 ; perimeter
@@ -8141,10 +7223,7 @@ G1 X12.550 Y12.505 E1203.38924 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1203.51592 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1203.60405 ; infill
 G1 X11.323 Y-4.605 E1203.85536 ; infill
 G1 X11.323 Y-1.272 E1203.94350 ; infill
@@ -8159,10 +7238,7 @@ G1 X10.591 Y11.323 E1206.53097 ; infill
 G1 X-11.323 Y-10.591 E1207.35066 ; infill
 G1 X-11.323 Y-7.259 E1207.43879 ; infill
 G1 X7.259 Y11.323 E1208.13384 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1208.22197 ; infill
 G1 X-11.323 Y-3.926 E1208.79238 ; infill
 G1 X-11.323 Y-0.594 E1208.88052 ; infill
@@ -8173,11 +7249,8 @@ G1 X-11.323 Y6.070 E1209.82369 ; infill
 G1 X-6.070 Y11.323 E1210.02019 ; infill
 G1 X-9.402 Y11.323 E1210.10832 ; infill
 G1 X-11.323 Y9.402 E1210.18018 ; infill
+
 G1 Z10.300 F60000.000 ; move to next layer (101)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1210.60713 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1211.03407 ; perimeter
@@ -8196,10 +7269,7 @@ G1 X12.550 Y12.505 E1214.71147 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1214.83815 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1214.92629 ; infill
 G1 X4.605 Y11.323 E1215.17760 ; infill
 G1 X1.272 Y11.323 E1215.26573 ; infill
@@ -8214,10 +7284,7 @@ G1 X-11.323 Y10.591 E1217.85320 ; infill
 G1 X10.591 Y-11.323 E1218.67289 ; infill
 G1 X7.259 Y-11.323 E1218.76103 ; infill
 G1 X-11.323 Y7.259 E1219.45608 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1219.54421 ; infill
 G1 X3.926 Y-11.323 E1220.11462 ; infill
 G1 X0.594 Y-11.323 E1220.20275 ; infill
@@ -8228,11 +7295,8 @@ G1 X-6.070 Y-11.323 E1221.14593 ; infill
 G1 X-11.323 Y-6.070 E1221.34243 ; infill
 G1 X-11.323 Y-9.402 E1221.43056 ; infill
 G1 X-9.402 Y-11.323 E1221.50242 ; infill
+
 G1 Z10.400 F60000.000 ; move to next layer (102)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1221.92937 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1222.35631 ; perimeter
@@ -8251,10 +7315,7 @@ G1 X12.550 Y12.505 E1226.03371 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1226.16039 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1226.24852 ; infill
 G1 X11.323 Y-4.605 E1226.49984 ; infill
 G1 X11.323 Y-1.272 E1226.58797 ; infill
@@ -8269,10 +7330,7 @@ G1 X10.591 Y11.323 E1229.17544 ; infill
 G1 X-11.323 Y-10.591 E1229.99513 ; infill
 G1 X-11.323 Y-7.259 E1230.08326 ; infill
 G1 X7.259 Y11.323 E1230.77831 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1230.86645 ; infill
 G1 X-11.323 Y-3.926 E1231.43686 ; infill
 G1 X-11.323 Y-0.594 E1231.52499 ; infill
@@ -8283,11 +7341,8 @@ G1 X-11.323 Y6.070 E1232.46817 ; infill
 G1 X-6.070 Y11.323 E1232.66467 ; infill
 G1 X-9.402 Y11.323 E1232.75280 ; infill
 G1 X-11.323 Y9.402 E1232.82466 ; infill
+
 G1 Z10.500 F60000.000 ; move to next layer (103)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1233.25160 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1233.67855 ; perimeter
@@ -8306,10 +7361,7 @@ G1 X12.550 Y12.505 E1237.35595 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1237.48263 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1237.57076 ; infill
 G1 X4.605 Y11.323 E1237.82208 ; infill
 G1 X1.272 Y11.323 E1237.91021 ; infill
@@ -8324,10 +7376,7 @@ G1 X-11.323 Y10.591 E1240.49768 ; infill
 G1 X10.591 Y-11.323 E1241.31737 ; infill
 G1 X7.259 Y-11.323 E1241.40550 ; infill
 G1 X-11.323 Y7.259 E1242.10055 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1242.18868 ; infill
 G1 X3.926 Y-11.323 E1242.75910 ; infill
 G1 X0.594 Y-11.323 E1242.84723 ; infill
@@ -8338,11 +7387,8 @@ G1 X-6.070 Y-11.323 E1243.79040 ; infill
 G1 X-11.323 Y-6.070 E1243.98690 ; infill
 G1 X-11.323 Y-9.402 E1244.07504 ; infill
 G1 X-9.402 Y-11.323 E1244.14690 ; infill
+
 G1 Z10.600 F60000.000 ; move to next layer (104)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1244.57384 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1245.00079 ; perimeter
@@ -8361,10 +7407,7 @@ G1 X12.550 Y12.505 E1248.67819 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1248.80486 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1248.89300 ; infill
 G1 X11.323 Y-4.605 E1249.14431 ; infill
 G1 X11.323 Y-1.272 E1249.23245 ; infill
@@ -8379,10 +7422,7 @@ G1 X10.591 Y11.323 E1251.81992 ; infill
 G1 X-11.323 Y-10.591 E1252.63960 ; infill
 G1 X-11.323 Y-7.259 E1252.72774 ; infill
 G1 X7.259 Y11.323 E1253.42279 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1253.51092 ; infill
 G1 X-11.323 Y-3.926 E1254.08133 ; infill
 G1 X-11.323 Y-0.594 E1254.16946 ; infill
@@ -8393,11 +7433,8 @@ G1 X-11.323 Y6.070 E1255.11264 ; infill
 G1 X-6.070 Y11.323 E1255.30914 ; infill
 G1 X-9.402 Y11.323 E1255.39727 ; infill
 G1 X-11.323 Y9.402 E1255.46913 ; infill
+
 G1 Z10.700 F60000.000 ; move to next layer (105)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1255.89608 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1256.32302 ; perimeter
@@ -8416,10 +7453,7 @@ G1 X12.550 Y12.505 E1260.00042 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1260.12710 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1260.21523 ; infill
 G1 X4.605 Y11.323 E1260.46655 ; infill
 G1 X1.272 Y11.323 E1260.55468 ; infill
@@ -8434,10 +7468,7 @@ G1 X-11.323 Y10.591 E1263.14215 ; infill
 G1 X10.591 Y-11.323 E1263.96184 ; infill
 G1 X7.259 Y-11.323 E1264.04997 ; infill
 G1 X-11.323 Y7.259 E1264.74502 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1264.83316 ; infill
 G1 X3.926 Y-11.323 E1265.40357 ; infill
 G1 X0.594 Y-11.323 E1265.49170 ; infill
@@ -8448,11 +7479,8 @@ G1 X-6.070 Y-11.323 E1266.43488 ; infill
 G1 X-11.323 Y-6.070 E1266.63138 ; infill
 G1 X-11.323 Y-9.402 E1266.71951 ; infill
 G1 X-9.402 Y-11.323 E1266.79137 ; infill
+
 G1 Z10.800 F60000.000 ; move to next layer (106)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1267.21832 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1267.64526 ; perimeter
@@ -8471,10 +7499,7 @@ G1 X12.550 Y12.505 E1271.32266 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1271.44934 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1271.53747 ; infill
 G1 X11.323 Y-4.605 E1271.78879 ; infill
 G1 X11.323 Y-1.272 E1271.87692 ; infill
@@ -8489,10 +7514,7 @@ G1 X10.591 Y11.323 E1274.46439 ; infill
 G1 X-11.323 Y-10.591 E1275.28408 ; infill
 G1 X-11.323 Y-7.259 E1275.37221 ; infill
 G1 X7.259 Y11.323 E1276.06726 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1276.15539 ; infill
 G1 X-11.323 Y-3.926 E1276.72581 ; infill
 G1 X-11.323 Y-0.594 E1276.81394 ; infill
@@ -8503,11 +7525,8 @@ G1 X-11.323 Y6.070 E1277.75712 ; infill
 G1 X-6.070 Y11.323 E1277.95361 ; infill
 G1 X-9.402 Y11.323 E1278.04175 ; infill
 G1 X-11.323 Y9.402 E1278.11361 ; infill
+
 G1 Z10.900 F60000.000 ; move to next layer (107)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1278.54055 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1278.96750 ; perimeter
@@ -8526,10 +7545,7 @@ G1 X12.550 Y12.505 E1282.64490 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1282.77158 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1282.85971 ; infill
 G1 X4.605 Y11.323 E1283.11102 ; infill
 G1 X1.272 Y11.323 E1283.19916 ; infill
@@ -8544,10 +7560,7 @@ G1 X-11.323 Y10.591 E1285.78663 ; infill
 G1 X10.591 Y-11.323 E1286.60632 ; infill
 G1 X7.259 Y-11.323 E1286.69445 ; infill
 G1 X-11.323 Y7.259 E1287.38950 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1287.47763 ; infill
 G1 X3.926 Y-11.323 E1288.04804 ; infill
 G1 X0.594 Y-11.323 E1288.13618 ; infill
@@ -8558,11 +7571,8 @@ G1 X-6.070 Y-11.323 E1289.07935 ; infill
 G1 X-11.323 Y-6.070 E1289.27585 ; infill
 G1 X-11.323 Y-9.402 E1289.36398 ; infill
 G1 X-9.402 Y-11.323 E1289.43584 ; infill
+
 G1 Z11.000 F60000.000 ; move to next layer (108)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1289.86279 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1290.28973 ; perimeter
@@ -8581,10 +7591,7 @@ G1 X12.550 Y12.505 E1293.96713 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1294.09381 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1294.18195 ; infill
 G1 X11.323 Y-4.605 E1294.43326 ; infill
 G1 X11.323 Y-1.272 E1294.52139 ; infill
@@ -8599,10 +7606,7 @@ G1 X10.591 Y11.323 E1297.10887 ; infill
 G1 X-11.323 Y-10.591 E1297.92855 ; infill
 G1 X-11.323 Y-7.259 E1298.01669 ; infill
 G1 X7.259 Y11.323 E1298.71174 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1298.79987 ; infill
 G1 X-11.323 Y-3.926 E1299.37028 ; infill
 G1 X-11.323 Y-0.594 E1299.45841 ; infill
@@ -8613,11 +7617,8 @@ G1 X-11.323 Y6.070 E1300.40159 ; infill
 G1 X-6.070 Y11.323 E1300.59809 ; infill
 G1 X-9.402 Y11.323 E1300.68622 ; infill
 G1 X-11.323 Y9.402 E1300.75808 ; infill
+
 G1 Z11.100 F60000.000 ; move to next layer (109)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1301.18503 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1301.61197 ; perimeter
@@ -8636,10 +7637,7 @@ G1 X12.550 Y12.505 E1305.28937 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1305.41605 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1305.50418 ; infill
 G1 X4.605 Y11.323 E1305.75550 ; infill
 G1 X1.272 Y11.323 E1305.84363 ; infill
@@ -8654,10 +7652,7 @@ G1 X-11.323 Y10.591 E1308.43110 ; infill
 G1 X10.591 Y-11.323 E1309.25079 ; infill
 G1 X7.259 Y-11.323 E1309.33892 ; infill
 G1 X-11.323 Y7.259 E1310.03397 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1310.12211 ; infill
 G1 X3.926 Y-11.323 E1310.69252 ; infill
 G1 X0.594 Y-11.323 E1310.78065 ; infill
@@ -8668,11 +7663,8 @@ G1 X-6.070 Y-11.323 E1311.72383 ; infill
 G1 X-11.323 Y-6.070 E1311.92033 ; infill
 G1 X-11.323 Y-9.402 E1312.00846 ; infill
 G1 X-9.402 Y-11.323 E1312.08032 ; infill
+
 G1 Z11.200 F60000.000 ; move to next layer (110)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1312.50726 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1312.93421 ; perimeter
@@ -8691,10 +7683,7 @@ G1 X12.550 Y12.505 E1316.61161 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1316.73829 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1316.82642 ; infill
 G1 X11.323 Y-4.605 E1317.07774 ; infill
 G1 X11.323 Y-1.272 E1317.16587 ; infill
@@ -8709,10 +7698,7 @@ G1 X10.591 Y11.323 E1319.75334 ; infill
 G1 X-11.323 Y-10.591 E1320.57303 ; infill
 G1 X-11.323 Y-7.259 E1320.66116 ; infill
 G1 X7.259 Y11.323 E1321.35621 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1321.44434 ; infill
 G1 X-11.323 Y-3.926 E1322.01476 ; infill
 G1 X-11.323 Y-0.594 E1322.10289 ; infill
@@ -8723,11 +7709,8 @@ G1 X-11.323 Y6.070 E1323.04606 ; infill
 G1 X-6.070 Y11.323 E1323.24256 ; infill
 G1 X-9.402 Y11.323 E1323.33070 ; infill
 G1 X-11.323 Y9.402 E1323.40256 ; infill
+
 G1 Z11.300 F60000.000 ; move to next layer (111)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1323.82950 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1324.25645 ; perimeter
@@ -8746,10 +7729,7 @@ G1 X12.550 Y12.505 E1327.93385 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1328.06052 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1328.14866 ; infill
 G1 X4.605 Y11.323 E1328.39997 ; infill
 G1 X1.272 Y11.323 E1328.48811 ; infill
@@ -8764,10 +7744,7 @@ G1 X-11.323 Y10.591 E1331.07558 ; infill
 G1 X10.591 Y-11.323 E1331.89526 ; infill
 G1 X7.259 Y-11.323 E1331.98340 ; infill
 G1 X-11.323 Y7.259 E1332.67845 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1332.76658 ; infill
 G1 X3.926 Y-11.323 E1333.33699 ; infill
 G1 X0.594 Y-11.323 E1333.42513 ; infill
@@ -8778,11 +7755,8 @@ G1 X-6.070 Y-11.323 E1334.36830 ; infill
 G1 X-11.323 Y-6.070 E1334.56480 ; infill
 G1 X-11.323 Y-9.402 E1334.65293 ; infill
 G1 X-9.402 Y-11.323 E1334.72479 ; infill
+
 G1 Z11.400 F60000.000 ; move to next layer (112)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1335.15174 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1335.57868 ; perimeter
@@ -8801,10 +7775,7 @@ G1 X12.550 Y12.505 E1339.25608 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1339.38276 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1339.47089 ; infill
 G1 X11.323 Y-4.605 E1339.72221 ; infill
 G1 X11.323 Y-1.272 E1339.81034 ; infill
@@ -8819,10 +7790,7 @@ G1 X10.591 Y11.323 E1342.39781 ; infill
 G1 X-11.323 Y-10.591 E1343.21750 ; infill
 G1 X-11.323 Y-7.259 E1343.30563 ; infill
 G1 X7.259 Y11.323 E1344.00069 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1344.08882 ; infill
 G1 X-11.323 Y-3.926 E1344.65923 ; infill
 G1 X-11.323 Y-0.594 E1344.74736 ; infill
@@ -8833,11 +7801,8 @@ G1 X-11.323 Y6.070 E1345.69054 ; infill
 G1 X-6.070 Y11.323 E1345.88704 ; infill
 G1 X-9.402 Y11.323 E1345.97517 ; infill
 G1 X-11.323 Y9.402 E1346.04703 ; infill
+
 G1 Z11.500 F60000.000 ; move to next layer (113)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1346.47398 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1346.90092 ; perimeter
@@ -8856,10 +7821,7 @@ G1 X12.550 Y12.505 E1350.57832 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1350.70500 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1350.79313 ; infill
 G1 X4.605 Y11.323 E1351.04445 ; infill
 G1 X1.272 Y11.323 E1351.13258 ; infill
@@ -8874,10 +7836,7 @@ G1 X-11.323 Y10.591 E1353.72005 ; infill
 G1 X10.591 Y-11.323 E1354.53974 ; infill
 G1 X7.259 Y-11.323 E1354.62787 ; infill
 G1 X-11.323 Y7.259 E1355.32292 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1355.41105 ; infill
 G1 X3.926 Y-11.323 E1355.98147 ; infill
 G1 X0.594 Y-11.323 E1356.06960 ; infill
@@ -8888,11 +7847,8 @@ G1 X-6.070 Y-11.323 E1357.01278 ; infill
 G1 X-11.323 Y-6.070 E1357.20927 ; infill
 G1 X-11.323 Y-9.402 E1357.29741 ; infill
 G1 X-9.402 Y-11.323 E1357.36927 ; infill
+
 G1 Z11.600 F60000.000 ; move to next layer (114)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1357.79621 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1358.22316 ; perimeter
@@ -8911,10 +7867,7 @@ G1 X12.550 Y12.505 E1361.90056 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1362.02724 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1362.11537 ; infill
 G1 X11.323 Y-4.605 E1362.36668 ; infill
 G1 X11.323 Y-1.272 E1362.45482 ; infill
@@ -8929,10 +7882,7 @@ G1 X10.591 Y11.323 E1365.04229 ; infill
 G1 X-11.323 Y-10.591 E1365.86198 ; infill
 G1 X-11.323 Y-7.259 E1365.95011 ; infill
 G1 X7.259 Y11.323 E1366.64516 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1366.73329 ; infill
 G1 X-11.323 Y-3.926 E1367.30370 ; infill
 G1 X-11.323 Y-0.594 E1367.39184 ; infill
@@ -8943,11 +7893,8 @@ G1 X-11.323 Y6.070 E1368.33501 ; infill
 G1 X-6.070 Y11.323 E1368.53151 ; infill
 G1 X-9.402 Y11.323 E1368.61964 ; infill
 G1 X-11.323 Y9.402 E1368.69151 ; infill
+
 G1 Z11.700 F60000.000 ; move to next layer (115)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1369.11845 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1369.54540 ; perimeter
@@ -8966,10 +7913,7 @@ G1 X12.550 Y12.505 E1373.22280 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1373.34947 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1373.43761 ; infill
 G1 X4.605 Y11.323 E1373.68892 ; infill
 G1 X1.272 Y11.323 E1373.77705 ; infill
@@ -8984,10 +7928,7 @@ G1 X-11.323 Y10.591 E1376.36453 ; infill
 G1 X10.591 Y-11.323 E1377.18421 ; infill
 G1 X7.259 Y-11.323 E1377.27235 ; infill
 G1 X-11.323 Y7.259 E1377.96740 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1378.05553 ; infill
 G1 X3.926 Y-11.323 E1378.62594 ; infill
 G1 X0.594 Y-11.323 E1378.71407 ; infill
@@ -8998,11 +7939,8 @@ G1 X-6.070 Y-11.323 E1379.65725 ; infill
 G1 X-11.323 Y-6.070 E1379.85375 ; infill
 G1 X-11.323 Y-9.402 E1379.94188 ; infill
 G1 X-9.402 Y-11.323 E1380.01374 ; infill
+
 G1 Z11.800 F60000.000 ; move to next layer (116)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1380.44069 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1380.86763 ; perimeter
@@ -9021,10 +7959,7 @@ G1 X12.550 Y12.505 E1384.54503 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1384.67171 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1384.75984 ; infill
 G1 X11.323 Y-4.605 E1385.01116 ; infill
 G1 X11.323 Y-1.272 E1385.09929 ; infill
@@ -9039,10 +7974,7 @@ G1 X10.591 Y11.323 E1387.68676 ; infill
 G1 X-11.323 Y-10.591 E1388.50645 ; infill
 G1 X-11.323 Y-7.259 E1388.59458 ; infill
 G1 X7.259 Y11.323 E1389.28963 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1389.37777 ; infill
 G1 X-11.323 Y-3.926 E1389.94818 ; infill
 G1 X-11.323 Y-0.594 E1390.03631 ; infill
@@ -9053,11 +7985,8 @@ G1 X-11.323 Y6.070 E1390.97949 ; infill
 G1 X-6.070 Y11.323 E1391.17599 ; infill
 G1 X-9.402 Y11.323 E1391.26412 ; infill
 G1 X-11.323 Y9.402 E1391.33598 ; infill
+
 G1 Z11.900 F60000.000 ; move to next layer (117)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1391.76292 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1392.18987 ; perimeter
@@ -9076,10 +8005,7 @@ G1 X12.550 Y12.505 E1395.86727 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1395.99395 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1396.08208 ; infill
 G1 X4.605 Y11.323 E1396.33340 ; infill
 G1 X1.272 Y11.323 E1396.42153 ; infill
@@ -9094,10 +8020,7 @@ G1 X-11.323 Y10.591 E1399.00900 ; infill
 G1 X10.591 Y-11.323 E1399.82869 ; infill
 G1 X7.259 Y-11.323 E1399.91682 ; infill
 G1 X-11.323 Y7.259 E1400.61187 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1400.70000 ; infill
 G1 X3.926 Y-11.323 E1401.27042 ; infill
 G1 X0.594 Y-11.323 E1401.35855 ; infill
@@ -9108,11 +8031,8 @@ G1 X-6.070 Y-11.323 E1402.30172 ; infill
 G1 X-11.323 Y-6.070 E1402.49822 ; infill
 G1 X-11.323 Y-9.402 E1402.58636 ; infill
 G1 X-9.402 Y-11.323 E1402.65822 ; infill
+
 G1 Z12.000 F60000.000 ; move to next layer (118)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1403.08516 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1403.51211 ; perimeter
@@ -9131,10 +8051,7 @@ G1 X12.550 Y12.505 E1407.18951 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1407.31619 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1407.40432 ; infill
 G1 X11.323 Y-4.605 E1407.65563 ; infill
 G1 X11.323 Y-1.272 E1407.74377 ; infill
@@ -9149,10 +8066,7 @@ G1 X10.591 Y11.323 E1410.33124 ; infill
 G1 X-11.323 Y-10.591 E1411.15093 ; infill
 G1 X-11.323 Y-7.259 E1411.23906 ; infill
 G1 X7.259 Y11.323 E1411.93411 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1412.02224 ; infill
 G1 X-11.323 Y-3.926 E1412.59265 ; infill
 G1 X-11.323 Y-0.594 E1412.68079 ; infill
@@ -9163,11 +8077,8 @@ G1 X-11.323 Y6.070 E1413.62396 ; infill
 G1 X-6.070 Y11.323 E1413.82046 ; infill
 G1 X-9.402 Y11.323 E1413.90859 ; infill
 G1 X-11.323 Y9.402 E1413.98045 ; infill
+
 G1 Z12.100 F60000.000 ; move to next layer (119)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1414.40740 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1414.83434 ; perimeter
@@ -9186,10 +8097,7 @@ G1 X12.550 Y12.505 E1418.51174 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1418.63842 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1418.72655 ; infill
 G1 X4.605 Y11.323 E1418.97787 ; infill
 G1 X1.272 Y11.323 E1419.06600 ; infill
@@ -9204,10 +8112,7 @@ G1 X-11.323 Y10.591 E1421.65347 ; infill
 G1 X10.591 Y-11.323 E1422.47316 ; infill
 G1 X7.259 Y-11.323 E1422.56129 ; infill
 G1 X-11.323 Y7.259 E1423.25635 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1423.34448 ; infill
 G1 X3.926 Y-11.323 E1423.91489 ; infill
 G1 X0.594 Y-11.323 E1424.00302 ; infill
@@ -9218,11 +8123,8 @@ G1 X-6.070 Y-11.323 E1424.94620 ; infill
 G1 X-11.323 Y-6.070 E1425.14270 ; infill
 G1 X-11.323 Y-9.402 E1425.23083 ; infill
 G1 X-9.402 Y-11.323 E1425.30269 ; infill
+
 G1 Z12.200 F60000.000 ; move to next layer (120)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1425.72964 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1426.15658 ; perimeter
@@ -9241,10 +8143,7 @@ G1 X12.550 Y12.505 E1429.83398 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1429.96066 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1430.04879 ; infill
 G1 X11.323 Y-4.605 E1430.30011 ; infill
 G1 X11.323 Y-1.272 E1430.38824 ; infill
@@ -9259,10 +8158,7 @@ G1 X10.591 Y11.323 E1432.97571 ; infill
 G1 X-11.323 Y-10.591 E1433.79540 ; infill
 G1 X-11.323 Y-7.259 E1433.88353 ; infill
 G1 X7.259 Y11.323 E1434.57858 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1434.66672 ; infill
 G1 X-11.323 Y-3.926 E1435.23713 ; infill
 G1 X-11.323 Y-0.594 E1435.32526 ; infill
@@ -9273,11 +8169,8 @@ G1 X-11.323 Y6.070 E1436.26844 ; infill
 G1 X-6.070 Y11.323 E1436.46493 ; infill
 G1 X-9.402 Y11.323 E1436.55307 ; infill
 G1 X-11.323 Y9.402 E1436.62493 ; infill
+
 G1 Z12.300 F60000.000 ; move to next layer (121)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1437.05187 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1437.47882 ; perimeter
@@ -9296,10 +8189,7 @@ G1 X12.550 Y12.505 E1441.15622 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1441.28290 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1441.37103 ; infill
 G1 X4.605 Y11.323 E1441.62234 ; infill
 G1 X1.272 Y11.323 E1441.71048 ; infill
@@ -9314,10 +8204,7 @@ G1 X-11.323 Y10.591 E1444.29795 ; infill
 G1 X10.591 Y-11.323 E1445.11764 ; infill
 G1 X7.259 Y-11.323 E1445.20577 ; infill
 G1 X-11.323 Y7.259 E1445.90082 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1445.98895 ; infill
 G1 X3.926 Y-11.323 E1446.55936 ; infill
 G1 X0.594 Y-11.323 E1446.64750 ; infill
@@ -9328,11 +8215,8 @@ G1 X-6.070 Y-11.323 E1447.59067 ; infill
 G1 X-11.323 Y-6.070 E1447.78717 ; infill
 G1 X-11.323 Y-9.402 E1447.87530 ; infill
 G1 X-9.402 Y-11.323 E1447.94717 ; infill
+
 G1 Z12.400 F60000.000 ; move to next layer (122)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1448.37411 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1448.80106 ; perimeter
@@ -9351,10 +8235,7 @@ G1 X12.550 Y12.505 E1452.47846 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1452.60513 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1452.69327 ; infill
 G1 X11.323 Y-4.605 E1452.94458 ; infill
 G1 X11.323 Y-1.272 E1453.03271 ; infill
@@ -9369,10 +8250,7 @@ G1 X10.591 Y11.323 E1455.62019 ; infill
 G1 X-11.323 Y-10.591 E1456.43987 ; infill
 G1 X-11.323 Y-7.259 E1456.52801 ; infill
 G1 X7.259 Y11.323 E1457.22306 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1457.31119 ; infill
 G1 X-11.323 Y-3.926 E1457.88160 ; infill
 G1 X-11.323 Y-0.594 E1457.96973 ; infill
@@ -9383,11 +8261,8 @@ G1 X-11.323 Y6.070 E1458.91291 ; infill
 G1 X-6.070 Y11.323 E1459.10941 ; infill
 G1 X-9.402 Y11.323 E1459.19754 ; infill
 G1 X-11.323 Y9.402 E1459.26940 ; infill
+
 G1 Z12.500 F60000.000 ; move to next layer (123)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1459.69635 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1460.12329 ; perimeter
@@ -9406,10 +8281,7 @@ G1 X12.550 Y12.505 E1463.80069 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1463.92737 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1464.01550 ; infill
 G1 X4.605 Y11.323 E1464.26682 ; infill
 G1 X1.272 Y11.323 E1464.35495 ; infill
@@ -9424,10 +8296,7 @@ G1 X-11.323 Y10.591 E1466.94242 ; infill
 G1 X10.591 Y-11.323 E1467.76211 ; infill
 G1 X7.259 Y-11.323 E1467.85024 ; infill
 G1 X-11.323 Y7.259 E1468.54529 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1468.63343 ; infill
 G1 X3.926 Y-11.323 E1469.20384 ; infill
 G1 X0.594 Y-11.323 E1469.29197 ; infill
@@ -9438,11 +8307,8 @@ G1 X-6.070 Y-11.323 E1470.23515 ; infill
 G1 X-11.323 Y-6.070 E1470.43165 ; infill
 G1 X-11.323 Y-9.402 E1470.51978 ; infill
 G1 X-9.402 Y-11.323 E1470.59164 ; infill
+
 G1 Z12.600 F60000.000 ; move to next layer (124)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1471.01858 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1471.44553 ; perimeter
@@ -9461,10 +8327,7 @@ G1 X12.550 Y12.505 E1475.12293 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1475.24961 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1475.33774 ; infill
 G1 X11.323 Y-4.605 E1475.58906 ; infill
 G1 X11.323 Y-1.272 E1475.67719 ; infill
@@ -9479,10 +8342,7 @@ G1 X10.591 Y11.323 E1478.26466 ; infill
 G1 X-11.323 Y-10.591 E1479.08435 ; infill
 G1 X-11.323 Y-7.259 E1479.17248 ; infill
 G1 X7.259 Y11.323 E1479.86753 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1479.95566 ; infill
 G1 X-11.323 Y-3.926 E1480.52608 ; infill
 G1 X-11.323 Y-0.594 E1480.61421 ; infill
@@ -9493,11 +8353,8 @@ G1 X-11.323 Y6.070 E1481.55738 ; infill
 G1 X-6.070 Y11.323 E1481.75388 ; infill
 G1 X-9.402 Y11.323 E1481.84202 ; infill
 G1 X-11.323 Y9.402 E1481.91388 ; infill
+
 G1 Z12.700 F60000.000 ; move to next layer (125)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1482.34082 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1482.76777 ; perimeter
@@ -9516,10 +8373,7 @@ G1 X12.550 Y12.505 E1486.44517 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1486.57185 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1486.65998 ; infill
 G1 X4.605 Y11.323 E1486.91129 ; infill
 G1 X1.272 Y11.323 E1486.99943 ; infill
@@ -9534,10 +8388,7 @@ G1 X-11.323 Y10.591 E1489.58690 ; infill
 G1 X10.591 Y-11.323 E1490.40659 ; infill
 G1 X7.259 Y-11.323 E1490.49472 ; infill
 G1 X-11.323 Y7.259 E1491.18977 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1491.27790 ; infill
 G1 X3.926 Y-11.323 E1491.84831 ; infill
 G1 X0.594 Y-11.323 E1491.93645 ; infill
@@ -9548,11 +8399,8 @@ G1 X-6.070 Y-11.323 E1492.87962 ; infill
 G1 X-11.323 Y-6.070 E1493.07612 ; infill
 G1 X-11.323 Y-9.402 E1493.16425 ; infill
 G1 X-9.402 Y-11.323 E1493.23611 ; infill
+
 G1 Z12.800 F60000.000 ; move to next layer (126)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1493.66306 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1494.09000 ; perimeter
@@ -9571,10 +8419,7 @@ G1 X12.550 Y12.505 E1497.76740 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1497.89408 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1497.98221 ; infill
 G1 X11.323 Y-4.605 E1498.23353 ; infill
 G1 X11.323 Y-1.272 E1498.32166 ; infill
@@ -9589,10 +8434,7 @@ G1 X10.591 Y11.323 E1500.90913 ; infill
 G1 X-11.323 Y-10.591 E1501.72882 ; infill
 G1 X-11.323 Y-7.259 E1501.81696 ; infill
 G1 X7.259 Y11.323 E1502.51201 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1502.60014 ; infill
 G1 X-11.323 Y-3.926 E1503.17055 ; infill
 G1 X-11.323 Y-0.594 E1503.25868 ; infill
@@ -9603,11 +8445,8 @@ G1 X-11.323 Y6.070 E1504.20186 ; infill
 G1 X-6.070 Y11.323 E1504.39836 ; infill
 G1 X-9.402 Y11.323 E1504.48649 ; infill
 G1 X-11.323 Y9.402 E1504.55835 ; infill
+
 G1 Z12.900 F60000.000 ; move to next layer (127)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1504.98530 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1505.41224 ; perimeter
@@ -9626,10 +8465,7 @@ G1 X12.550 Y12.505 E1509.08964 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1509.21632 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1509.30445 ; infill
 G1 X4.605 Y11.323 E1509.55577 ; infill
 G1 X1.272 Y11.323 E1509.64390 ; infill
@@ -9644,10 +8480,7 @@ G1 X-11.323 Y10.591 E1512.23137 ; infill
 G1 X10.591 Y-11.323 E1513.05106 ; infill
 G1 X7.259 Y-11.323 E1513.13919 ; infill
 G1 X-11.323 Y7.259 E1513.83424 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1513.92238 ; infill
 G1 X3.926 Y-11.323 E1514.49279 ; infill
 G1 X0.594 Y-11.323 E1514.58092 ; infill
@@ -9658,11 +8491,8 @@ G1 X-6.070 Y-11.323 E1515.52410 ; infill
 G1 X-11.323 Y-6.070 E1515.72060 ; infill
 G1 X-11.323 Y-9.402 E1515.80873 ; infill
 G1 X-9.402 Y-11.323 E1515.88059 ; infill
+
 G1 Z13.000 F60000.000 ; move to next layer (128)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1516.30753 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1516.73448 ; perimeter
@@ -9681,10 +8511,7 @@ G1 X12.550 Y12.505 E1520.41188 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1520.53856 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1520.62669 ; infill
 G1 X11.323 Y-4.605 E1520.87801 ; infill
 G1 X11.323 Y-1.272 E1520.96614 ; infill
@@ -9699,10 +8526,7 @@ G1 X10.591 Y11.323 E1523.55361 ; infill
 G1 X-11.323 Y-10.591 E1524.37330 ; infill
 G1 X-11.323 Y-7.259 E1524.46143 ; infill
 G1 X7.259 Y11.323 E1525.15648 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1525.24461 ; infill
 G1 X-11.323 Y-3.926 E1525.81503 ; infill
 G1 X-11.323 Y-0.594 E1525.90316 ; infill
@@ -9713,11 +8537,8 @@ G1 X-11.323 Y6.070 E1526.84633 ; infill
 G1 X-6.070 Y11.323 E1527.04283 ; infill
 G1 X-9.402 Y11.323 E1527.13096 ; infill
 G1 X-11.323 Y9.402 E1527.20283 ; infill
+
 G1 Z13.100 F60000.000 ; move to next layer (129)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1527.62977 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1528.05672 ; perimeter
@@ -9736,10 +8557,7 @@ G1 X12.550 Y12.505 E1531.73412 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1531.86079 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1531.94893 ; infill
 G1 X4.605 Y11.323 E1532.20024 ; infill
 G1 X1.272 Y11.323 E1532.28837 ; infill
@@ -9754,10 +8572,7 @@ G1 X-11.323 Y10.591 E1534.87585 ; infill
 G1 X10.591 Y-11.323 E1535.69553 ; infill
 G1 X7.259 Y-11.323 E1535.78367 ; infill
 G1 X-11.323 Y7.259 E1536.47872 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1536.56685 ; infill
 G1 X3.926 Y-11.323 E1537.13726 ; infill
 G1 X0.594 Y-11.323 E1537.22539 ; infill
@@ -9768,11 +8583,8 @@ G1 X-6.070 Y-11.323 E1538.16857 ; infill
 G1 X-11.323 Y-6.070 E1538.36507 ; infill
 G1 X-11.323 Y-9.402 E1538.45320 ; infill
 G1 X-9.402 Y-11.323 E1538.52506 ; infill
+
 G1 Z13.200 F60000.000 ; move to next layer (130)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1538.95201 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1539.37895 ; perimeter
@@ -9791,10 +8603,7 @@ G1 X12.550 Y12.505 E1543.05635 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1543.18303 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1543.27116 ; infill
 G1 X11.323 Y-4.605 E1543.52248 ; infill
 G1 X11.323 Y-1.272 E1543.61061 ; infill
@@ -9809,10 +8618,7 @@ G1 X10.591 Y11.323 E1546.19808 ; infill
 G1 X-11.323 Y-10.591 E1547.01777 ; infill
 G1 X-11.323 Y-7.259 E1547.10590 ; infill
 G1 X7.259 Y11.323 E1547.80095 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1547.88909 ; infill
 G1 X-11.323 Y-3.926 E1548.45950 ; infill
 G1 X-11.323 Y-0.594 E1548.54763 ; infill
@@ -9823,11 +8629,8 @@ G1 X-11.323 Y6.070 E1549.49081 ; infill
 G1 X-6.070 Y11.323 E1549.68731 ; infill
 G1 X-9.402 Y11.323 E1549.77544 ; infill
 G1 X-11.323 Y9.402 E1549.84730 ; infill
+
 G1 Z13.300 F60000.000 ; move to next layer (131)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1550.27425 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1550.70119 ; perimeter
@@ -9846,10 +8649,7 @@ G1 X12.550 Y12.505 E1554.37859 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1554.50527 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1554.59340 ; infill
 G1 X4.605 Y11.323 E1554.84472 ; infill
 G1 X1.272 Y11.323 E1554.93285 ; infill
@@ -9864,10 +8664,7 @@ G1 X-11.323 Y10.591 E1557.52032 ; infill
 G1 X10.591 Y-11.323 E1558.34001 ; infill
 G1 X7.259 Y-11.323 E1558.42814 ; infill
 G1 X-11.323 Y7.259 E1559.12319 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1559.21132 ; infill
 G1 X3.926 Y-11.323 E1559.78174 ; infill
 G1 X0.594 Y-11.323 E1559.86987 ; infill
@@ -9878,11 +8675,8 @@ G1 X-6.070 Y-11.323 E1560.81305 ; infill
 G1 X-11.323 Y-6.070 E1561.00954 ; infill
 G1 X-11.323 Y-9.402 E1561.09768 ; infill
 G1 X-9.402 Y-11.323 E1561.16954 ; infill
+
 G1 Z13.400 F60000.000 ; move to next layer (132)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1561.59648 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1562.02343 ; perimeter
@@ -9901,10 +8695,7 @@ G1 X12.550 Y12.505 E1565.70083 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1565.82751 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1565.91564 ; infill
 G1 X11.323 Y-4.605 E1566.16695 ; infill
 G1 X11.323 Y-1.272 E1566.25509 ; infill
@@ -9919,10 +8710,7 @@ G1 X10.591 Y11.323 E1568.84256 ; infill
 G1 X-11.323 Y-10.591 E1569.66225 ; infill
 G1 X-11.323 Y-7.259 E1569.75038 ; infill
 G1 X7.259 Y11.323 E1570.44543 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1570.53356 ; infill
 G1 X-11.323 Y-3.926 E1571.10397 ; infill
 G1 X-11.323 Y-0.594 E1571.19211 ; infill
@@ -9933,11 +8721,8 @@ G1 X-11.323 Y6.070 E1572.13528 ; infill
 G1 X-6.070 Y11.323 E1572.33178 ; infill
 G1 X-9.402 Y11.323 E1572.41991 ; infill
 G1 X-11.323 Y9.402 E1572.49177 ; infill
+
 G1 Z13.500 F60000.000 ; move to next layer (133)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1572.91872 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1573.34566 ; perimeter
@@ -9956,10 +8741,7 @@ G1 X12.550 Y12.505 E1577.02306 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1577.14974 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1577.23788 ; infill
 G1 X4.605 Y11.323 E1577.48919 ; infill
 G1 X1.272 Y11.323 E1577.57732 ; infill
@@ -9974,10 +8756,7 @@ G1 X-11.323 Y10.591 E1580.16479 ; infill
 G1 X10.591 Y-11.323 E1580.98448 ; infill
 G1 X7.259 Y-11.323 E1581.07262 ; infill
 G1 X-11.323 Y7.259 E1581.76767 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1581.85580 ; infill
 G1 X3.926 Y-11.323 E1582.42621 ; infill
 G1 X0.594 Y-11.323 E1582.51434 ; infill
@@ -9988,11 +8767,8 @@ G1 X-6.070 Y-11.323 E1583.45752 ; infill
 G1 X-11.323 Y-6.070 E1583.65402 ; infill
 G1 X-11.323 Y-9.402 E1583.74215 ; infill
 G1 X-9.402 Y-11.323 E1583.81401 ; infill
+
 G1 Z13.600 F60000.000 ; move to next layer (134)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1584.24096 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1584.66790 ; perimeter
@@ -10011,10 +8787,7 @@ G1 X12.550 Y12.505 E1588.34530 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1588.47198 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1588.56011 ; infill
 G1 X11.323 Y-4.605 E1588.81143 ; infill
 G1 X11.323 Y-1.272 E1588.89956 ; infill
@@ -10029,10 +8802,7 @@ G1 X10.591 Y11.323 E1591.48703 ; infill
 G1 X-11.323 Y-10.591 E1592.30672 ; infill
 G1 X-11.323 Y-7.259 E1592.39485 ; infill
 G1 X7.259 Y11.323 E1593.08990 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1593.17804 ; infill
 G1 X-11.323 Y-3.926 E1593.74845 ; infill
 G1 X-11.323 Y-0.594 E1593.83658 ; infill
@@ -10043,11 +8813,8 @@ G1 X-11.323 Y6.070 E1594.77976 ; infill
 G1 X-6.070 Y11.323 E1594.97626 ; infill
 G1 X-9.402 Y11.323 E1595.06439 ; infill
 G1 X-11.323 Y9.402 E1595.13625 ; infill
+
 G1 Z13.700 F60000.000 ; move to next layer (135)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1595.56319 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1595.99014 ; perimeter
@@ -10066,10 +8833,7 @@ G1 X12.550 Y12.505 E1599.66754 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1599.79422 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1599.88235 ; infill
 G1 X4.605 Y11.323 E1600.13367 ; infill
 G1 X1.272 Y11.323 E1600.22180 ; infill
@@ -10084,10 +8848,7 @@ G1 X-11.323 Y10.591 E1602.80927 ; infill
 G1 X10.591 Y-11.323 E1603.62896 ; infill
 G1 X7.259 Y-11.323 E1603.71709 ; infill
 G1 X-11.323 Y7.259 E1604.41214 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1604.50027 ; infill
 G1 X3.926 Y-11.323 E1605.07069 ; infill
 G1 X0.594 Y-11.323 E1605.15882 ; infill
@@ -10098,11 +8859,8 @@ G1 X-6.070 Y-11.323 E1606.10199 ; infill
 G1 X-11.323 Y-6.070 E1606.29849 ; infill
 G1 X-11.323 Y-9.402 E1606.38663 ; infill
 G1 X-9.402 Y-11.323 E1606.45849 ; infill
+
 G1 Z13.800 F60000.000 ; move to next layer (136)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1606.88543 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1607.31238 ; perimeter
@@ -10121,10 +8879,7 @@ G1 X12.550 Y12.505 E1610.98978 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1611.11645 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1611.20459 ; infill
 G1 X11.323 Y-4.605 E1611.45590 ; infill
 G1 X11.323 Y-1.272 E1611.54404 ; infill
@@ -10139,10 +8894,7 @@ G1 X10.591 Y11.323 E1614.13151 ; infill
 G1 X-11.323 Y-10.591 E1614.95119 ; infill
 G1 X-11.323 Y-7.259 E1615.03933 ; infill
 G1 X7.259 Y11.323 E1615.73438 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1615.82251 ; infill
 G1 X-11.323 Y-3.926 E1616.39292 ; infill
 G1 X-11.323 Y-0.594 E1616.48105 ; infill
@@ -10153,11 +8905,8 @@ G1 X-11.323 Y6.070 E1617.42423 ; infill
 G1 X-6.070 Y11.323 E1617.62073 ; infill
 G1 X-9.402 Y11.323 E1617.70886 ; infill
 G1 X-11.323 Y9.402 E1617.78072 ; infill
+
 G1 Z13.900 F60000.000 ; move to next layer (137)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1618.20767 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1618.63461 ; perimeter
@@ -10176,10 +8925,7 @@ G1 X12.550 Y12.505 E1622.31201 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1622.43869 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1622.52682 ; infill
 G1 X4.605 Y11.323 E1622.77814 ; infill
 G1 X1.272 Y11.323 E1622.86627 ; infill
@@ -10194,10 +8940,7 @@ G1 X-11.323 Y10.591 E1625.45374 ; infill
 G1 X10.591 Y-11.323 E1626.27343 ; infill
 G1 X7.259 Y-11.323 E1626.36156 ; infill
 G1 X-11.323 Y7.259 E1627.05661 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1627.14475 ; infill
 G1 X3.926 Y-11.323 E1627.71516 ; infill
 G1 X0.594 Y-11.323 E1627.80329 ; infill
@@ -10208,11 +8951,8 @@ G1 X-6.070 Y-11.323 E1628.74647 ; infill
 G1 X-11.323 Y-6.070 E1628.94297 ; infill
 G1 X-11.323 Y-9.402 E1629.03110 ; infill
 G1 X-9.402 Y-11.323 E1629.10296 ; infill
+
 G1 Z14.000 F60000.000 ; move to next layer (138)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1629.52991 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1629.95685 ; perimeter
@@ -10231,10 +8971,7 @@ G1 X12.550 Y12.505 E1633.63425 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1633.76093 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1633.84906 ; infill
 G1 X11.323 Y-4.605 E1634.10038 ; infill
 G1 X11.323 Y-1.272 E1634.18851 ; infill
@@ -10249,10 +8986,7 @@ G1 X10.591 Y11.323 E1636.77598 ; infill
 G1 X-11.323 Y-10.591 E1637.59567 ; infill
 G1 X-11.323 Y-7.259 E1637.68380 ; infill
 G1 X7.259 Y11.323 E1638.37885 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1638.46698 ; infill
 G1 X-11.323 Y-3.926 E1639.03740 ; infill
 G1 X-11.323 Y-0.594 E1639.12553 ; infill
@@ -10263,11 +8997,8 @@ G1 X-11.323 Y6.070 E1640.06871 ; infill
 G1 X-6.070 Y11.323 E1640.26520 ; infill
 G1 X-9.402 Y11.323 E1640.35334 ; infill
 G1 X-11.323 Y9.402 E1640.42520 ; infill
+
 G1 Z14.100 F60000.000 ; move to next layer (139)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1640.85214 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1641.27909 ; perimeter
@@ -10286,10 +9017,7 @@ G1 X12.550 Y12.505 E1644.95649 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1645.08317 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1645.17130 ; infill
 G1 X4.605 Y11.323 E1645.42261 ; infill
 G1 X1.272 Y11.323 E1645.51075 ; infill
@@ -10304,10 +9032,7 @@ G1 X-11.323 Y10.591 E1648.09822 ; infill
 G1 X10.591 Y-11.323 E1648.91791 ; infill
 G1 X7.259 Y-11.323 E1649.00604 ; infill
 G1 X-11.323 Y7.259 E1649.70109 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1649.78922 ; infill
 G1 X3.926 Y-11.323 E1650.35963 ; infill
 G1 X0.594 Y-11.323 E1650.44777 ; infill
@@ -10318,11 +9043,8 @@ G1 X-6.070 Y-11.323 E1651.39094 ; infill
 G1 X-11.323 Y-6.070 E1651.58744 ; infill
 G1 X-11.323 Y-9.402 E1651.67557 ; infill
 G1 X-9.402 Y-11.323 E1651.74743 ; infill
+
 G1 Z14.200 F60000.000 ; move to next layer (140)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1652.17438 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1652.60133 ; perimeter
@@ -10341,10 +9063,7 @@ G1 X12.550 Y12.505 E1656.27872 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1656.40540 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1656.49354 ; infill
 G1 X11.323 Y-4.605 E1656.74485 ; infill
 G1 X11.323 Y-1.272 E1656.83298 ; infill
@@ -10359,10 +9078,7 @@ G1 X10.591 Y11.323 E1659.42046 ; infill
 G1 X-11.323 Y-10.591 E1660.24014 ; infill
 G1 X-11.323 Y-7.259 E1660.32828 ; infill
 G1 X7.259 Y11.323 E1661.02333 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1661.11146 ; infill
 G1 X-11.323 Y-3.926 E1661.68187 ; infill
 G1 X-11.323 Y-0.594 E1661.77000 ; infill
@@ -10373,11 +9089,8 @@ G1 X-11.323 Y6.070 E1662.71318 ; infill
 G1 X-6.070 Y11.323 E1662.90968 ; infill
 G1 X-9.402 Y11.323 E1662.99781 ; infill
 G1 X-11.323 Y9.402 E1663.06967 ; infill
+
 G1 Z14.300 F60000.000 ; move to next layer (141)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1663.49662 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1663.92356 ; perimeter
@@ -10396,10 +9109,7 @@ G1 X12.550 Y12.505 E1667.60096 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1667.72764 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1667.81577 ; infill
 G1 X4.605 Y11.323 E1668.06709 ; infill
 G1 X1.272 Y11.323 E1668.15522 ; infill
@@ -10414,10 +9124,7 @@ G1 X-11.323 Y10.591 E1670.74269 ; infill
 G1 X10.591 Y-11.323 E1671.56238 ; infill
 G1 X7.259 Y-11.323 E1671.65051 ; infill
 G1 X-11.323 Y7.259 E1672.34556 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1672.43370 ; infill
 G1 X3.926 Y-11.323 E1673.00411 ; infill
 G1 X0.594 Y-11.323 E1673.09224 ; infill
@@ -10428,11 +9135,8 @@ G1 X-6.070 Y-11.323 E1674.03542 ; infill
 G1 X-11.323 Y-6.070 E1674.23192 ; infill
 G1 X-11.323 Y-9.402 E1674.32005 ; infill
 G1 X-9.402 Y-11.323 E1674.39191 ; infill
+
 G1 Z14.400 F60000.000 ; move to next layer (142)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1674.81885 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1675.24580 ; perimeter
@@ -10451,10 +9155,7 @@ G1 X12.550 Y12.505 E1678.92320 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1679.04988 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1679.13801 ; infill
 G1 X11.323 Y-4.605 E1679.38933 ; infill
 G1 X11.323 Y-1.272 E1679.47746 ; infill
@@ -10469,10 +9170,7 @@ G1 X10.591 Y11.323 E1682.06493 ; infill
 G1 X-11.323 Y-10.591 E1682.88462 ; infill
 G1 X-11.323 Y-7.259 E1682.97275 ; infill
 G1 X7.259 Y11.323 E1683.66780 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1683.75593 ; infill
 G1 X-11.323 Y-3.926 E1684.32635 ; infill
 G1 X-11.323 Y-0.594 E1684.41448 ; infill
@@ -10483,11 +9181,8 @@ G1 X-11.323 Y6.070 E1685.35765 ; infill
 G1 X-6.070 Y11.323 E1685.55415 ; infill
 G1 X-9.402 Y11.323 E1685.64229 ; infill
 G1 X-11.323 Y9.402 E1685.71415 ; infill
+
 G1 Z14.500 F60000.000 ; move to next layer (143)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1686.14109 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1686.56804 ; perimeter
@@ -10506,10 +9201,7 @@ G1 X12.550 Y12.505 E1690.24544 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1690.37211 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1690.46025 ; infill
 G1 X4.605 Y11.323 E1690.71156 ; infill
 G1 X1.272 Y11.323 E1690.79970 ; infill
@@ -10524,10 +9216,7 @@ G1 X-11.323 Y10.591 E1693.38717 ; infill
 G1 X10.591 Y-11.323 E1694.20685 ; infill
 G1 X7.259 Y-11.323 E1694.29499 ; infill
 G1 X-11.323 Y7.259 E1694.99004 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1695.07817 ; infill
 G1 X3.926 Y-11.323 E1695.64858 ; infill
 G1 X0.594 Y-11.323 E1695.73672 ; infill
@@ -10538,11 +9227,8 @@ G1 X-6.070 Y-11.323 E1696.67989 ; infill
 G1 X-11.323 Y-6.070 E1696.87639 ; infill
 G1 X-11.323 Y-9.402 E1696.96452 ; infill
 G1 X-9.402 Y-11.323 E1697.03638 ; infill
+
 G1 Z14.600 F60000.000 ; move to next layer (144)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1697.46333 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1697.89027 ; perimeter
@@ -10561,10 +9247,7 @@ G1 X12.550 Y12.505 E1701.56767 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1701.69435 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1701.78248 ; infill
 G1 X11.323 Y-4.605 E1702.03380 ; infill
 G1 X11.323 Y-1.272 E1702.12193 ; infill
@@ -10579,10 +9262,7 @@ G1 X10.591 Y11.323 E1704.70940 ; infill
 G1 X-11.323 Y-10.591 E1705.52909 ; infill
 G1 X-11.323 Y-7.259 E1705.61722 ; infill
 G1 X7.259 Y11.323 E1706.31228 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1706.40041 ; infill
 G1 X-11.323 Y-3.926 E1706.97082 ; infill
 G1 X-11.323 Y-0.594 E1707.05895 ; infill
@@ -10593,11 +9273,8 @@ G1 X-11.323 Y6.070 E1708.00213 ; infill
 G1 X-6.070 Y11.323 E1708.19863 ; infill
 G1 X-9.402 Y11.323 E1708.28676 ; infill
 G1 X-11.323 Y9.402 E1708.35862 ; infill
+
 G1 Z14.700 F60000.000 ; move to next layer (145)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1708.78557 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1709.21251 ; perimeter
@@ -10616,10 +9293,7 @@ G1 X12.550 Y12.505 E1712.88991 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1713.01659 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1713.10472 ; infill
 G1 X4.605 Y11.323 E1713.35604 ; infill
 G1 X1.272 Y11.323 E1713.44417 ; infill
@@ -10634,10 +9308,7 @@ G1 X-11.323 Y10.591 E1716.03164 ; infill
 G1 X10.591 Y-11.323 E1716.85133 ; infill
 G1 X7.259 Y-11.323 E1716.93946 ; infill
 G1 X-11.323 Y7.259 E1717.63451 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1717.72264 ; infill
 G1 X3.926 Y-11.323 E1718.29306 ; infill
 G1 X0.594 Y-11.323 E1718.38119 ; infill
@@ -10648,11 +9319,8 @@ G1 X-6.070 Y-11.323 E1719.32437 ; infill
 G1 X-11.323 Y-6.070 E1719.52086 ; infill
 G1 X-11.323 Y-9.402 E1719.60900 ; infill
 G1 X-9.402 Y-11.323 E1719.68086 ; infill
+
 G1 Z14.800 F60000.000 ; move to next layer (146)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1720.10780 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1720.53475 ; perimeter
@@ -10671,10 +9339,7 @@ G1 X12.550 Y12.505 E1724.21215 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1724.33883 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1724.42696 ; infill
 G1 X11.323 Y-4.605 E1724.67827 ; infill
 G1 X11.323 Y-1.272 E1724.76641 ; infill
@@ -10689,10 +9354,7 @@ G1 X10.591 Y11.323 E1727.35388 ; infill
 G1 X-11.323 Y-10.591 E1728.17357 ; infill
 G1 X-11.323 Y-7.259 E1728.26170 ; infill
 G1 X7.259 Y11.323 E1728.95675 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1729.04488 ; infill
 G1 X-11.323 Y-3.926 E1729.61529 ; infill
 G1 X-11.323 Y-0.594 E1729.70343 ; infill
@@ -10703,11 +9365,8 @@ G1 X-11.323 Y6.070 E1730.64660 ; infill
 G1 X-6.070 Y11.323 E1730.84310 ; infill
 G1 X-9.402 Y11.323 E1730.93123 ; infill
 G1 X-11.323 Y9.402 E1731.00310 ; infill
+
 G1 Z14.900 F60000.000 ; move to next layer (147)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1731.43004 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1731.85699 ; perimeter
@@ -10726,10 +9385,7 @@ G1 X12.550 Y12.505 E1735.53439 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1735.66106 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1735.74920 ; infill
 G1 X4.605 Y11.323 E1736.00051 ; infill
 G1 X1.272 Y11.323 E1736.08864 ; infill
@@ -10744,10 +9400,7 @@ G1 X-11.323 Y10.591 E1738.67612 ; infill
 G1 X10.591 Y-11.323 E1739.49580 ; infill
 G1 X7.259 Y-11.323 E1739.58394 ; infill
 G1 X-11.323 Y7.259 E1740.27899 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1740.36712 ; infill
 G1 X3.926 Y-11.323 E1740.93753 ; infill
 G1 X0.594 Y-11.323 E1741.02566 ; infill
@@ -10758,11 +9411,8 @@ G1 X-6.070 Y-11.323 E1741.96884 ; infill
 G1 X-11.323 Y-6.070 E1742.16534 ; infill
 G1 X-11.323 Y-9.402 E1742.25347 ; infill
 G1 X-9.402 Y-11.323 E1742.32533 ; infill
+
 G1 Z15.000 F60000.000 ; move to next layer (148)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1742.75228 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1743.17922 ; perimeter
@@ -10781,10 +9431,7 @@ G1 X12.550 Y12.505 E1746.85662 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1746.98330 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1747.07143 ; infill
 G1 X11.323 Y-4.605 E1747.32275 ; infill
 G1 X11.323 Y-1.272 E1747.41088 ; infill
@@ -10799,10 +9446,7 @@ G1 X10.591 Y11.323 E1749.99835 ; infill
 G1 X-11.323 Y-10.591 E1750.81804 ; infill
 G1 X-11.323 Y-7.259 E1750.90617 ; infill
 G1 X7.259 Y11.323 E1751.60122 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1751.68936 ; infill
 G1 X-11.323 Y-3.926 E1752.25977 ; infill
 G1 X-11.323 Y-0.594 E1752.34790 ; infill
@@ -10813,11 +9457,8 @@ G1 X-11.323 Y6.070 E1753.29108 ; infill
 G1 X-6.070 Y11.323 E1753.48758 ; infill
 G1 X-9.402 Y11.323 E1753.57571 ; infill
 G1 X-11.323 Y9.402 E1753.64757 ; infill
+
 G1 Z15.100 F60000.000 ; move to next layer (149)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1754.07451 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1754.50146 ; perimeter
@@ -10836,10 +9477,7 @@ G1 X12.550 Y12.505 E1758.17886 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1758.30554 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1758.39367 ; infill
 G1 X4.605 Y11.323 E1758.64499 ; infill
 G1 X1.272 Y11.323 E1758.73312 ; infill
@@ -10854,10 +9492,7 @@ G1 X-11.323 Y10.591 E1761.32059 ; infill
 G1 X10.591 Y-11.323 E1762.14028 ; infill
 G1 X7.259 Y-11.323 E1762.22841 ; infill
 G1 X-11.323 Y7.259 E1762.92346 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1763.01159 ; infill
 G1 X3.926 Y-11.323 E1763.58201 ; infill
 G1 X0.594 Y-11.323 E1763.67014 ; infill
@@ -10868,11 +9503,8 @@ G1 X-6.070 Y-11.323 E1764.61331 ; infill
 G1 X-11.323 Y-6.070 E1764.80981 ; infill
 G1 X-11.323 Y-9.402 E1764.89795 ; infill
 G1 X-9.402 Y-11.323 E1764.96981 ; infill
+
 G1 Z15.200 F60000.000 ; move to next layer (150)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1765.39675 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1765.82370 ; perimeter
@@ -10891,10 +9523,7 @@ G1 X12.550 Y12.505 E1769.50110 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1769.62778 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1769.71591 ; infill
 G1 X11.323 Y-4.605 E1769.96722 ; infill
 G1 X11.323 Y-1.272 E1770.05536 ; infill
@@ -10909,10 +9538,7 @@ G1 X10.591 Y11.323 E1772.64283 ; infill
 G1 X-11.323 Y-10.591 E1773.46252 ; infill
 G1 X-11.323 Y-7.259 E1773.55065 ; infill
 G1 X7.259 Y11.323 E1774.24570 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1774.33383 ; infill
 G1 X-11.323 Y-3.926 E1774.90424 ; infill
 G1 X-11.323 Y-0.594 E1774.99238 ; infill
@@ -10923,11 +9549,8 @@ G1 X-11.323 Y6.070 E1775.93555 ; infill
 G1 X-6.070 Y11.323 E1776.13205 ; infill
 G1 X-9.402 Y11.323 E1776.22018 ; infill
 G1 X-11.323 Y9.402 E1776.29204 ; infill
+
 G1 Z15.300 F60000.000 ; move to next layer (151)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1776.71899 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1777.14593 ; perimeter
@@ -10946,10 +9569,7 @@ G1 X12.550 Y12.505 E1780.82333 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1780.95001 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1781.03814 ; infill
 G1 X4.605 Y11.323 E1781.28946 ; infill
 G1 X1.272 Y11.323 E1781.37759 ; infill
@@ -10964,10 +9584,7 @@ G1 X-11.323 Y10.591 E1783.96506 ; infill
 G1 X10.591 Y-11.323 E1784.78475 ; infill
 G1 X7.259 Y-11.323 E1784.87288 ; infill
 G1 X-11.323 Y7.259 E1785.56794 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1785.65607 ; infill
 G1 X3.926 Y-11.323 E1786.22648 ; infill
 G1 X0.594 Y-11.323 E1786.31461 ; infill
@@ -10978,11 +9595,8 @@ G1 X-6.070 Y-11.323 E1787.25779 ; infill
 G1 X-11.323 Y-6.070 E1787.45429 ; infill
 G1 X-11.323 Y-9.402 E1787.54242 ; infill
 G1 X-9.402 Y-11.323 E1787.61428 ; infill
+
 G1 Z15.400 F60000.000 ; move to next layer (152)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1788.04123 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1788.46817 ; perimeter
@@ -11001,10 +9615,7 @@ G1 X12.550 Y12.505 E1792.14557 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1792.27225 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1792.36038 ; infill
 G1 X11.323 Y-4.605 E1792.61170 ; infill
 G1 X11.323 Y-1.272 E1792.69983 ; infill
@@ -11019,10 +9630,7 @@ G1 X10.591 Y11.323 E1795.28730 ; infill
 G1 X-11.323 Y-10.591 E1796.10699 ; infill
 G1 X-11.323 Y-7.259 E1796.19512 ; infill
 G1 X7.259 Y11.323 E1796.89017 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1796.97831 ; infill
 G1 X-11.323 Y-3.926 E1797.54872 ; infill
 G1 X-11.323 Y-0.594 E1797.63685 ; infill
@@ -11033,11 +9641,8 @@ G1 X-11.323 Y6.070 E1798.58003 ; infill
 G1 X-6.070 Y11.323 E1798.77652 ; infill
 G1 X-9.402 Y11.323 E1798.86466 ; infill
 G1 X-11.323 Y9.402 E1798.93652 ; infill
+
 G1 Z15.500 F60000.000 ; move to next layer (153)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1799.36346 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1799.79041 ; perimeter
@@ -11056,10 +9661,7 @@ G1 X12.550 Y12.505 E1803.46781 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1803.59449 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1803.68262 ; infill
 G1 X4.605 Y11.323 E1803.93393 ; infill
 G1 X1.272 Y11.323 E1804.02207 ; infill
@@ -11074,10 +9676,7 @@ G1 X-11.323 Y10.591 E1806.60954 ; infill
 G1 X10.591 Y-11.323 E1807.42923 ; infill
 G1 X7.259 Y-11.323 E1807.51736 ; infill
 G1 X-11.323 Y7.259 E1808.21241 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1808.30054 ; infill
 G1 X3.926 Y-11.323 E1808.87095 ; infill
 G1 X0.594 Y-11.323 E1808.95909 ; infill
@@ -11088,11 +9687,8 @@ G1 X-6.070 Y-11.323 E1809.90226 ; infill
 G1 X-11.323 Y-6.070 E1810.09876 ; infill
 G1 X-11.323 Y-9.402 E1810.18689 ; infill
 G1 X-9.402 Y-11.323 E1810.25876 ; infill
+
 G1 Z15.600 F60000.000 ; move to next layer (154)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1810.68570 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1811.11265 ; perimeter
@@ -11111,10 +9707,7 @@ G1 X12.550 Y12.505 E1814.79005 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1814.91672 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1815.00486 ; infill
 G1 X11.323 Y-4.605 E1815.25617 ; infill
 G1 X11.323 Y-1.272 E1815.34430 ; infill
@@ -11129,10 +9722,7 @@ G1 X10.591 Y11.323 E1817.93178 ; infill
 G1 X-11.323 Y-10.591 E1818.75146 ; infill
 G1 X-11.323 Y-7.259 E1818.83960 ; infill
 G1 X7.259 Y11.323 E1819.53465 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1819.62278 ; infill
 G1 X-11.323 Y-3.926 E1820.19319 ; infill
 G1 X-11.323 Y-0.594 E1820.28132 ; infill
@@ -11143,11 +9733,8 @@ G1 X-11.323 Y6.070 E1821.22450 ; infill
 G1 X-6.070 Y11.323 E1821.42100 ; infill
 G1 X-9.402 Y11.323 E1821.50913 ; infill
 G1 X-11.323 Y9.402 E1821.58099 ; infill
+
 G1 Z15.700 F60000.000 ; move to next layer (155)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1822.00794 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1822.43488 ; perimeter
@@ -11166,10 +9753,7 @@ G1 X12.550 Y12.505 E1826.11228 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1826.23896 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1826.32709 ; infill
 G1 X4.605 Y11.323 E1826.57841 ; infill
 G1 X1.272 Y11.323 E1826.66654 ; infill
@@ -11184,10 +9768,7 @@ G1 X-11.323 Y10.591 E1829.25401 ; infill
 G1 X10.591 Y-11.323 E1830.07370 ; infill
 G1 X7.259 Y-11.323 E1830.16183 ; infill
 G1 X-11.323 Y7.259 E1830.85688 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1830.94502 ; infill
 G1 X3.926 Y-11.323 E1831.51543 ; infill
 G1 X0.594 Y-11.323 E1831.60356 ; infill
@@ -11198,11 +9779,8 @@ G1 X-6.070 Y-11.323 E1832.54674 ; infill
 G1 X-11.323 Y-6.070 E1832.74324 ; infill
 G1 X-11.323 Y-9.402 E1832.83137 ; infill
 G1 X-9.402 Y-11.323 E1832.90323 ; infill
+
 G1 Z15.800 F60000.000 ; move to next layer (156)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1833.33017 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1833.75712 ; perimeter
@@ -11221,10 +9799,7 @@ G1 X12.550 Y12.505 E1837.43452 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1837.56120 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1837.64933 ; infill
 G1 X11.323 Y-4.605 E1837.90065 ; infill
 G1 X11.323 Y-1.272 E1837.98878 ; infill
@@ -11239,10 +9814,7 @@ G1 X10.591 Y11.323 E1840.57625 ; infill
 G1 X-11.323 Y-10.591 E1841.39594 ; infill
 G1 X-11.323 Y-7.259 E1841.48407 ; infill
 G1 X7.259 Y11.323 E1842.17912 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1842.26725 ; infill
 G1 X-11.323 Y-3.926 E1842.83767 ; infill
 G1 X-11.323 Y-0.594 E1842.92580 ; infill
@@ -11253,11 +9825,8 @@ G1 X-11.323 Y6.070 E1843.86897 ; infill
 G1 X-6.070 Y11.323 E1844.06547 ; infill
 G1 X-9.402 Y11.323 E1844.15361 ; infill
 G1 X-11.323 Y9.402 E1844.22547 ; infill
+
 G1 Z15.900 F60000.000 ; move to next layer (157)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1844.65241 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1845.07936 ; perimeter
@@ -11276,10 +9845,7 @@ G1 X12.550 Y12.505 E1848.75676 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1848.88344 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1848.97157 ; infill
 G1 X4.605 Y11.323 E1849.22288 ; infill
 G1 X1.272 Y11.323 E1849.31102 ; infill
@@ -11294,10 +9860,7 @@ G1 X-11.323 Y10.591 E1851.89849 ; infill
 G1 X10.591 Y-11.323 E1852.71818 ; infill
 G1 X7.259 Y-11.323 E1852.80631 ; infill
 G1 X-11.323 Y7.259 E1853.50136 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1853.58949 ; infill
 G1 X3.926 Y-11.323 E1854.15990 ; infill
 G1 X0.594 Y-11.323 E1854.24804 ; infill
@@ -11308,11 +9871,8 @@ G1 X-6.070 Y-11.323 E1855.19121 ; infill
 G1 X-11.323 Y-6.070 E1855.38771 ; infill
 G1 X-11.323 Y-9.402 E1855.47584 ; infill
 G1 X-9.402 Y-11.323 E1855.54770 ; infill
+
 G1 Z16.000 F60000.000 ; move to next layer (158)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1855.97465 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1856.40159 ; perimeter
@@ -11331,10 +9891,7 @@ G1 X12.550 Y12.505 E1860.07899 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1860.20567 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1860.29380 ; infill
 G1 X11.323 Y-4.605 E1860.54512 ; infill
 G1 X11.323 Y-1.272 E1860.63325 ; infill
@@ -11349,10 +9906,7 @@ G1 X10.591 Y11.323 E1863.22072 ; infill
 G1 X-11.323 Y-10.591 E1864.04041 ; infill
 G1 X-11.323 Y-7.259 E1864.12855 ; infill
 G1 X7.259 Y11.323 E1864.82360 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1864.91173 ; infill
 G1 X-11.323 Y-3.926 E1865.48214 ; infill
 G1 X-11.323 Y-0.594 E1865.57027 ; infill
@@ -11363,11 +9917,8 @@ G1 X-11.323 Y6.070 E1866.51345 ; infill
 G1 X-6.070 Y11.323 E1866.70995 ; infill
 G1 X-9.402 Y11.323 E1866.79808 ; infill
 G1 X-11.323 Y9.402 E1866.86994 ; infill
+
 G1 Z16.100 F60000.000 ; move to next layer (159)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1867.29689 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1867.72383 ; perimeter
@@ -11386,10 +9937,7 @@ G1 X12.550 Y12.505 E1871.40123 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1871.52791 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1871.61604 ; infill
 G1 X4.605 Y11.323 E1871.86736 ; infill
 G1 X1.272 Y11.323 E1871.95549 ; infill
@@ -11404,10 +9952,7 @@ G1 X-11.323 Y10.591 E1874.54296 ; infill
 G1 X10.591 Y-11.323 E1875.36265 ; infill
 G1 X7.259 Y-11.323 E1875.45078 ; infill
 G1 X-11.323 Y7.259 E1876.14583 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1876.23397 ; infill
 G1 X3.926 Y-11.323 E1876.80438 ; infill
 G1 X0.594 Y-11.323 E1876.89251 ; infill
@@ -11418,11 +9963,8 @@ G1 X-6.070 Y-11.323 E1877.83569 ; infill
 G1 X-11.323 Y-6.070 E1878.03219 ; infill
 G1 X-11.323 Y-9.402 E1878.12032 ; infill
 G1 X-9.402 Y-11.323 E1878.19218 ; infill
+
 G1 Z16.200 F60000.000 ; move to next layer (160)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1878.61912 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1879.04607 ; perimeter
@@ -11441,10 +9983,7 @@ G1 X12.550 Y12.505 E1882.72347 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1882.85015 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1882.93828 ; infill
 G1 X11.323 Y-4.605 E1883.18960 ; infill
 G1 X11.323 Y-1.272 E1883.27773 ; infill
@@ -11459,10 +9998,7 @@ G1 X10.591 Y11.323 E1885.86520 ; infill
 G1 X-11.323 Y-10.591 E1886.68489 ; infill
 G1 X-11.323 Y-7.259 E1886.77302 ; infill
 G1 X7.259 Y11.323 E1887.46807 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1887.55620 ; infill
 G1 X-11.323 Y-3.926 E1888.12662 ; infill
 G1 X-11.323 Y-0.594 E1888.21475 ; infill
@@ -11473,11 +10009,8 @@ G1 X-11.323 Y6.070 E1889.15792 ; infill
 G1 X-6.070 Y11.323 E1889.35442 ; infill
 G1 X-9.402 Y11.323 E1889.44255 ; infill
 G1 X-11.323 Y9.402 E1889.51442 ; infill
+
 G1 Z16.300 F60000.000 ; move to next layer (161)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1889.94136 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1890.36831 ; perimeter
@@ -11496,10 +10029,7 @@ G1 X12.550 Y12.505 E1894.04571 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1894.17238 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1894.26052 ; infill
 G1 X4.605 Y11.323 E1894.51183 ; infill
 G1 X1.272 Y11.323 E1894.59996 ; infill
@@ -11514,10 +10044,7 @@ G1 X-11.323 Y10.591 E1897.18744 ; infill
 G1 X10.591 Y-11.323 E1898.00712 ; infill
 G1 X7.259 Y-11.323 E1898.09526 ; infill
 G1 X-11.323 Y7.259 E1898.79031 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1898.87844 ; infill
 G1 X3.926 Y-11.323 E1899.44885 ; infill
 G1 X0.594 Y-11.323 E1899.53698 ; infill
@@ -11528,11 +10055,8 @@ G1 X-6.070 Y-11.323 E1900.48016 ; infill
 G1 X-11.323 Y-6.070 E1900.67666 ; infill
 G1 X-11.323 Y-9.402 E1900.76479 ; infill
 G1 X-9.402 Y-11.323 E1900.83665 ; infill
+
 G1 Z16.400 F60000.000 ; move to next layer (162)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1901.26360 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1901.69054 ; perimeter
@@ -11551,10 +10075,7 @@ G1 X12.550 Y12.505 E1905.36794 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1905.49462 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1905.58275 ; infill
 G1 X11.323 Y-4.605 E1905.83407 ; infill
 G1 X11.323 Y-1.272 E1905.92220 ; infill
@@ -11569,10 +10090,7 @@ G1 X10.591 Y11.323 E1908.50967 ; infill
 G1 X-11.323 Y-10.591 E1909.32936 ; infill
 G1 X-11.323 Y-7.259 E1909.41749 ; infill
 G1 X7.259 Y11.323 E1910.11254 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1910.20068 ; infill
 G1 X-11.323 Y-3.926 E1910.77109 ; infill
 G1 X-11.323 Y-0.594 E1910.85922 ; infill
@@ -11583,11 +10101,8 @@ G1 X-11.323 Y6.070 E1911.80240 ; infill
 G1 X-6.070 Y11.323 E1911.99890 ; infill
 G1 X-9.402 Y11.323 E1912.08703 ; infill
 G1 X-11.323 Y9.402 E1912.15889 ; infill
+
 G1 Z16.500 F60000.000 ; move to next layer (163)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1912.58584 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1913.01278 ; perimeter
@@ -11606,10 +10121,7 @@ G1 X12.550 Y12.505 E1916.69018 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1916.81686 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1916.90499 ; infill
 G1 X4.605 Y11.323 E1917.15631 ; infill
 G1 X1.272 Y11.323 E1917.24444 ; infill
@@ -11624,10 +10136,7 @@ G1 X-11.323 Y10.591 E1919.83191 ; infill
 G1 X10.591 Y-11.323 E1920.65160 ; infill
 G1 X7.259 Y-11.323 E1920.73973 ; infill
 G1 X-11.323 Y7.259 E1921.43478 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1921.52291 ; infill
 G1 X3.926 Y-11.323 E1922.09333 ; infill
 G1 X0.594 Y-11.323 E1922.18146 ; infill
@@ -11638,11 +10147,8 @@ G1 X-6.070 Y-11.323 E1923.12464 ; infill
 G1 X-11.323 Y-6.070 E1923.32113 ; infill
 G1 X-11.323 Y-9.402 E1923.40927 ; infill
 G1 X-9.402 Y-11.323 E1923.48113 ; infill
+
 G1 Z16.600 F60000.000 ; move to next layer (164)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1923.90807 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1924.33502 ; perimeter
@@ -11661,10 +10167,7 @@ G1 X12.550 Y12.505 E1928.01242 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1928.13910 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1928.22723 ; infill
 G1 X11.323 Y-4.605 E1928.47854 ; infill
 G1 X11.323 Y-1.272 E1928.56668 ; infill
@@ -11679,10 +10182,7 @@ G1 X10.591 Y11.323 E1931.15415 ; infill
 G1 X-11.323 Y-10.591 E1931.97384 ; infill
 G1 X-11.323 Y-7.259 E1932.06197 ; infill
 G1 X7.259 Y11.323 E1932.75702 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1932.84515 ; infill
 G1 X-11.323 Y-3.926 E1933.41556 ; infill
 G1 X-11.323 Y-0.594 E1933.50370 ; infill
@@ -11693,11 +10193,8 @@ G1 X-11.323 Y6.070 E1934.44687 ; infill
 G1 X-6.070 Y11.323 E1934.64337 ; infill
 G1 X-9.402 Y11.323 E1934.73150 ; infill
 G1 X-11.323 Y9.402 E1934.80336 ; infill
+
 G1 Z16.700 F60000.000 ; move to next layer (165)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1935.23031 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1935.65725 ; perimeter
@@ -11716,10 +10213,7 @@ G1 X12.550 Y12.505 E1939.33465 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1939.46133 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1939.54947 ; infill
 G1 X4.605 Y11.323 E1939.80078 ; infill
 G1 X1.272 Y11.323 E1939.88891 ; infill
@@ -11734,10 +10228,7 @@ G1 X-11.323 Y10.591 E1942.47638 ; infill
 G1 X10.591 Y-11.323 E1943.29607 ; infill
 G1 X7.259 Y-11.323 E1943.38421 ; infill
 G1 X-11.323 Y7.259 E1944.07926 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1944.16739 ; infill
 G1 X3.926 Y-11.323 E1944.73780 ; infill
 G1 X0.594 Y-11.323 E1944.82593 ; infill
@@ -11748,11 +10239,8 @@ G1 X-6.070 Y-11.323 E1945.76911 ; infill
 G1 X-11.323 Y-6.070 E1945.96561 ; infill
 G1 X-11.323 Y-9.402 E1946.05374 ; infill
 G1 X-9.402 Y-11.323 E1946.12560 ; infill
+
 G1 Z16.800 F60000.000 ; move to next layer (166)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1946.55255 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1946.97949 ; perimeter
@@ -11771,10 +10259,7 @@ G1 X12.550 Y12.505 E1950.65689 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1950.78357 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1950.87170 ; infill
 G1 X11.323 Y-4.605 E1951.12302 ; infill
 G1 X11.323 Y-1.272 E1951.21115 ; infill
@@ -11789,10 +10274,7 @@ G1 X10.591 Y11.323 E1953.79862 ; infill
 G1 X-11.323 Y-10.591 E1954.61831 ; infill
 G1 X-11.323 Y-7.259 E1954.70644 ; infill
 G1 X7.259 Y11.323 E1955.40149 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1955.48963 ; infill
 G1 X-11.323 Y-3.926 E1956.06004 ; infill
 G1 X-11.323 Y-0.594 E1956.14817 ; infill
@@ -11803,11 +10285,8 @@ G1 X-11.323 Y6.070 E1957.09135 ; infill
 G1 X-6.070 Y11.323 E1957.28785 ; infill
 G1 X-9.402 Y11.323 E1957.37598 ; infill
 G1 X-11.323 Y9.402 E1957.44784 ; infill
+
 G1 Z16.900 F60000.000 ; move to next layer (167)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1957.87478 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1958.30173 ; perimeter
@@ -11826,10 +10305,7 @@ G1 X12.550 Y12.505 E1961.97913 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1962.10581 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1962.19394 ; infill
 G1 X4.605 Y11.323 E1962.44526 ; infill
 G1 X1.272 Y11.323 E1962.53339 ; infill
@@ -11844,10 +10320,7 @@ G1 X-11.323 Y10.591 E1965.12086 ; infill
 G1 X10.591 Y-11.323 E1965.94055 ; infill
 G1 X7.259 Y-11.323 E1966.02868 ; infill
 G1 X-11.323 Y7.259 E1966.72373 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1966.81186 ; infill
 G1 X3.926 Y-11.323 E1967.38228 ; infill
 G1 X0.594 Y-11.323 E1967.47041 ; infill
@@ -11858,11 +10331,8 @@ G1 X-6.070 Y-11.323 E1968.41358 ; infill
 G1 X-11.323 Y-6.070 E1968.61008 ; infill
 G1 X-11.323 Y-9.402 E1968.69822 ; infill
 G1 X-9.402 Y-11.323 E1968.77008 ; infill
+
 G1 Z17.000 F60000.000 ; move to next layer (168)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1969.19702 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1969.62397 ; perimeter
@@ -11881,10 +10351,7 @@ G1 X12.550 Y12.505 E1973.30137 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1973.42804 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1973.51618 ; infill
 G1 X11.323 Y-4.605 E1973.76749 ; infill
 G1 X11.323 Y-1.272 E1973.85563 ; infill
@@ -11899,10 +10366,7 @@ G1 X10.591 Y11.323 E1976.44310 ; infill
 G1 X-11.323 Y-10.591 E1977.26278 ; infill
 G1 X-11.323 Y-7.259 E1977.35092 ; infill
 G1 X7.259 Y11.323 E1978.04597 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E1978.13410 ; infill
 G1 X-11.323 Y-3.926 E1978.70451 ; infill
 G1 X-11.323 Y-0.594 E1978.79264 ; infill
@@ -11913,11 +10377,8 @@ G1 X-11.323 Y6.070 E1979.73582 ; infill
 G1 X-6.070 Y11.323 E1979.93232 ; infill
 G1 X-9.402 Y11.323 E1980.02045 ; infill
 G1 X-11.323 Y9.402 E1980.09231 ; infill
+
 G1 Z17.100 F60000.000 ; move to next layer (169)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1980.51926 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1980.94620 ; perimeter
@@ -11936,10 +10397,7 @@ G1 X12.550 Y12.505 E1984.62360 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E1984.75028 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E1984.83841 ; infill
 G1 X4.605 Y11.323 E1985.08973 ; infill
 G1 X1.272 Y11.323 E1985.17786 ; infill
@@ -11954,10 +10412,7 @@ G1 X-11.323 Y10.591 E1987.76533 ; infill
 G1 X10.591 Y-11.323 E1988.58502 ; infill
 G1 X7.259 Y-11.323 E1988.67315 ; infill
 G1 X-11.323 Y7.259 E1989.36820 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E1989.45634 ; infill
 G1 X3.926 Y-11.323 E1990.02675 ; infill
 G1 X0.594 Y-11.323 E1990.11488 ; infill
@@ -11968,11 +10423,8 @@ G1 X-6.070 Y-11.323 E1991.05806 ; infill
 G1 X-11.323 Y-6.070 E1991.25456 ; infill
 G1 X-11.323 Y-9.402 E1991.34269 ; infill
 G1 X-9.402 Y-11.323 E1991.41455 ; infill
+
 G1 Z17.200 F60000.000 ; move to next layer (170)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E1991.84150 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E1992.26844 ; perimeter
@@ -11991,10 +10443,7 @@ G1 X12.550 Y12.505 E1995.94584 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E1996.07252 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E1996.16065 ; infill
 G1 X11.323 Y-4.605 E1996.41197 ; infill
 G1 X11.323 Y-1.272 E1996.50010 ; infill
@@ -12009,10 +10458,7 @@ G1 X10.591 Y11.323 E1999.08757 ; infill
 G1 X-11.323 Y-10.591 E1999.90726 ; infill
 G1 X-11.323 Y-7.259 E1999.99539 ; infill
 G1 X7.259 Y11.323 E2000.69044 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2000.77857 ; infill
 G1 X-11.323 Y-3.926 E2001.34899 ; infill
 G1 X-11.323 Y-0.594 E2001.43712 ; infill
@@ -12023,11 +10469,8 @@ G1 X-11.323 Y6.070 E2002.38030 ; infill
 G1 X-6.070 Y11.323 E2002.57679 ; infill
 G1 X-9.402 Y11.323 E2002.66493 ; infill
 G1 X-11.323 Y9.402 E2002.73679 ; infill
+
 G1 Z17.300 F60000.000 ; move to next layer (171)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2003.16373 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2003.59068 ; perimeter
@@ -12046,10 +10489,7 @@ G1 X12.550 Y12.505 E2007.26808 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2007.39476 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2007.48289 ; infill
 G1 X4.605 Y11.323 E2007.73420 ; infill
 G1 X1.272 Y11.323 E2007.82234 ; infill
@@ -12064,10 +10504,7 @@ G1 X-11.323 Y10.591 E2010.40981 ; infill
 G1 X10.591 Y-11.323 E2011.22950 ; infill
 G1 X7.259 Y-11.323 E2011.31763 ; infill
 G1 X-11.323 Y7.259 E2012.01268 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2012.10081 ; infill
 G1 X3.926 Y-11.323 E2012.67122 ; infill
 G1 X0.594 Y-11.323 E2012.75936 ; infill
@@ -12078,11 +10515,8 @@ G1 X-6.070 Y-11.323 E2013.70253 ; infill
 G1 X-11.323 Y-6.070 E2013.89903 ; infill
 G1 X-11.323 Y-9.402 E2013.98716 ; infill
 G1 X-9.402 Y-11.323 E2014.05902 ; infill
+
 G1 Z17.400 F60000.000 ; move to next layer (172)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2014.48597 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2014.91292 ; perimeter
@@ -12101,10 +10535,7 @@ G1 X12.550 Y12.505 E2018.59031 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2018.71699 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2018.80513 ; infill
 G1 X11.323 Y-4.605 E2019.05644 ; infill
 G1 X11.323 Y-1.272 E2019.14457 ; infill
@@ -12119,10 +10550,7 @@ G1 X10.591 Y11.323 E2021.73205 ; infill
 G1 X-11.323 Y-10.591 E2022.55173 ; infill
 G1 X-11.323 Y-7.259 E2022.63987 ; infill
 G1 X7.259 Y11.323 E2023.33492 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2023.42305 ; infill
 G1 X-11.323 Y-3.926 E2023.99346 ; infill
 G1 X-11.323 Y-0.594 E2024.08159 ; infill
@@ -12133,11 +10561,8 @@ G1 X-11.323 Y6.070 E2025.02477 ; infill
 G1 X-6.070 Y11.323 E2025.22127 ; infill
 G1 X-9.402 Y11.323 E2025.30940 ; infill
 G1 X-11.323 Y9.402 E2025.38126 ; infill
+
 G1 Z17.500 F60000.000 ; move to next layer (173)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2025.80821 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2026.23515 ; perimeter
@@ -12156,10 +10581,7 @@ G1 X12.550 Y12.505 E2029.91255 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2030.03923 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2030.12736 ; infill
 G1 X4.605 Y11.323 E2030.37868 ; infill
 G1 X1.272 Y11.323 E2030.46681 ; infill
@@ -12174,10 +10596,7 @@ G1 X-11.323 Y10.591 E2033.05428 ; infill
 G1 X10.591 Y-11.323 E2033.87397 ; infill
 G1 X7.259 Y-11.323 E2033.96210 ; infill
 G1 X-11.323 Y7.259 E2034.65715 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2034.74529 ; infill
 G1 X3.926 Y-11.323 E2035.31570 ; infill
 G1 X0.594 Y-11.323 E2035.40383 ; infill
@@ -12188,11 +10607,8 @@ G1 X-6.070 Y-11.323 E2036.34701 ; infill
 G1 X-11.323 Y-6.070 E2036.54351 ; infill
 G1 X-11.323 Y-9.402 E2036.63164 ; infill
 G1 X-9.402 Y-11.323 E2036.70350 ; infill
+
 G1 Z17.600 F60000.000 ; move to next layer (174)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2037.13044 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2037.55739 ; perimeter
@@ -12211,10 +10627,7 @@ G1 X12.550 Y12.505 E2041.23479 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2041.36147 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2041.44960 ; infill
 G1 X11.323 Y-4.605 E2041.70092 ; infill
 G1 X11.323 Y-1.272 E2041.78905 ; infill
@@ -12229,10 +10642,7 @@ G1 X10.591 Y11.323 E2044.37652 ; infill
 G1 X-11.323 Y-10.591 E2045.19621 ; infill
 G1 X-11.323 Y-7.259 E2045.28434 ; infill
 G1 X7.259 Y11.323 E2045.97939 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2046.06752 ; infill
 G1 X-11.323 Y-3.926 E2046.63794 ; infill
 G1 X-11.323 Y-0.594 E2046.72607 ; infill
@@ -12243,11 +10653,8 @@ G1 X-11.323 Y6.070 E2047.66924 ; infill
 G1 X-6.070 Y11.323 E2047.86574 ; infill
 G1 X-9.402 Y11.323 E2047.95388 ; infill
 G1 X-11.323 Y9.402 E2048.02574 ; infill
+
 G1 Z17.700 F60000.000 ; move to next layer (175)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2048.45268 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2048.87963 ; perimeter
@@ -12266,10 +10673,7 @@ G1 X12.550 Y12.505 E2052.55703 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2052.68370 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2052.77184 ; infill
 G1 X4.605 Y11.323 E2053.02315 ; infill
 G1 X1.272 Y11.323 E2053.11129 ; infill
@@ -12284,10 +10688,7 @@ G1 X-11.323 Y10.591 E2055.69876 ; infill
 G1 X10.591 Y-11.323 E2056.51844 ; infill
 G1 X7.259 Y-11.323 E2056.60658 ; infill
 G1 X-11.323 Y7.259 E2057.30163 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2057.38976 ; infill
 G1 X3.926 Y-11.323 E2057.96017 ; infill
 G1 X0.594 Y-11.323 E2058.04831 ; infill
@@ -12298,11 +10699,8 @@ G1 X-6.070 Y-11.323 E2058.99148 ; infill
 G1 X-11.323 Y-6.070 E2059.18798 ; infill
 G1 X-11.323 Y-9.402 E2059.27611 ; infill
 G1 X-9.402 Y-11.323 E2059.34797 ; infill
+
 G1 Z17.800 F60000.000 ; move to next layer (176)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2059.77492 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2060.20186 ; perimeter
@@ -12321,10 +10719,7 @@ G1 X12.550 Y12.505 E2063.87926 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2064.00594 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2064.09407 ; infill
 G1 X11.323 Y-4.605 E2064.34539 ; infill
 G1 X11.323 Y-1.272 E2064.43352 ; infill
@@ -12339,10 +10734,7 @@ G1 X10.591 Y11.323 E2067.02099 ; infill
 G1 X-11.323 Y-10.591 E2067.84068 ; infill
 G1 X-11.323 Y-7.259 E2067.92881 ; infill
 G1 X7.259 Y11.323 E2068.62387 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2068.71200 ; infill
 G1 X-11.323 Y-3.926 E2069.28241 ; infill
 G1 X-11.323 Y-0.594 E2069.37054 ; infill
@@ -12353,11 +10745,8 @@ G1 X-11.323 Y6.070 E2070.31372 ; infill
 G1 X-6.070 Y11.323 E2070.51022 ; infill
 G1 X-9.402 Y11.323 E2070.59835 ; infill
 G1 X-11.323 Y9.402 E2070.67021 ; infill
+
 G1 Z17.900 F60000.000 ; move to next layer (177)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2071.09716 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2071.52410 ; perimeter
@@ -12376,10 +10765,7 @@ G1 X12.550 Y12.505 E2075.20150 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2075.32818 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2075.41631 ; infill
 G1 X4.605 Y11.323 E2075.66763 ; infill
 G1 X1.272 Y11.323 E2075.75576 ; infill
@@ -12394,10 +10780,7 @@ G1 X-11.323 Y10.591 E2078.34323 ; infill
 G1 X10.591 Y-11.323 E2079.16292 ; infill
 G1 X7.259 Y-11.323 E2079.25105 ; infill
 G1 X-11.323 Y7.259 E2079.94610 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2080.03423 ; infill
 G1 X3.926 Y-11.323 E2080.60465 ; infill
 G1 X0.594 Y-11.323 E2080.69278 ; infill
@@ -12408,11 +10791,8 @@ G1 X-6.070 Y-11.323 E2081.63596 ; infill
 G1 X-11.323 Y-6.070 E2081.83245 ; infill
 G1 X-11.323 Y-9.402 E2081.92059 ; infill
 G1 X-9.402 Y-11.323 E2081.99245 ; infill
+
 G1 Z18.000 F60000.000 ; move to next layer (178)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2082.41939 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2082.84634 ; perimeter
@@ -12431,10 +10811,7 @@ G1 X12.550 Y12.505 E2086.52374 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2086.65042 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2086.73855 ; infill
 G1 X11.323 Y-4.605 E2086.98986 ; infill
 G1 X11.323 Y-1.272 E2087.07800 ; infill
@@ -12449,10 +10826,7 @@ G1 X10.591 Y11.323 E2089.66547 ; infill
 G1 X-11.323 Y-10.591 E2090.48516 ; infill
 G1 X-11.323 Y-7.259 E2090.57329 ; infill
 G1 X7.259 Y11.323 E2091.26834 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2091.35647 ; infill
 G1 X-11.323 Y-3.926 E2091.92688 ; infill
 G1 X-11.323 Y-0.594 E2092.01502 ; infill
@@ -12463,11 +10837,8 @@ G1 X-11.323 Y6.070 E2092.95819 ; infill
 G1 X-6.070 Y11.323 E2093.15469 ; infill
 G1 X-9.402 Y11.323 E2093.24282 ; infill
 G1 X-11.323 Y9.402 E2093.31469 ; infill
+
 G1 Z18.100 F60000.000 ; move to next layer (179)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2093.74163 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2094.16858 ; perimeter
@@ -12486,10 +10857,7 @@ G1 X12.550 Y12.505 E2097.84598 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2097.97265 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2098.06079 ; infill
 G1 X4.605 Y11.323 E2098.31210 ; infill
 G1 X1.272 Y11.323 E2098.40023 ; infill
@@ -12504,10 +10872,7 @@ G1 X-11.323 Y10.591 E2100.98771 ; infill
 G1 X10.591 Y-11.323 E2101.80739 ; infill
 G1 X7.259 Y-11.323 E2101.89553 ; infill
 G1 X-11.323 Y7.259 E2102.59058 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2102.67871 ; infill
 G1 X3.926 Y-11.323 E2103.24912 ; infill
 G1 X0.594 Y-11.323 E2103.33725 ; infill
@@ -12518,11 +10883,8 @@ G1 X-6.070 Y-11.323 E2104.28043 ; infill
 G1 X-11.323 Y-6.070 E2104.47693 ; infill
 G1 X-11.323 Y-9.402 E2104.56506 ; infill
 G1 X-9.402 Y-11.323 E2104.63692 ; infill
+
 G1 Z18.200 F60000.000 ; move to next layer (180)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2105.06387 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2105.49081 ; perimeter
@@ -12541,10 +10903,7 @@ G1 X12.550 Y12.505 E2109.16821 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2109.29489 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2109.38302 ; infill
 G1 X11.323 Y-4.605 E2109.63434 ; infill
 G1 X11.323 Y-1.272 E2109.72247 ; infill
@@ -12559,10 +10918,7 @@ G1 X10.591 Y11.323 E2112.30994 ; infill
 G1 X-11.323 Y-10.591 E2113.12963 ; infill
 G1 X-11.323 Y-7.259 E2113.21776 ; infill
 G1 X7.259 Y11.323 E2113.91281 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2114.00095 ; infill
 G1 X-11.323 Y-3.926 E2114.57136 ; infill
 G1 X-11.323 Y-0.594 E2114.65949 ; infill
@@ -12573,11 +10929,8 @@ G1 X-11.323 Y6.070 E2115.60267 ; infill
 G1 X-6.070 Y11.323 E2115.79917 ; infill
 G1 X-9.402 Y11.323 E2115.88730 ; infill
 G1 X-11.323 Y9.402 E2115.95916 ; infill
+
 G1 Z18.300 F60000.000 ; move to next layer (181)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2116.38610 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2116.81305 ; perimeter
@@ -12596,10 +10949,7 @@ G1 X12.550 Y12.505 E2120.49045 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2120.61713 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2120.70526 ; infill
 G1 X4.605 Y11.323 E2120.95658 ; infill
 G1 X1.272 Y11.323 E2121.04471 ; infill
@@ -12614,10 +10964,7 @@ G1 X-11.323 Y10.591 E2123.63218 ; infill
 G1 X10.591 Y-11.323 E2124.45187 ; infill
 G1 X7.259 Y-11.323 E2124.54000 ; infill
 G1 X-11.323 Y7.259 E2125.23505 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2125.32318 ; infill
 G1 X3.926 Y-11.323 E2125.89360 ; infill
 G1 X0.594 Y-11.323 E2125.98173 ; infill
@@ -12628,11 +10975,8 @@ G1 X-6.070 Y-11.323 E2126.92490 ; infill
 G1 X-11.323 Y-6.070 E2127.12140 ; infill
 G1 X-11.323 Y-9.402 E2127.20954 ; infill
 G1 X-9.402 Y-11.323 E2127.28140 ; infill
+
 G1 Z18.400 F60000.000 ; move to next layer (182)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2127.70834 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2128.13529 ; perimeter
@@ -12651,10 +10995,7 @@ G1 X12.550 Y12.505 E2131.81269 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2131.93937 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2132.02750 ; infill
 G1 X11.323 Y-4.605 E2132.27881 ; infill
 G1 X11.323 Y-1.272 E2132.36695 ; infill
@@ -12669,10 +11010,7 @@ G1 X10.591 Y11.323 E2134.95442 ; infill
 G1 X-11.323 Y-10.591 E2135.77411 ; infill
 G1 X-11.323 Y-7.259 E2135.86224 ; infill
 G1 X7.259 Y11.323 E2136.55729 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2136.64542 ; infill
 G1 X-11.323 Y-3.926 E2137.21583 ; infill
 G1 X-11.323 Y-0.594 E2137.30397 ; infill
@@ -12683,11 +11021,8 @@ G1 X-11.323 Y6.070 E2138.24714 ; infill
 G1 X-6.070 Y11.323 E2138.44364 ; infill
 G1 X-9.402 Y11.323 E2138.53177 ; infill
 G1 X-11.323 Y9.402 E2138.60363 ; infill
+
 G1 Z18.500 F60000.000 ; move to next layer (183)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2139.03058 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2139.45752 ; perimeter
@@ -12706,10 +11041,7 @@ G1 X12.550 Y12.505 E2143.13492 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2143.26160 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2143.34973 ; infill
 G1 X4.605 Y11.323 E2143.60105 ; infill
 G1 X1.272 Y11.323 E2143.68918 ; infill
@@ -12724,10 +11056,7 @@ G1 X-11.323 Y10.591 E2146.27665 ; infill
 G1 X10.591 Y-11.323 E2147.09634 ; infill
 G1 X7.259 Y-11.323 E2147.18447 ; infill
 G1 X-11.323 Y7.259 E2147.87953 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2147.96766 ; infill
 G1 X3.926 Y-11.323 E2148.53807 ; infill
 G1 X0.594 Y-11.323 E2148.62620 ; infill
@@ -12738,11 +11067,8 @@ G1 X-6.070 Y-11.323 E2149.56938 ; infill
 G1 X-11.323 Y-6.070 E2149.76588 ; infill
 G1 X-11.323 Y-9.402 E2149.85401 ; infill
 G1 X-9.402 Y-11.323 E2149.92587 ; infill
+
 G1 Z18.600 F60000.000 ; move to next layer (184)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2150.35282 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2150.77976 ; perimeter
@@ -12761,10 +11087,7 @@ G1 X12.550 Y12.505 E2154.45716 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2154.58384 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2154.67197 ; infill
 G1 X11.323 Y-4.605 E2154.92329 ; infill
 G1 X11.323 Y-1.272 E2155.01142 ; infill
@@ -12779,10 +11102,7 @@ G1 X10.591 Y11.323 E2157.59889 ; infill
 G1 X-11.323 Y-10.591 E2158.41858 ; infill
 G1 X-11.323 Y-7.259 E2158.50671 ; infill
 G1 X7.259 Y11.323 E2159.20176 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2159.28990 ; infill
 G1 X-11.323 Y-3.926 E2159.86031 ; infill
 G1 X-11.323 Y-0.594 E2159.94844 ; infill
@@ -12793,11 +11113,8 @@ G1 X-11.323 Y6.070 E2160.89162 ; infill
 G1 X-6.070 Y11.323 E2161.08811 ; infill
 G1 X-9.402 Y11.323 E2161.17625 ; infill
 G1 X-11.323 Y9.402 E2161.24811 ; infill
+
 G1 Z18.700 F60000.000 ; move to next layer (185)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2161.67505 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2162.10200 ; perimeter
@@ -12816,10 +11133,7 @@ G1 X12.550 Y12.505 E2165.77940 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2165.90608 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2165.99421 ; infill
 G1 X4.605 Y11.323 E2166.24552 ; infill
 G1 X1.272 Y11.323 E2166.33366 ; infill
@@ -12834,10 +11148,7 @@ G1 X-11.323 Y10.591 E2168.92113 ; infill
 G1 X10.591 Y-11.323 E2169.74082 ; infill
 G1 X7.259 Y-11.323 E2169.82895 ; infill
 G1 X-11.323 Y7.259 E2170.52400 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2170.61213 ; infill
 G1 X3.926 Y-11.323 E2171.18254 ; infill
 G1 X0.594 Y-11.323 E2171.27068 ; infill
@@ -12848,11 +11159,8 @@ G1 X-6.070 Y-11.323 E2172.21385 ; infill
 G1 X-11.323 Y-6.070 E2172.41035 ; infill
 G1 X-11.323 Y-9.402 E2172.49848 ; infill
 G1 X-9.402 Y-11.323 E2172.57035 ; infill
+
 G1 Z18.800 F60000.000 ; move to next layer (186)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2172.99729 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2173.42424 ; perimeter
@@ -12871,10 +11179,7 @@ G1 X12.550 Y12.505 E2177.10164 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2177.22831 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2177.31645 ; infill
 G1 X11.323 Y-4.605 E2177.56776 ; infill
 G1 X11.323 Y-1.272 E2177.65589 ; infill
@@ -12889,10 +11194,7 @@ G1 X10.591 Y11.323 E2180.24337 ; infill
 G1 X-11.323 Y-10.591 E2181.06305 ; infill
 G1 X-11.323 Y-7.259 E2181.15119 ; infill
 G1 X7.259 Y11.323 E2181.84624 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2181.93437 ; infill
 G1 X-11.323 Y-3.926 E2182.50478 ; infill
 G1 X-11.323 Y-0.594 E2182.59291 ; infill
@@ -12903,11 +11205,8 @@ G1 X-11.323 Y6.070 E2183.53609 ; infill
 G1 X-6.070 Y11.323 E2183.73259 ; infill
 G1 X-9.402 Y11.323 E2183.82072 ; infill
 G1 X-11.323 Y9.402 E2183.89258 ; infill
+
 G1 Z18.900 F60000.000 ; move to next layer (187)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2184.31953 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2184.74647 ; perimeter
@@ -12926,10 +11225,7 @@ G1 X12.550 Y12.505 E2188.42387 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2188.55055 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2188.63868 ; infill
 G1 X4.605 Y11.323 E2188.89000 ; infill
 G1 X1.272 Y11.323 E2188.97813 ; infill
@@ -12944,10 +11240,7 @@ G1 X-11.323 Y10.591 E2191.56560 ; infill
 G1 X10.591 Y-11.323 E2192.38529 ; infill
 G1 X7.259 Y-11.323 E2192.47342 ; infill
 G1 X-11.323 Y7.259 E2193.16847 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2193.25661 ; infill
 G1 X3.926 Y-11.323 E2193.82702 ; infill
 G1 X0.594 Y-11.323 E2193.91515 ; infill
@@ -12958,11 +11251,8 @@ G1 X-6.070 Y-11.323 E2194.85833 ; infill
 G1 X-11.323 Y-6.070 E2195.05483 ; infill
 G1 X-11.323 Y-9.402 E2195.14296 ; infill
 G1 X-9.402 Y-11.323 E2195.21482 ; infill
+
 G1 Z19.000 F60000.000 ; move to next layer (188)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2195.64176 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2196.06871 ; perimeter
@@ -12981,10 +11271,7 @@ G1 X12.550 Y12.505 E2199.74611 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2199.87279 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2199.96092 ; infill
 G1 X11.323 Y-4.605 E2200.21224 ; infill
 G1 X11.323 Y-1.272 E2200.30037 ; infill
@@ -12999,10 +11286,7 @@ G1 X10.591 Y11.323 E2202.88784 ; infill
 G1 X-11.323 Y-10.591 E2203.70753 ; infill
 G1 X-11.323 Y-7.259 E2203.79566 ; infill
 G1 X7.259 Y11.323 E2204.49071 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2204.57884 ; infill
 G1 X-11.323 Y-3.926 E2205.14926 ; infill
 G1 X-11.323 Y-0.594 E2205.23739 ; infill
@@ -13013,11 +11297,8 @@ G1 X-11.323 Y6.070 E2206.18056 ; infill
 G1 X-6.070 Y11.323 E2206.37706 ; infill
 G1 X-9.402 Y11.323 E2206.46520 ; infill
 G1 X-11.323 Y9.402 E2206.53706 ; infill
+
 G1 Z19.100 F60000.000 ; move to next layer (189)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2206.96400 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2207.39095 ; perimeter
@@ -13036,10 +11317,7 @@ G1 X12.550 Y12.505 E2211.06835 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2211.19503 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2211.28316 ; infill
 G1 X4.605 Y11.323 E2211.53447 ; infill
 G1 X1.272 Y11.323 E2211.62261 ; infill
@@ -13054,10 +11332,7 @@ G1 X-11.323 Y10.591 E2214.21008 ; infill
 G1 X10.591 Y-11.323 E2215.02977 ; infill
 G1 X7.259 Y-11.323 E2215.11790 ; infill
 G1 X-11.323 Y7.259 E2215.81295 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2215.90108 ; infill
 G1 X3.926 Y-11.323 E2216.47149 ; infill
 G1 X0.594 Y-11.323 E2216.55963 ; infill
@@ -13068,11 +11343,8 @@ G1 X-6.070 Y-11.323 E2217.50280 ; infill
 G1 X-11.323 Y-6.070 E2217.69930 ; infill
 G1 X-11.323 Y-9.402 E2217.78743 ; infill
 G1 X-9.402 Y-11.323 E2217.85929 ; infill
+
 G1 Z19.200 F60000.000 ; move to next layer (190)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2218.28624 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2218.71318 ; perimeter
@@ -13091,10 +11363,7 @@ G1 X12.550 Y12.505 E2222.39058 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2222.51726 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2222.60539 ; infill
 G1 X11.323 Y-4.605 E2222.85671 ; infill
 G1 X11.323 Y-1.272 E2222.94484 ; infill
@@ -13109,10 +11378,7 @@ G1 X10.591 Y11.323 E2225.53231 ; infill
 G1 X-11.323 Y-10.591 E2226.35200 ; infill
 G1 X-11.323 Y-7.259 E2226.44014 ; infill
 G1 X7.259 Y11.323 E2227.13519 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2227.22332 ; infill
 G1 X-11.323 Y-3.926 E2227.79373 ; infill
 G1 X-11.323 Y-0.594 E2227.88186 ; infill
@@ -13123,11 +11389,8 @@ G1 X-11.323 Y6.070 E2228.82504 ; infill
 G1 X-6.070 Y11.323 E2229.02154 ; infill
 G1 X-9.402 Y11.323 E2229.10967 ; infill
 G1 X-11.323 Y9.402 E2229.18153 ; infill
+
 G1 Z19.300 F60000.000 ; move to next layer (191)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2229.60848 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2230.03542 ; perimeter
@@ -13146,10 +11409,7 @@ G1 X12.550 Y12.505 E2233.71282 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2233.83950 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2233.92763 ; infill
 G1 X4.605 Y11.323 E2234.17895 ; infill
 G1 X1.272 Y11.323 E2234.26708 ; infill
@@ -13164,10 +11424,7 @@ G1 X-11.323 Y10.591 E2236.85455 ; infill
 G1 X10.591 Y-11.323 E2237.67424 ; infill
 G1 X7.259 Y-11.323 E2237.76237 ; infill
 G1 X-11.323 Y7.259 E2238.45742 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2238.54556 ; infill
 G1 X3.926 Y-11.323 E2239.11597 ; infill
 G1 X0.594 Y-11.323 E2239.20410 ; infill
@@ -13178,11 +11435,8 @@ G1 X-6.070 Y-11.323 E2240.14728 ; infill
 G1 X-11.323 Y-6.070 E2240.34378 ; infill
 G1 X-11.323 Y-9.402 E2240.43191 ; infill
 G1 X-9.402 Y-11.323 E2240.50377 ; infill
+
 G1 Z19.400 F60000.000 ; move to next layer (192)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2240.93071 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2241.35766 ; perimeter
@@ -13201,10 +11455,7 @@ G1 X12.550 Y12.505 E2245.03506 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2245.16174 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2245.24987 ; infill
 G1 X11.323 Y-4.605 E2245.50119 ; infill
 G1 X11.323 Y-1.272 E2245.58932 ; infill
@@ -13219,10 +11470,7 @@ G1 X10.591 Y11.323 E2248.17679 ; infill
 G1 X-11.323 Y-10.591 E2248.99648 ; infill
 G1 X-11.323 Y-7.259 E2249.08461 ; infill
 G1 X7.259 Y11.323 E2249.77966 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2249.86779 ; infill
 G1 X-11.323 Y-3.926 E2250.43821 ; infill
 G1 X-11.323 Y-0.594 E2250.52634 ; infill
@@ -13233,11 +11481,8 @@ G1 X-11.323 Y6.070 E2251.46951 ; infill
 G1 X-6.070 Y11.323 E2251.66601 ; infill
 G1 X-9.402 Y11.323 E2251.75414 ; infill
 G1 X-11.323 Y9.402 E2251.82601 ; infill
+
 G1 Z19.500 F60000.000 ; move to next layer (193)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2252.25295 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2252.67990 ; perimeter
@@ -13256,10 +11501,7 @@ G1 X12.550 Y12.505 E2256.35730 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2256.48397 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2256.57211 ; infill
 G1 X4.605 Y11.323 E2256.82342 ; infill
 G1 X1.272 Y11.323 E2256.91155 ; infill
@@ -13274,10 +11516,7 @@ G1 X-11.323 Y10.591 E2259.49903 ; infill
 G1 X10.591 Y-11.323 E2260.31871 ; infill
 G1 X7.259 Y-11.323 E2260.40685 ; infill
 G1 X-11.323 Y7.259 E2261.10190 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2261.19003 ; infill
 G1 X3.926 Y-11.323 E2261.76044 ; infill
 G1 X0.594 Y-11.323 E2261.84857 ; infill
@@ -13288,11 +11527,8 @@ G1 X-6.070 Y-11.323 E2262.79175 ; infill
 G1 X-11.323 Y-6.070 E2262.98825 ; infill
 G1 X-11.323 Y-9.402 E2263.07638 ; infill
 G1 X-9.402 Y-11.323 E2263.14824 ; infill
+
 G1 Z19.600 F60000.000 ; move to next layer (194)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2263.57519 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2264.00213 ; perimeter
@@ -13311,10 +11547,7 @@ G1 X12.550 Y12.505 E2267.67953 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2267.80621 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2267.89434 ; infill
 G1 X11.323 Y-4.605 E2268.14566 ; infill
 G1 X11.323 Y-1.272 E2268.23379 ; infill
@@ -13329,10 +11562,7 @@ G1 X10.591 Y11.323 E2270.82126 ; infill
 G1 X-11.323 Y-10.591 E2271.64095 ; infill
 G1 X-11.323 Y-7.259 E2271.72908 ; infill
 G1 X7.259 Y11.323 E2272.42413 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2272.51227 ; infill
 G1 X-11.323 Y-3.926 E2273.08268 ; infill
 G1 X-11.323 Y-0.594 E2273.17081 ; infill
@@ -13343,11 +11573,8 @@ G1 X-11.323 Y6.070 E2274.11399 ; infill
 G1 X-6.070 Y11.323 E2274.31049 ; infill
 G1 X-9.402 Y11.323 E2274.39862 ; infill
 G1 X-11.323 Y9.402 E2274.47048 ; infill
+
 G1 Z19.700 F60000.000 ; move to next layer (195)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2274.89743 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2275.32437 ; perimeter
@@ -13366,10 +11593,7 @@ G1 X12.550 Y12.505 E2279.00177 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2279.12845 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2279.21658 ; infill
 G1 X4.605 Y11.323 E2279.46790 ; infill
 G1 X1.272 Y11.323 E2279.55603 ; infill
@@ -13384,10 +11608,7 @@ G1 X-11.323 Y10.591 E2282.14350 ; infill
 G1 X10.591 Y-11.323 E2282.96319 ; infill
 G1 X7.259 Y-11.323 E2283.05132 ; infill
 G1 X-11.323 Y7.259 E2283.74637 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2283.83450 ; infill
 G1 X3.926 Y-11.323 E2284.40492 ; infill
 G1 X0.594 Y-11.323 E2284.49305 ; infill
@@ -13398,11 +11619,8 @@ G1 X-6.070 Y-11.323 E2285.43623 ; infill
 G1 X-11.323 Y-6.070 E2285.63272 ; infill
 G1 X-11.323 Y-9.402 E2285.72086 ; infill
 G1 X-9.402 Y-11.323 E2285.79272 ; infill
+
 G1 Z19.800 F60000.000 ; move to next layer (196)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2286.21966 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2286.64661 ; perimeter
@@ -13421,10 +11639,7 @@ G1 X12.550 Y12.505 E2290.32401 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2290.45069 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2290.53882 ; infill
 G1 X11.323 Y-4.605 E2290.79013 ; infill
 G1 X11.323 Y-1.272 E2290.87827 ; infill
@@ -13439,10 +11654,7 @@ G1 X10.591 Y11.323 E2293.46574 ; infill
 G1 X-11.323 Y-10.591 E2294.28543 ; infill
 G1 X-11.323 Y-7.259 E2294.37356 ; infill
 G1 X7.259 Y11.323 E2295.06861 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2295.15674 ; infill
 G1 X-11.323 Y-3.926 E2295.72715 ; infill
 G1 X-11.323 Y-0.594 E2295.81529 ; infill
@@ -13453,11 +11665,8 @@ G1 X-11.323 Y6.070 E2296.75846 ; infill
 G1 X-6.070 Y11.323 E2296.95496 ; infill
 G1 X-9.402 Y11.323 E2297.04309 ; infill
 G1 X-11.323 Y9.402 E2297.11495 ; infill
+
 G1 Z19.900 F60000.000 ; move to next layer (197)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2297.54190 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2297.96884 ; perimeter
@@ -13476,10 +11685,7 @@ G1 X12.550 Y12.505 E2301.64624 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2301.77292 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2301.86106 ; infill
 G1 X4.605 Y11.323 E2302.11237 ; infill
 G1 X1.272 Y11.323 E2302.20050 ; infill
@@ -13494,10 +11700,7 @@ G1 X-11.323 Y10.591 E2304.78797 ; infill
 G1 X10.591 Y-11.323 E2305.60766 ; infill
 G1 X7.259 Y-11.323 E2305.69580 ; infill
 G1 X-11.323 Y7.259 E2306.39085 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2306.47898 ; infill
 G1 X3.926 Y-11.323 E2307.04939 ; infill
 G1 X0.594 Y-11.323 E2307.13752 ; infill
@@ -13508,11 +11711,8 @@ G1 X-6.070 Y-11.323 E2308.08070 ; infill
 G1 X-11.323 Y-6.070 E2308.27720 ; infill
 G1 X-11.323 Y-9.402 E2308.36533 ; infill
 G1 X-9.402 Y-11.323 E2308.43719 ; infill
+
 G1 Z20.000 F60000.000 ; move to next layer (198)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2308.86414 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2309.29108 ; perimeter
@@ -13531,10 +11731,7 @@ G1 X12.550 Y12.505 E2312.96848 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2313.09516 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2313.18329 ; infill
 G1 X11.323 Y-4.605 E2313.43461 ; infill
 G1 X11.323 Y-1.272 E2313.52274 ; infill
@@ -13549,10 +11746,7 @@ G1 X10.591 Y11.323 E2316.11021 ; infill
 G1 X-11.323 Y-10.591 E2316.92990 ; infill
 G1 X-11.323 Y-7.259 E2317.01803 ; infill
 G1 X7.259 Y11.323 E2317.71308 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2317.80122 ; infill
 G1 X-11.323 Y-3.926 E2318.37163 ; infill
 G1 X-11.323 Y-0.594 E2318.45976 ; infill
@@ -13563,11 +11757,8 @@ G1 X-11.323 Y6.070 E2319.40294 ; infill
 G1 X-6.070 Y11.323 E2319.59944 ; infill
 G1 X-9.402 Y11.323 E2319.68757 ; infill
 G1 X-11.323 Y9.402 E2319.75943 ; infill
+
 G1 Z20.100 F60000.000 ; move to next layer (199)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2320.18637 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2320.61332 ; perimeter
@@ -13586,10 +11777,7 @@ G1 X12.550 Y12.505 E2324.29072 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2324.41740 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2324.50553 ; infill
 G1 X4.605 Y11.323 E2324.75685 ; infill
 G1 X1.272 Y11.323 E2324.84498 ; infill
@@ -13604,10 +11792,7 @@ G1 X-11.323 Y10.591 E2327.43245 ; infill
 G1 X10.591 Y-11.323 E2328.25214 ; infill
 G1 X7.259 Y-11.323 E2328.34027 ; infill
 G1 X-11.323 Y7.259 E2329.03532 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2329.12345 ; infill
 G1 X3.926 Y-11.323 E2329.69387 ; infill
 G1 X0.594 Y-11.323 E2329.78200 ; infill
@@ -13618,11 +11803,8 @@ G1 X-6.070 Y-11.323 E2330.72517 ; infill
 G1 X-11.323 Y-6.070 E2330.92167 ; infill
 G1 X-11.323 Y-9.402 E2331.00981 ; infill
 G1 X-9.402 Y-11.323 E2331.08167 ; infill
+
 G1 Z20.200 F60000.000 ; move to next layer (200)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2331.50861 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2331.93556 ; perimeter
@@ -13641,10 +11823,7 @@ G1 X12.550 Y12.505 E2335.61296 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2335.73963 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2335.82777 ; infill
 G1 X11.323 Y-4.605 E2336.07908 ; infill
 G1 X11.323 Y-1.272 E2336.16722 ; infill
@@ -13659,10 +11838,7 @@ G1 X10.591 Y11.323 E2338.75469 ; infill
 G1 X-11.323 Y-10.591 E2339.57437 ; infill
 G1 X-11.323 Y-7.259 E2339.66251 ; infill
 G1 X7.259 Y11.323 E2340.35756 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2340.44569 ; infill
 G1 X-11.323 Y-3.926 E2341.01610 ; infill
 G1 X-11.323 Y-0.594 E2341.10423 ; infill
@@ -13673,11 +11849,8 @@ G1 X-11.323 Y6.070 E2342.04741 ; infill
 G1 X-6.070 Y11.323 E2342.24391 ; infill
 G1 X-9.402 Y11.323 E2342.33204 ; infill
 G1 X-11.323 Y9.402 E2342.40390 ; infill
+
 G1 Z20.300 F60000.000 ; move to next layer (201)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2342.83085 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2343.25779 ; perimeter
@@ -13696,10 +11869,7 @@ G1 X12.550 Y12.505 E2346.93519 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2347.06187 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2347.15000 ; infill
 G1 X4.605 Y11.323 E2347.40132 ; infill
 G1 X1.272 Y11.323 E2347.48945 ; infill
@@ -13714,10 +11884,7 @@ G1 X-11.323 Y10.591 E2350.07692 ; infill
 G1 X10.591 Y-11.323 E2350.89661 ; infill
 G1 X7.259 Y-11.323 E2350.98474 ; infill
 G1 X-11.323 Y7.259 E2351.67979 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2351.76793 ; infill
 G1 X3.926 Y-11.323 E2352.33834 ; infill
 G1 X0.594 Y-11.323 E2352.42647 ; infill
@@ -13728,11 +11895,8 @@ G1 X-6.070 Y-11.323 E2353.36965 ; infill
 G1 X-11.323 Y-6.070 E2353.56615 ; infill
 G1 X-11.323 Y-9.402 E2353.65428 ; infill
 G1 X-9.402 Y-11.323 E2353.72614 ; infill
+
 G1 Z20.400 F60000.000 ; move to next layer (202)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2354.15309 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2354.58003 ; perimeter
@@ -13751,10 +11915,7 @@ G1 X12.550 Y12.505 E2358.25743 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2358.38411 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2358.47224 ; infill
 G1 X11.323 Y-4.605 E2358.72356 ; infill
 G1 X11.323 Y-1.272 E2358.81169 ; infill
@@ -13769,10 +11930,7 @@ G1 X10.591 Y11.323 E2361.39916 ; infill
 G1 X-11.323 Y-10.591 E2362.21885 ; infill
 G1 X-11.323 Y-7.259 E2362.30698 ; infill
 G1 X7.259 Y11.323 E2363.00203 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2363.09016 ; infill
 G1 X-11.323 Y-3.926 E2363.66058 ; infill
 G1 X-11.323 Y-0.594 E2363.74871 ; infill
@@ -13783,11 +11941,8 @@ G1 X-11.323 Y6.070 E2364.69189 ; infill
 G1 X-6.070 Y11.323 E2364.88838 ; infill
 G1 X-9.402 Y11.323 E2364.97652 ; infill
 G1 X-11.323 Y9.402 E2365.04838 ; infill
+
 G1 Z20.500 F60000.000 ; move to next layer (203)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2365.47532 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2365.90227 ; perimeter
@@ -13806,10 +11961,7 @@ G1 X12.550 Y12.505 E2369.57967 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2369.70635 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2369.79448 ; infill
 G1 X4.605 Y11.323 E2370.04579 ; infill
 G1 X1.272 Y11.323 E2370.13393 ; infill
@@ -13824,10 +11976,7 @@ G1 X-11.323 Y10.591 E2372.72140 ; infill
 G1 X10.591 Y-11.323 E2373.54109 ; infill
 G1 X7.259 Y-11.323 E2373.62922 ; infill
 G1 X-11.323 Y7.259 E2374.32427 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2374.41240 ; infill
 G1 X3.926 Y-11.323 E2374.98281 ; infill
 G1 X0.594 Y-11.323 E2375.07095 ; infill
@@ -13838,11 +11987,8 @@ G1 X-6.070 Y-11.323 E2376.01412 ; infill
 G1 X-11.323 Y-6.070 E2376.21062 ; infill
 G1 X-11.323 Y-9.402 E2376.29875 ; infill
 G1 X-9.402 Y-11.323 E2376.37061 ; infill
+
 G1 Z20.600 F60000.000 ; move to next layer (204)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2376.79756 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2377.22451 ; perimeter
@@ -13861,10 +12007,7 @@ G1 X12.550 Y12.505 E2380.90190 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2381.02858 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2381.11672 ; infill
 G1 X11.323 Y-4.605 E2381.36803 ; infill
 G1 X11.323 Y-1.272 E2381.45616 ; infill
@@ -13879,10 +12022,7 @@ G1 X10.591 Y11.323 E2384.04364 ; infill
 G1 X-11.323 Y-10.591 E2384.86332 ; infill
 G1 X-11.323 Y-7.259 E2384.95146 ; infill
 G1 X7.259 Y11.323 E2385.64651 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2385.73464 ; infill
 G1 X-11.323 Y-3.926 E2386.30505 ; infill
 G1 X-11.323 Y-0.594 E2386.39318 ; infill
@@ -13893,11 +12033,8 @@ G1 X-11.323 Y6.070 E2387.33636 ; infill
 G1 X-6.070 Y11.323 E2387.53286 ; infill
 G1 X-9.402 Y11.323 E2387.62099 ; infill
 G1 X-11.323 Y9.402 E2387.69285 ; infill
+
 G1 Z20.700 F60000.000 ; move to next layer (205)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2388.11980 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2388.54674 ; perimeter
@@ -13916,10 +12053,7 @@ G1 X12.550 Y12.505 E2392.22414 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2392.35082 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2392.43895 ; infill
 G1 X4.605 Y11.323 E2392.69027 ; infill
 G1 X1.272 Y11.323 E2392.77840 ; infill
@@ -13934,10 +12068,7 @@ G1 X-11.323 Y10.591 E2395.36587 ; infill
 G1 X10.591 Y-11.323 E2396.18556 ; infill
 G1 X7.259 Y-11.323 E2396.27369 ; infill
 G1 X-11.323 Y7.259 E2396.96874 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2397.05688 ; infill
 G1 X3.926 Y-11.323 E2397.62729 ; infill
 G1 X0.594 Y-11.323 E2397.71542 ; infill
@@ -13948,11 +12079,8 @@ G1 X-6.070 Y-11.323 E2398.65860 ; infill
 G1 X-11.323 Y-6.070 E2398.85510 ; infill
 G1 X-11.323 Y-9.402 E2398.94323 ; infill
 G1 X-9.402 Y-11.323 E2399.01509 ; infill
+
 G1 Z20.800 F60000.000 ; move to next layer (206)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2399.44203 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2399.86898 ; perimeter
@@ -13971,10 +12099,7 @@ G1 X12.550 Y12.505 E2403.54638 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2403.67306 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2403.76119 ; infill
 G1 X11.323 Y-4.605 E2404.01251 ; infill
 G1 X11.323 Y-1.272 E2404.10064 ; infill
@@ -13989,10 +12114,7 @@ G1 X10.591 Y11.323 E2406.68811 ; infill
 G1 X-11.323 Y-10.591 E2407.50780 ; infill
 G1 X-11.323 Y-7.259 E2407.59593 ; infill
 G1 X7.259 Y11.323 E2408.29098 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2408.37911 ; infill
 G1 X-11.323 Y-3.926 E2408.94953 ; infill
 G1 X-11.323 Y-0.594 E2409.03766 ; infill
@@ -14003,11 +12125,8 @@ G1 X-11.323 Y6.070 E2409.98083 ; infill
 G1 X-6.070 Y11.323 E2410.17733 ; infill
 G1 X-9.402 Y11.323 E2410.26547 ; infill
 G1 X-11.323 Y9.402 E2410.33733 ; infill
+
 G1 Z20.900 F60000.000 ; move to next layer (207)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2410.76427 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2411.19122 ; perimeter
@@ -14026,10 +12145,7 @@ G1 X12.550 Y12.505 E2414.86862 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2414.99529 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2415.08343 ; infill
 G1 X4.605 Y11.323 E2415.33474 ; infill
 G1 X1.272 Y11.323 E2415.42288 ; infill
@@ -14044,10 +12160,7 @@ G1 X-11.323 Y10.591 E2418.01035 ; infill
 G1 X10.591 Y-11.323 E2418.83003 ; infill
 G1 X7.259 Y-11.323 E2418.91817 ; infill
 G1 X-11.323 Y7.259 E2419.61322 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2419.70135 ; infill
 G1 X3.926 Y-11.323 E2420.27176 ; infill
 G1 X0.594 Y-11.323 E2420.35990 ; infill
@@ -14058,11 +12171,8 @@ G1 X-6.070 Y-11.323 E2421.30307 ; infill
 G1 X-11.323 Y-6.070 E2421.49957 ; infill
 G1 X-11.323 Y-9.402 E2421.58770 ; infill
 G1 X-9.402 Y-11.323 E2421.65956 ; infill
+
 G1 Z21.000 F60000.000 ; move to next layer (208)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2422.08651 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2422.51345 ; perimeter
@@ -14081,10 +12191,7 @@ G1 X12.550 Y12.505 E2426.19085 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2426.31753 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2426.40566 ; infill
 G1 X11.323 Y-4.605 E2426.65698 ; infill
 G1 X11.323 Y-1.272 E2426.74511 ; infill
@@ -14099,10 +12206,7 @@ G1 X10.591 Y11.323 E2429.33258 ; infill
 G1 X-11.323 Y-10.591 E2430.15227 ; infill
 G1 X-11.323 Y-7.259 E2430.24040 ; infill
 G1 X7.259 Y11.323 E2430.93546 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2431.02359 ; infill
 G1 X-11.323 Y-3.926 E2431.59400 ; infill
 G1 X-11.323 Y-0.594 E2431.68213 ; infill
@@ -14113,11 +12217,8 @@ G1 X-11.323 Y6.070 E2432.62531 ; infill
 G1 X-6.070 Y11.323 E2432.82181 ; infill
 G1 X-9.402 Y11.323 E2432.90994 ; infill
 G1 X-11.323 Y9.402 E2432.98180 ; infill
+
 G1 Z21.100 F60000.000 ; move to next layer (209)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2433.40875 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2433.83569 ; perimeter
@@ -14136,10 +12237,7 @@ G1 X12.550 Y12.505 E2437.51309 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2437.63977 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2437.72790 ; infill
 G1 X4.605 Y11.323 E2437.97922 ; infill
 G1 X1.272 Y11.323 E2438.06735 ; infill
@@ -14154,10 +12252,7 @@ G1 X-11.323 Y10.591 E2440.65482 ; infill
 G1 X10.591 Y-11.323 E2441.47451 ; infill
 G1 X7.259 Y-11.323 E2441.56264 ; infill
 G1 X-11.323 Y7.259 E2442.25769 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2442.34582 ; infill
 G1 X3.926 Y-11.323 E2442.91624 ; infill
 G1 X0.594 Y-11.323 E2443.00437 ; infill
@@ -14168,11 +12263,8 @@ G1 X-6.070 Y-11.323 E2443.94755 ; infill
 G1 X-11.323 Y-6.070 E2444.14404 ; infill
 G1 X-11.323 Y-9.402 E2444.23218 ; infill
 G1 X-9.402 Y-11.323 E2444.30404 ; infill
+
 G1 Z21.200 F60000.000 ; move to next layer (210)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2444.73098 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2445.15793 ; perimeter
@@ -14191,10 +12283,7 @@ G1 X12.550 Y12.505 E2448.83533 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2448.96201 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2449.05014 ; infill
 G1 X11.323 Y-4.605 E2449.30145 ; infill
 G1 X11.323 Y-1.272 E2449.38959 ; infill
@@ -14209,10 +12298,7 @@ G1 X10.591 Y11.323 E2451.97706 ; infill
 G1 X-11.323 Y-10.591 E2452.79675 ; infill
 G1 X-11.323 Y-7.259 E2452.88488 ; infill
 G1 X7.259 Y11.323 E2453.57993 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2453.66806 ; infill
 G1 X-11.323 Y-3.926 E2454.23847 ; infill
 G1 X-11.323 Y-0.594 E2454.32661 ; infill
@@ -14223,11 +12309,8 @@ G1 X-11.323 Y6.070 E2455.26978 ; infill
 G1 X-6.070 Y11.323 E2455.46628 ; infill
 G1 X-9.402 Y11.323 E2455.55441 ; infill
 G1 X-11.323 Y9.402 E2455.62628 ; infill
+
 G1 Z21.300 F60000.000 ; move to next layer (211)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2456.05322 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2456.48017 ; perimeter
@@ -14246,10 +12329,7 @@ G1 X12.550 Y12.505 E2460.15757 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2460.28424 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2460.37238 ; infill
 G1 X4.605 Y11.323 E2460.62369 ; infill
 G1 X1.272 Y11.323 E2460.71182 ; infill
@@ -14264,10 +12344,7 @@ G1 X-11.323 Y10.591 E2463.29930 ; infill
 G1 X10.591 Y-11.323 E2464.11898 ; infill
 G1 X7.259 Y-11.323 E2464.20712 ; infill
 G1 X-11.323 Y7.259 E2464.90217 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2464.99030 ; infill
 G1 X3.926 Y-11.323 E2465.56071 ; infill
 G1 X0.594 Y-11.323 E2465.64884 ; infill
@@ -14278,11 +12355,8 @@ G1 X-6.070 Y-11.323 E2466.59202 ; infill
 G1 X-11.323 Y-6.070 E2466.78852 ; infill
 G1 X-11.323 Y-9.402 E2466.87665 ; infill
 G1 X-9.402 Y-11.323 E2466.94851 ; infill
+
 G1 Z21.400 F60000.000 ; move to next layer (212)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2467.37546 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2467.80240 ; perimeter
@@ -14301,10 +12375,7 @@ G1 X12.550 Y12.505 E2471.47980 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2471.60648 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2471.69461 ; infill
 G1 X11.323 Y-4.605 E2471.94593 ; infill
 G1 X11.323 Y-1.272 E2472.03406 ; infill
@@ -14319,10 +12390,7 @@ G1 X10.591 Y11.323 E2474.62153 ; infill
 G1 X-11.323 Y-10.591 E2475.44122 ; infill
 G1 X-11.323 Y-7.259 E2475.52935 ; infill
 G1 X7.259 Y11.323 E2476.22440 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2476.31254 ; infill
 G1 X-11.323 Y-3.926 E2476.88295 ; infill
 G1 X-11.323 Y-0.594 E2476.97108 ; infill
@@ -14333,11 +12401,8 @@ G1 X-11.323 Y6.070 E2477.91426 ; infill
 G1 X-6.070 Y11.323 E2478.11076 ; infill
 G1 X-9.402 Y11.323 E2478.19889 ; infill
 G1 X-11.323 Y9.402 E2478.27075 ; infill
+
 G1 Z21.500 F60000.000 ; move to next layer (213)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2478.69769 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2479.12464 ; perimeter
@@ -14356,10 +12421,7 @@ G1 X12.550 Y12.505 E2482.80204 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2482.92872 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2483.01685 ; infill
 G1 X4.605 Y11.323 E2483.26817 ; infill
 G1 X1.272 Y11.323 E2483.35630 ; infill
@@ -14374,10 +12436,7 @@ G1 X-11.323 Y10.591 E2485.94377 ; infill
 G1 X10.591 Y-11.323 E2486.76346 ; infill
 G1 X7.259 Y-11.323 E2486.85159 ; infill
 G1 X-11.323 Y7.259 E2487.54664 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2487.63477 ; infill
 G1 X3.926 Y-11.323 E2488.20519 ; infill
 G1 X0.594 Y-11.323 E2488.29332 ; infill
@@ -14388,11 +12447,8 @@ G1 X-6.070 Y-11.323 E2489.23649 ; infill
 G1 X-11.323 Y-6.070 E2489.43299 ; infill
 G1 X-11.323 Y-9.402 E2489.52113 ; infill
 G1 X-9.402 Y-11.323 E2489.59299 ; infill
+
 G1 Z21.600 F60000.000 ; move to next layer (214)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2490.01993 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2490.44688 ; perimeter
@@ -14411,10 +12467,7 @@ G1 X12.550 Y12.505 E2494.12428 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2494.25096 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2494.33909 ; infill
 G1 X11.323 Y-4.605 E2494.59040 ; infill
 G1 X11.323 Y-1.272 E2494.67854 ; infill
@@ -14429,10 +12482,7 @@ G1 X10.591 Y11.323 E2497.26601 ; infill
 G1 X-11.323 Y-10.591 E2498.08570 ; infill
 G1 X-11.323 Y-7.259 E2498.17383 ; infill
 G1 X7.259 Y11.323 E2498.86888 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2498.95701 ; infill
 G1 X-11.323 Y-3.926 E2499.52742 ; infill
 G1 X-11.323 Y-0.594 E2499.61556 ; infill
@@ -14443,11 +12493,8 @@ G1 X-11.323 Y6.070 E2500.55873 ; infill
 G1 X-6.070 Y11.323 E2500.75523 ; infill
 G1 X-9.402 Y11.323 E2500.84336 ; infill
 G1 X-11.323 Y9.402 E2500.91522 ; infill
+
 G1 Z21.700 F60000.000 ; move to next layer (215)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2501.34217 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2501.76911 ; perimeter
@@ -14466,10 +12513,7 @@ G1 X12.550 Y12.505 E2505.44651 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2505.57319 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2505.66132 ; infill
 G1 X4.605 Y11.323 E2505.91264 ; infill
 G1 X1.272 Y11.323 E2506.00077 ; infill
@@ -14484,10 +12528,7 @@ G1 X-11.323 Y10.591 E2508.58824 ; infill
 G1 X10.591 Y-11.323 E2509.40793 ; infill
 G1 X7.259 Y-11.323 E2509.49606 ; infill
 G1 X-11.323 Y7.259 E2510.19112 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2510.27925 ; infill
 G1 X3.926 Y-11.323 E2510.84966 ; infill
 G1 X0.594 Y-11.323 E2510.93779 ; infill
@@ -14498,11 +12539,8 @@ G1 X-6.070 Y-11.323 E2511.88097 ; infill
 G1 X-11.323 Y-6.070 E2512.07747 ; infill
 G1 X-11.323 Y-9.402 E2512.16560 ; infill
 G1 X-9.402 Y-11.323 E2512.23746 ; infill
+
 G1 Z21.800 F60000.000 ; move to next layer (216)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2512.66441 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2513.09135 ; perimeter
@@ -14521,10 +12559,7 @@ G1 X12.550 Y12.505 E2516.76875 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2516.89543 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2516.98356 ; infill
 G1 X11.323 Y-4.605 E2517.23488 ; infill
 G1 X11.323 Y-1.272 E2517.32301 ; infill
@@ -14539,10 +12574,7 @@ G1 X10.591 Y11.323 E2519.91048 ; infill
 G1 X-11.323 Y-10.591 E2520.73017 ; infill
 G1 X-11.323 Y-7.259 E2520.81830 ; infill
 G1 X7.259 Y11.323 E2521.51335 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2521.60149 ; infill
 G1 X-11.323 Y-3.926 E2522.17190 ; infill
 G1 X-11.323 Y-0.594 E2522.26003 ; infill
@@ -14553,11 +12585,8 @@ G1 X-11.323 Y6.070 E2523.20321 ; infill
 G1 X-6.070 Y11.323 E2523.39970 ; infill
 G1 X-9.402 Y11.323 E2523.48784 ; infill
 G1 X-11.323 Y9.402 E2523.55970 ; infill
+
 G1 Z21.900 F60000.000 ; move to next layer (217)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2523.98664 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2524.41359 ; perimeter
@@ -14576,10 +12605,7 @@ G1 X12.550 Y12.505 E2528.09099 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2528.21767 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2528.30580 ; infill
 G1 X4.605 Y11.323 E2528.55711 ; infill
 G1 X1.272 Y11.323 E2528.64525 ; infill
@@ -14594,10 +12620,7 @@ G1 X-11.323 Y10.591 E2531.23272 ; infill
 G1 X10.591 Y-11.323 E2532.05241 ; infill
 G1 X7.259 Y-11.323 E2532.14054 ; infill
 G1 X-11.323 Y7.259 E2532.83559 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2532.92372 ; infill
 G1 X3.926 Y-11.323 E2533.49413 ; infill
 G1 X0.594 Y-11.323 E2533.58227 ; infill
@@ -14608,11 +12631,8 @@ G1 X-6.070 Y-11.323 E2534.52544 ; infill
 G1 X-11.323 Y-6.070 E2534.72194 ; infill
 G1 X-11.323 Y-9.402 E2534.81007 ; infill
 G1 X-9.402 Y-11.323 E2534.88194 ; infill
+
 G1 Z22.000 F60000.000 ; move to next layer (218)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2535.30888 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2535.73583 ; perimeter
@@ -14631,10 +12651,7 @@ G1 X12.550 Y12.505 E2539.41323 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2539.53990 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2539.62804 ; infill
 G1 X11.323 Y-4.605 E2539.87935 ; infill
 G1 X11.323 Y-1.272 E2539.96748 ; infill
@@ -14649,10 +12666,7 @@ G1 X10.591 Y11.323 E2542.55496 ; infill
 G1 X-11.323 Y-10.591 E2543.37464 ; infill
 G1 X-11.323 Y-7.259 E2543.46278 ; infill
 G1 X7.259 Y11.323 E2544.15783 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2544.24596 ; infill
 G1 X-11.323 Y-3.926 E2544.81637 ; infill
 G1 X-11.323 Y-0.594 E2544.90450 ; infill
@@ -14663,11 +12677,8 @@ G1 X-11.323 Y6.070 E2545.84768 ; infill
 G1 X-6.070 Y11.323 E2546.04418 ; infill
 G1 X-9.402 Y11.323 E2546.13231 ; infill
 G1 X-11.323 Y9.402 E2546.20417 ; infill
+
 G1 Z22.100 F60000.000 ; move to next layer (219)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2546.63112 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2547.05806 ; perimeter
@@ -14686,10 +12697,7 @@ G1 X12.550 Y12.505 E2550.73546 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2550.86214 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2550.95027 ; infill
 G1 X4.605 Y11.323 E2551.20159 ; infill
 G1 X1.272 Y11.323 E2551.28972 ; infill
@@ -14704,10 +12712,7 @@ G1 X-11.323 Y10.591 E2553.87719 ; infill
 G1 X10.591 Y-11.323 E2554.69688 ; infill
 G1 X7.259 Y-11.323 E2554.78501 ; infill
 G1 X-11.323 Y7.259 E2555.48006 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2555.56820 ; infill
 G1 X3.926 Y-11.323 E2556.13861 ; infill
 G1 X0.594 Y-11.323 E2556.22674 ; infill
@@ -14718,11 +12723,8 @@ G1 X-6.070 Y-11.323 E2557.16992 ; infill
 G1 X-11.323 Y-6.070 E2557.36642 ; infill
 G1 X-11.323 Y-9.402 E2557.45455 ; infill
 G1 X-9.402 Y-11.323 E2557.52641 ; infill
+
 G1 Z22.200 F60000.000 ; move to next layer (220)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2557.95335 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2558.38030 ; perimeter
@@ -14741,10 +12743,7 @@ G1 X12.550 Y12.505 E2562.05770 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2562.18438 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2562.27251 ; infill
 G1 X11.323 Y-4.605 E2562.52383 ; infill
 G1 X11.323 Y-1.272 E2562.61196 ; infill
@@ -14759,10 +12758,7 @@ G1 X10.591 Y11.323 E2565.19943 ; infill
 G1 X-11.323 Y-10.591 E2566.01912 ; infill
 G1 X-11.323 Y-7.259 E2566.10725 ; infill
 G1 X7.259 Y11.323 E2566.80230 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2566.89043 ; infill
 G1 X-11.323 Y-3.926 E2567.46085 ; infill
 G1 X-11.323 Y-0.594 E2567.54898 ; infill
@@ -14773,11 +12769,8 @@ G1 X-11.323 Y6.070 E2568.49215 ; infill
 G1 X-6.070 Y11.323 E2568.68865 ; infill
 G1 X-9.402 Y11.323 E2568.77679 ; infill
 G1 X-11.323 Y9.402 E2568.84865 ; infill
+
 G1 Z22.300 F60000.000 ; move to next layer (221)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2569.27559 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2569.70254 ; perimeter
@@ -14796,10 +12789,7 @@ G1 X12.550 Y12.505 E2573.37994 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2573.50662 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2573.59475 ; infill
 G1 X4.605 Y11.323 E2573.84606 ; infill
 G1 X1.272 Y11.323 E2573.93420 ; infill
@@ -14814,10 +12804,7 @@ G1 X-11.323 Y10.591 E2576.52167 ; infill
 G1 X10.591 Y-11.323 E2577.34136 ; infill
 G1 X7.259 Y-11.323 E2577.42949 ; infill
 G1 X-11.323 Y7.259 E2578.12454 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2578.21267 ; infill
 G1 X3.926 Y-11.323 E2578.78308 ; infill
 G1 X0.594 Y-11.323 E2578.87122 ; infill
@@ -14828,11 +12815,8 @@ G1 X-6.070 Y-11.323 E2579.81439 ; infill
 G1 X-11.323 Y-6.070 E2580.01089 ; infill
 G1 X-11.323 Y-9.402 E2580.09902 ; infill
 G1 X-9.402 Y-11.323 E2580.17088 ; infill
+
 G1 Z22.400 F60000.000 ; move to next layer (222)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2580.59783 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2581.02477 ; perimeter
@@ -14851,10 +12835,7 @@ G1 X12.550 Y12.505 E2584.70217 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2584.82885 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2584.91698 ; infill
 G1 X11.323 Y-4.605 E2585.16830 ; infill
 G1 X11.323 Y-1.272 E2585.25643 ; infill
@@ -14869,10 +12850,7 @@ G1 X10.591 Y11.323 E2587.84390 ; infill
 G1 X-11.323 Y-10.591 E2588.66359 ; infill
 G1 X-11.323 Y-7.259 E2588.75173 ; infill
 G1 X7.259 Y11.323 E2589.44678 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2589.53491 ; infill
 G1 X-11.323 Y-3.926 E2590.10532 ; infill
 G1 X-11.323 Y-0.594 E2590.19345 ; infill
@@ -14883,11 +12861,8 @@ G1 X-11.323 Y6.070 E2591.13663 ; infill
 G1 X-6.070 Y11.323 E2591.33313 ; infill
 G1 X-9.402 Y11.323 E2591.42126 ; infill
 G1 X-11.323 Y9.402 E2591.49312 ; infill
+
 G1 Z22.500 F60000.000 ; move to next layer (223)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2591.92007 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2592.34701 ; perimeter
@@ -14906,10 +12881,7 @@ G1 X12.550 Y12.505 E2596.02441 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2596.15109 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2596.23922 ; infill
 G1 X4.605 Y11.323 E2596.49054 ; infill
 G1 X1.272 Y11.323 E2596.57867 ; infill
@@ -14924,10 +12896,7 @@ G1 X-11.323 Y10.591 E2599.16614 ; infill
 G1 X10.591 Y-11.323 E2599.98583 ; infill
 G1 X7.259 Y-11.323 E2600.07396 ; infill
 G1 X-11.323 Y7.259 E2600.76901 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2600.85715 ; infill
 G1 X3.926 Y-11.323 E2601.42756 ; infill
 G1 X0.594 Y-11.323 E2601.51569 ; infill
@@ -14938,11 +12907,8 @@ G1 X-6.070 Y-11.323 E2602.45887 ; infill
 G1 X-11.323 Y-6.070 E2602.65537 ; infill
 G1 X-11.323 Y-9.402 E2602.74350 ; infill
 G1 X-9.402 Y-11.323 E2602.81536 ; infill
+
 G1 Z22.600 F60000.000 ; move to next layer (224)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2603.24230 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2603.66925 ; perimeter
@@ -14961,10 +12927,7 @@ G1 X12.550 Y12.505 E2607.34665 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2607.47333 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2607.56146 ; infill
 G1 X11.323 Y-4.605 E2607.81278 ; infill
 G1 X11.323 Y-1.272 E2607.90091 ; infill
@@ -14979,10 +12942,7 @@ G1 X10.591 Y11.323 E2610.48838 ; infill
 G1 X-11.323 Y-10.591 E2611.30807 ; infill
 G1 X-11.323 Y-7.259 E2611.39620 ; infill
 G1 X7.259 Y11.323 E2612.09125 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2612.17938 ; infill
 G1 X-11.323 Y-3.926 E2612.74980 ; infill
 G1 X-11.323 Y-0.594 E2612.83793 ; infill
@@ -14993,11 +12953,8 @@ G1 X-11.323 Y6.070 E2613.78110 ; infill
 G1 X-6.070 Y11.323 E2613.97760 ; infill
 G1 X-9.402 Y11.323 E2614.06573 ; infill
 G1 X-11.323 Y9.402 E2614.13760 ; infill
+
 G1 Z22.700 F60000.000 ; move to next layer (225)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2614.56454 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2614.99149 ; perimeter
@@ -15016,10 +12973,7 @@ G1 X12.550 Y12.505 E2618.66889 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2618.79556 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2618.88370 ; infill
 G1 X4.605 Y11.323 E2619.13501 ; infill
 G1 X1.272 Y11.323 E2619.22314 ; infill
@@ -15034,10 +12988,7 @@ G1 X-11.323 Y10.591 E2621.81062 ; infill
 G1 X10.591 Y-11.323 E2622.63030 ; infill
 G1 X7.259 Y-11.323 E2622.71844 ; infill
 G1 X-11.323 Y7.259 E2623.41349 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2623.50162 ; infill
 G1 X3.926 Y-11.323 E2624.07203 ; infill
 G1 X0.594 Y-11.323 E2624.16016 ; infill
@@ -15048,11 +12999,8 @@ G1 X-6.070 Y-11.323 E2625.10334 ; infill
 G1 X-11.323 Y-6.070 E2625.29984 ; infill
 G1 X-11.323 Y-9.402 E2625.38797 ; infill
 G1 X-9.402 Y-11.323 E2625.45983 ; infill
+
 G1 Z22.800 F60000.000 ; move to next layer (226)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2625.88678 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2626.31372 ; perimeter
@@ -15071,10 +13019,7 @@ G1 X12.550 Y12.505 E2629.99112 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2630.11780 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2630.20593 ; infill
 G1 X11.323 Y-4.605 E2630.45725 ; infill
 G1 X11.323 Y-1.272 E2630.54538 ; infill
@@ -15089,10 +13034,7 @@ G1 X10.591 Y11.323 E2633.13285 ; infill
 G1 X-11.323 Y-10.591 E2633.95254 ; infill
 G1 X-11.323 Y-7.259 E2634.04067 ; infill
 G1 X7.259 Y11.323 E2634.73572 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2634.82386 ; infill
 G1 X-11.323 Y-3.926 E2635.39427 ; infill
 G1 X-11.323 Y-0.594 E2635.48240 ; infill
@@ -15103,11 +13045,8 @@ G1 X-11.323 Y6.070 E2636.42558 ; infill
 G1 X-6.070 Y11.323 E2636.62208 ; infill
 G1 X-9.402 Y11.323 E2636.71021 ; infill
 G1 X-11.323 Y9.402 E2636.78207 ; infill
+
 G1 Z22.900 F60000.000 ; move to next layer (227)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2637.20902 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2637.63596 ; perimeter
@@ -15126,10 +13065,7 @@ G1 X12.550 Y12.505 E2641.31336 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2641.44004 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2641.52817 ; infill
 G1 X4.605 Y11.323 E2641.77949 ; infill
 G1 X1.272 Y11.323 E2641.86762 ; infill
@@ -15144,10 +13080,7 @@ G1 X-11.323 Y10.591 E2644.45509 ; infill
 G1 X10.591 Y-11.323 E2645.27478 ; infill
 G1 X7.259 Y-11.323 E2645.36291 ; infill
 G1 X-11.323 Y7.259 E2646.05796 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2646.14609 ; infill
 G1 X3.926 Y-11.323 E2646.71651 ; infill
 G1 X0.594 Y-11.323 E2646.80464 ; infill
@@ -15158,11 +13091,8 @@ G1 X-6.070 Y-11.323 E2647.74782 ; infill
 G1 X-11.323 Y-6.070 E2647.94431 ; infill
 G1 X-11.323 Y-9.402 E2648.03245 ; infill
 G1 X-9.402 Y-11.323 E2648.10431 ; infill
+
 G1 Z23.000 F60000.000 ; move to next layer (228)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2648.53125 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2648.95820 ; perimeter
@@ -15181,10 +13111,7 @@ G1 X12.550 Y12.505 E2652.63560 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2652.76228 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2652.85041 ; infill
 G1 X11.323 Y-4.605 E2653.10172 ; infill
 G1 X11.323 Y-1.272 E2653.18986 ; infill
@@ -15199,10 +13126,7 @@ G1 X10.591 Y11.323 E2655.77733 ; infill
 G1 X-11.323 Y-10.591 E2656.59702 ; infill
 G1 X-11.323 Y-7.259 E2656.68515 ; infill
 G1 X7.259 Y11.323 E2657.38020 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2657.46833 ; infill
 G1 X-11.323 Y-3.926 E2658.03874 ; infill
 G1 X-11.323 Y-0.594 E2658.12688 ; infill
@@ -15213,11 +13137,8 @@ G1 X-11.323 Y6.070 E2659.07005 ; infill
 G1 X-6.070 Y11.323 E2659.26655 ; infill
 G1 X-9.402 Y11.323 E2659.35468 ; infill
 G1 X-11.323 Y9.402 E2659.42654 ; infill
+
 G1 Z23.100 F60000.000 ; move to next layer (229)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2659.85349 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2660.28043 ; perimeter
@@ -15236,10 +13157,7 @@ G1 X12.550 Y12.505 E2663.95783 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2664.08451 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2664.17265 ; infill
 G1 X4.605 Y11.323 E2664.42396 ; infill
 G1 X1.272 Y11.323 E2664.51209 ; infill
@@ -15254,10 +13172,7 @@ G1 X-11.323 Y10.591 E2667.09956 ; infill
 G1 X10.591 Y-11.323 E2667.91925 ; infill
 G1 X7.259 Y-11.323 E2668.00739 ; infill
 G1 X-11.323 Y7.259 E2668.70244 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2668.79057 ; infill
 G1 X3.926 Y-11.323 E2669.36098 ; infill
 G1 X0.594 Y-11.323 E2669.44911 ; infill
@@ -15268,11 +13183,8 @@ G1 X-6.070 Y-11.323 E2670.39229 ; infill
 G1 X-11.323 Y-6.070 E2670.58879 ; infill
 G1 X-11.323 Y-9.402 E2670.67692 ; infill
 G1 X-9.402 Y-11.323 E2670.74878 ; infill
+
 G1 Z23.200 F60000.000 ; move to next layer (230)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2671.17573 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2671.60267 ; perimeter
@@ -15291,10 +13203,7 @@ G1 X12.550 Y12.505 E2675.28007 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2675.40675 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2675.49488 ; infill
 G1 X11.323 Y-4.605 E2675.74620 ; infill
 G1 X11.323 Y-1.272 E2675.83433 ; infill
@@ -15309,10 +13218,7 @@ G1 X10.591 Y11.323 E2678.42180 ; infill
 G1 X-11.323 Y-10.591 E2679.24149 ; infill
 G1 X-11.323 Y-7.259 E2679.32962 ; infill
 G1 X7.259 Y11.323 E2680.02467 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2680.11281 ; infill
 G1 X-11.323 Y-3.926 E2680.68322 ; infill
 G1 X-11.323 Y-0.594 E2680.77135 ; infill
@@ -15323,11 +13229,8 @@ G1 X-11.323 Y6.070 E2681.71453 ; infill
 G1 X-6.070 Y11.323 E2681.91103 ; infill
 G1 X-9.402 Y11.323 E2681.99916 ; infill
 G1 X-11.323 Y9.402 E2682.07102 ; infill
+
 G1 Z23.300 F60000.000 ; move to next layer (231)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2682.49796 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2682.92491 ; perimeter
@@ -15346,10 +13249,7 @@ G1 X12.550 Y12.505 E2686.60231 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2686.72899 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2686.81712 ; infill
 G1 X4.605 Y11.323 E2687.06844 ; infill
 G1 X1.272 Y11.323 E2687.15657 ; infill
@@ -15364,10 +13264,7 @@ G1 X-11.323 Y10.591 E2689.74404 ; infill
 G1 X10.591 Y-11.323 E2690.56373 ; infill
 G1 X7.259 Y-11.323 E2690.65186 ; infill
 G1 X-11.323 Y7.259 E2691.34691 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2691.43504 ; infill
 G1 X3.926 Y-11.323 E2692.00546 ; infill
 G1 X0.594 Y-11.323 E2692.09359 ; infill
@@ -15378,11 +13275,8 @@ G1 X-6.070 Y-11.323 E2693.03676 ; infill
 G1 X-11.323 Y-6.070 E2693.23326 ; infill
 G1 X-11.323 Y-9.402 E2693.32140 ; infill
 G1 X-9.402 Y-11.323 E2693.39326 ; infill
+
 G1 Z23.400 F60000.000 ; move to next layer (232)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2693.82020 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2694.24715 ; perimeter
@@ -15401,10 +13295,7 @@ G1 X12.550 Y12.505 E2697.92455 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2698.05122 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2698.13936 ; infill
 G1 X11.323 Y-4.605 E2698.39067 ; infill
 G1 X11.323 Y-1.272 E2698.47881 ; infill
@@ -15419,10 +13310,7 @@ G1 X10.591 Y11.323 E2701.06628 ; infill
 G1 X-11.323 Y-10.591 E2701.88596 ; infill
 G1 X-11.323 Y-7.259 E2701.97410 ; infill
 G1 X7.259 Y11.323 E2702.66915 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2702.75728 ; infill
 G1 X-11.323 Y-3.926 E2703.32769 ; infill
 G1 X-11.323 Y-0.594 E2703.41582 ; infill
@@ -15433,11 +13321,8 @@ G1 X-11.323 Y6.070 E2704.35900 ; infill
 G1 X-6.070 Y11.323 E2704.55550 ; infill
 G1 X-9.402 Y11.323 E2704.64363 ; infill
 G1 X-11.323 Y9.402 E2704.71549 ; infill
+
 G1 Z23.500 F60000.000 ; move to next layer (233)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2705.14244 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2705.56938 ; perimeter
@@ -15456,10 +13341,7 @@ G1 X12.550 Y12.505 E2709.24678 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2709.37346 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2709.46159 ; infill
 G1 X4.605 Y11.323 E2709.71291 ; infill
 G1 X1.272 Y11.323 E2709.80104 ; infill
@@ -15474,10 +13356,7 @@ G1 X-11.323 Y10.591 E2712.38851 ; infill
 G1 X10.591 Y-11.323 E2713.20820 ; infill
 G1 X7.259 Y-11.323 E2713.29633 ; infill
 G1 X-11.323 Y7.259 E2713.99138 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2714.07952 ; infill
 G1 X3.926 Y-11.323 E2714.64993 ; infill
 G1 X0.594 Y-11.323 E2714.73806 ; infill
@@ -15488,11 +13367,8 @@ G1 X-6.070 Y-11.323 E2715.68124 ; infill
 G1 X-11.323 Y-6.070 E2715.87774 ; infill
 G1 X-11.323 Y-9.402 E2715.96587 ; infill
 G1 X-9.402 Y-11.323 E2716.03773 ; infill
+
 G1 Z23.600 F60000.000 ; move to next layer (234)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2716.46468 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2716.89162 ; perimeter
@@ -15511,10 +13387,7 @@ G1 X12.550 Y12.505 E2720.56902 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2720.69570 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2720.78383 ; infill
 G1 X11.323 Y-4.605 E2721.03515 ; infill
 G1 X11.323 Y-1.272 E2721.12328 ; infill
@@ -15529,10 +13402,7 @@ G1 X10.591 Y11.323 E2723.71075 ; infill
 G1 X-11.323 Y-10.591 E2724.53044 ; infill
 G1 X-11.323 Y-7.259 E2724.61857 ; infill
 G1 X7.259 Y11.323 E2725.31362 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2725.40175 ; infill
 G1 X-11.323 Y-3.926 E2725.97217 ; infill
 G1 X-11.323 Y-0.594 E2726.06030 ; infill
@@ -15543,11 +13413,8 @@ G1 X-11.323 Y6.070 E2727.00348 ; infill
 G1 X-6.070 Y11.323 E2727.19997 ; infill
 G1 X-9.402 Y11.323 E2727.28811 ; infill
 G1 X-11.323 Y9.402 E2727.35997 ; infill
+
 G1 Z23.700 F60000.000 ; move to next layer (235)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2727.78691 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2728.21386 ; perimeter
@@ -15566,10 +13433,7 @@ G1 X12.550 Y12.505 E2731.89126 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2732.01794 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2732.10607 ; infill
 G1 X4.605 Y11.323 E2732.35738 ; infill
 G1 X1.272 Y11.323 E2732.44552 ; infill
@@ -15584,10 +13448,7 @@ G1 X-11.323 Y10.591 E2735.03299 ; infill
 G1 X10.591 Y-11.323 E2735.85268 ; infill
 G1 X7.259 Y-11.323 E2735.94081 ; infill
 G1 X-11.323 Y7.259 E2736.63586 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2736.72399 ; infill
 G1 X3.926 Y-11.323 E2737.29440 ; infill
 G1 X0.594 Y-11.323 E2737.38254 ; infill
@@ -15598,11 +13459,8 @@ G1 X-6.070 Y-11.323 E2738.32571 ; infill
 G1 X-11.323 Y-6.070 E2738.52221 ; infill
 G1 X-11.323 Y-9.402 E2738.61034 ; infill
 G1 X-9.402 Y-11.323 E2738.68220 ; infill
+
 G1 Z23.800 F60000.000 ; move to next layer (236)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2739.10915 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2739.53610 ; perimeter
@@ -15621,10 +13479,7 @@ G1 X12.550 Y12.505 E2743.21350 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2743.34017 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2743.42831 ; infill
 G1 X11.323 Y-4.605 E2743.67962 ; infill
 G1 X11.323 Y-1.272 E2743.76775 ; infill
@@ -15639,10 +13494,7 @@ G1 X10.591 Y11.323 E2746.35523 ; infill
 G1 X-11.323 Y-10.591 E2747.17491 ; infill
 G1 X-11.323 Y-7.259 E2747.26305 ; infill
 G1 X7.259 Y11.323 E2747.95810 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2748.04623 ; infill
 G1 X-11.323 Y-3.926 E2748.61664 ; infill
 G1 X-11.323 Y-0.594 E2748.70477 ; infill
@@ -15653,11 +13505,8 @@ G1 X-11.323 Y6.070 E2749.64795 ; infill
 G1 X-6.070 Y11.323 E2749.84445 ; infill
 G1 X-9.402 Y11.323 E2749.93258 ; infill
 G1 X-11.323 Y9.402 E2750.00444 ; infill
+
 G1 Z23.900 F60000.000 ; move to next layer (237)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2750.43139 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2750.85833 ; perimeter
@@ -15676,10 +13525,7 @@ G1 X12.550 Y12.505 E2754.53573 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2754.66241 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2754.75054 ; infill
 G1 X4.605 Y11.323 E2755.00186 ; infill
 G1 X1.272 Y11.323 E2755.08999 ; infill
@@ -15694,10 +13540,7 @@ G1 X-11.323 Y10.591 E2757.67746 ; infill
 G1 X10.591 Y-11.323 E2758.49715 ; infill
 G1 X7.259 Y-11.323 E2758.58528 ; infill
 G1 X-11.323 Y7.259 E2759.28033 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2759.36847 ; infill
 G1 X3.926 Y-11.323 E2759.93888 ; infill
 G1 X0.594 Y-11.323 E2760.02701 ; infill
@@ -15708,11 +13551,8 @@ G1 X-6.070 Y-11.323 E2760.97019 ; infill
 G1 X-11.323 Y-6.070 E2761.16669 ; infill
 G1 X-11.323 Y-9.402 E2761.25482 ; infill
 G1 X-9.402 Y-11.323 E2761.32668 ; infill
+
 G1 Z24.000 F60000.000 ; move to next layer (238)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2761.75362 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2762.18057 ; perimeter
@@ -15731,10 +13571,7 @@ G1 X12.550 Y12.505 E2765.85797 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2765.98465 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2766.07278 ; infill
 G1 X11.323 Y-4.605 E2766.32410 ; infill
 G1 X11.323 Y-1.272 E2766.41223 ; infill
@@ -15749,10 +13586,7 @@ G1 X10.591 Y11.323 E2768.99970 ; infill
 G1 X-11.323 Y-10.591 E2769.81939 ; infill
 G1 X-11.323 Y-7.259 E2769.90752 ; infill
 G1 X7.259 Y11.323 E2770.60257 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2770.69070 ; infill
 G1 X-11.323 Y-3.926 E2771.26112 ; infill
 G1 X-11.323 Y-0.594 E2771.34925 ; infill
@@ -15763,11 +13597,8 @@ G1 X-11.323 Y6.070 E2772.29242 ; infill
 G1 X-6.070 Y11.323 E2772.48892 ; infill
 G1 X-9.402 Y11.323 E2772.57706 ; infill
 G1 X-11.323 Y9.402 E2772.64892 ; infill
+
 G1 Z24.100 F60000.000 ; move to next layer (239)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2773.07586 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2773.50281 ; perimeter
@@ -15786,10 +13617,7 @@ G1 X12.550 Y12.505 E2777.18021 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2777.30688 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2777.39502 ; infill
 G1 X4.605 Y11.323 E2777.64633 ; infill
 G1 X1.272 Y11.323 E2777.73447 ; infill
@@ -15804,10 +13632,7 @@ G1 X-11.323 Y10.591 E2780.32194 ; infill
 G1 X10.591 Y-11.323 E2781.14162 ; infill
 G1 X7.259 Y-11.323 E2781.22976 ; infill
 G1 X-11.323 Y7.259 E2781.92481 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2782.01294 ; infill
 G1 X3.926 Y-11.323 E2782.58335 ; infill
 G1 X0.594 Y-11.323 E2782.67149 ; infill
@@ -15818,11 +13643,8 @@ G1 X-6.070 Y-11.323 E2783.61466 ; infill
 G1 X-11.323 Y-6.070 E2783.81116 ; infill
 G1 X-11.323 Y-9.402 E2783.89929 ; infill
 G1 X-9.402 Y-11.323 E2783.97115 ; infill
+
 G1 Z24.200 F60000.000 ; move to next layer (240)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2784.39810 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2784.82504 ; perimeter
@@ -15841,10 +13663,7 @@ G1 X12.550 Y12.505 E2788.50244 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2788.62912 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2788.71725 ; infill
 G1 X11.323 Y-4.605 E2788.96857 ; infill
 G1 X11.323 Y-1.272 E2789.05670 ; infill
@@ -15859,10 +13678,7 @@ G1 X10.591 Y11.323 E2791.64417 ; infill
 G1 X-11.323 Y-10.591 E2792.46386 ; infill
 G1 X-11.323 Y-7.259 E2792.55199 ; infill
 G1 X7.259 Y11.323 E2793.24705 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2793.33518 ; infill
 G1 X-11.323 Y-3.926 E2793.90559 ; infill
 G1 X-11.323 Y-0.594 E2793.99372 ; infill
@@ -15873,11 +13689,8 @@ G1 X-11.323 Y6.070 E2794.93690 ; infill
 G1 X-6.070 Y11.323 E2795.13340 ; infill
 G1 X-9.402 Y11.323 E2795.22153 ; infill
 G1 X-11.323 Y9.402 E2795.29339 ; infill
+
 G1 Z24.300 F60000.000 ; move to next layer (241)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2795.72034 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2796.14728 ; perimeter
@@ -15896,10 +13709,7 @@ G1 X12.550 Y12.505 E2799.82468 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2799.95136 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2800.03949 ; infill
 G1 X4.605 Y11.323 E2800.29081 ; infill
 G1 X1.272 Y11.323 E2800.37894 ; infill
@@ -15914,10 +13724,7 @@ G1 X-11.323 Y10.591 E2802.96641 ; infill
 G1 X10.591 Y-11.323 E2803.78610 ; infill
 G1 X7.259 Y-11.323 E2803.87423 ; infill
 G1 X-11.323 Y7.259 E2804.56928 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2804.65741 ; infill
 G1 X3.926 Y-11.323 E2805.22783 ; infill
 G1 X0.594 Y-11.323 E2805.31596 ; infill
@@ -15928,11 +13735,8 @@ G1 X-6.070 Y-11.323 E2806.25914 ; infill
 G1 X-11.323 Y-6.070 E2806.45563 ; infill
 G1 X-11.323 Y-9.402 E2806.54377 ; infill
 G1 X-9.402 Y-11.323 E2806.61563 ; infill
+
 G1 Z24.400 F60000.000 ; move to next layer (242)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2807.04257 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2807.46952 ; perimeter
@@ -15951,10 +13755,7 @@ G1 X12.550 Y12.505 E2811.14692 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2811.27360 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2811.36173 ; infill
 G1 X11.323 Y-4.605 E2811.61304 ; infill
 G1 X11.323 Y-1.272 E2811.70118 ; infill
@@ -15969,10 +13770,7 @@ G1 X10.591 Y11.323 E2814.28865 ; infill
 G1 X-11.323 Y-10.591 E2815.10834 ; infill
 G1 X-11.323 Y-7.259 E2815.19647 ; infill
 G1 X7.259 Y11.323 E2815.89152 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2815.97965 ; infill
 G1 X-11.323 Y-3.926 E2816.55006 ; infill
 G1 X-11.323 Y-0.594 E2816.63820 ; infill
@@ -15983,11 +13781,8 @@ G1 X-11.323 Y6.070 E2817.58137 ; infill
 G1 X-6.070 Y11.323 E2817.77787 ; infill
 G1 X-9.402 Y11.323 E2817.86600 ; infill
 G1 X-11.323 Y9.402 E2817.93787 ; infill
+
 G1 Z24.500 F60000.000 ; move to next layer (243)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2818.36481 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2818.79176 ; perimeter
@@ -16006,10 +13801,7 @@ G1 X12.550 Y12.505 E2822.46916 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2822.59583 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2822.68397 ; infill
 G1 X4.605 Y11.323 E2822.93528 ; infill
 G1 X1.272 Y11.323 E2823.02341 ; infill
@@ -16024,10 +13816,7 @@ G1 X-11.323 Y10.591 E2825.61089 ; infill
 G1 X10.591 Y-11.323 E2826.43057 ; infill
 G1 X7.259 Y-11.323 E2826.51871 ; infill
 G1 X-11.323 Y7.259 E2827.21376 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2827.30189 ; infill
 G1 X3.926 Y-11.323 E2827.87230 ; infill
 G1 X0.594 Y-11.323 E2827.96043 ; infill
@@ -16038,11 +13827,8 @@ G1 X-6.070 Y-11.323 E2828.90361 ; infill
 G1 X-11.323 Y-6.070 E2829.10011 ; infill
 G1 X-11.323 Y-9.402 E2829.18824 ; infill
 G1 X-9.402 Y-11.323 E2829.26010 ; infill
+
 G1 Z24.600 F60000.000 ; move to next layer (244)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2829.68705 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2830.11399 ; perimeter
@@ -16061,10 +13847,7 @@ G1 X12.550 Y12.505 E2833.79139 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2833.91807 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2834.00620 ; infill
 G1 X11.323 Y-4.605 E2834.25752 ; infill
 G1 X11.323 Y-1.272 E2834.34565 ; infill
@@ -16079,10 +13862,7 @@ G1 X10.591 Y11.323 E2836.93312 ; infill
 G1 X-11.323 Y-10.591 E2837.75281 ; infill
 G1 X-11.323 Y-7.259 E2837.84094 ; infill
 G1 X7.259 Y11.323 E2838.53599 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2838.62413 ; infill
 G1 X-11.323 Y-3.926 E2839.19454 ; infill
 G1 X-11.323 Y-0.594 E2839.28267 ; infill
@@ -16093,11 +13873,8 @@ G1 X-11.323 Y6.070 E2840.22585 ; infill
 G1 X-6.070 Y11.323 E2840.42235 ; infill
 G1 X-9.402 Y11.323 E2840.51048 ; infill
 G1 X-11.323 Y9.402 E2840.58234 ; infill
+
 G1 Z24.700 F60000.000 ; move to next layer (245)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2841.00928 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2841.43623 ; perimeter
@@ -16116,10 +13893,7 @@ G1 X12.550 Y12.505 E2845.11363 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2845.24031 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2845.32844 ; infill
 G1 X4.605 Y11.323 E2845.57976 ; infill
 G1 X1.272 Y11.323 E2845.66789 ; infill
@@ -16134,10 +13908,7 @@ G1 X-11.323 Y10.591 E2848.25536 ; infill
 G1 X10.591 Y-11.323 E2849.07505 ; infill
 G1 X7.259 Y-11.323 E2849.16318 ; infill
 G1 X-11.323 Y7.259 E2849.85823 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2849.94636 ; infill
 G1 X3.926 Y-11.323 E2850.51678 ; infill
 G1 X0.594 Y-11.323 E2850.60491 ; infill
@@ -16148,11 +13919,8 @@ G1 X-6.070 Y-11.323 E2851.54808 ; infill
 G1 X-11.323 Y-6.070 E2851.74458 ; infill
 G1 X-11.323 Y-9.402 E2851.83272 ; infill
 G1 X-9.402 Y-11.323 E2851.90458 ; infill
+
 G1 Z24.800 F60000.000 ; move to next layer (246)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2852.33152 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2852.75847 ; perimeter
@@ -16171,10 +13939,7 @@ G1 X12.550 Y12.505 E2856.43587 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2856.56255 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2856.65068 ; infill
 G1 X11.323 Y-4.605 E2856.90199 ; infill
 G1 X11.323 Y-1.272 E2856.99013 ; infill
@@ -16189,10 +13954,7 @@ G1 X10.591 Y11.323 E2859.57760 ; infill
 G1 X-11.323 Y-10.591 E2860.39729 ; infill
 G1 X-11.323 Y-7.259 E2860.48542 ; infill
 G1 X7.259 Y11.323 E2861.18047 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2861.26860 ; infill
 G1 X-11.323 Y-3.926 E2861.83901 ; infill
 G1 X-11.323 Y-0.594 E2861.92715 ; infill
@@ -16203,11 +13965,8 @@ G1 X-11.323 Y6.070 E2862.87032 ; infill
 G1 X-6.070 Y11.323 E2863.06682 ; infill
 G1 X-9.402 Y11.323 E2863.15495 ; infill
 G1 X-11.323 Y9.402 E2863.22681 ; infill
+
 G1 Z24.900 F60000.000 ; move to next layer (247)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2863.65376 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2864.08070 ; perimeter
@@ -16226,10 +13985,7 @@ G1 X12.550 Y12.505 E2867.75810 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2867.88478 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2867.97291 ; infill
 G1 X4.605 Y11.323 E2868.22423 ; infill
 G1 X1.272 Y11.323 E2868.31236 ; infill
@@ -16244,10 +14000,7 @@ G1 X-11.323 Y10.591 E2870.89983 ; infill
 G1 X10.591 Y-11.323 E2871.71952 ; infill
 G1 X7.259 Y-11.323 E2871.80765 ; infill
 G1 X-11.323 Y7.259 E2872.50271 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2872.59084 ; infill
 G1 X3.926 Y-11.323 E2873.16125 ; infill
 G1 X0.594 Y-11.323 E2873.24938 ; infill
@@ -16258,11 +14011,8 @@ G1 X-6.070 Y-11.323 E2874.19256 ; infill
 G1 X-11.323 Y-6.070 E2874.38906 ; infill
 G1 X-11.323 Y-9.402 E2874.47719 ; infill
 G1 X-9.402 Y-11.323 E2874.54905 ; infill
+
 G1 Z25.000 F60000.000 ; move to next layer (248)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2874.97600 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2875.40294 ; perimeter
@@ -16281,10 +14031,7 @@ G1 X12.550 Y12.505 E2879.08034 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X11.323 Y-7.937 F60000.000 ; move to first infill point
 G1 X7.937 Y-11.323 E2879.20702 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X4.605 Y-11.323 E2879.29515 ; infill
 G1 X11.323 Y-4.605 E2879.54647 ; infill
 G1 X11.323 Y-1.272 E2879.63460 ; infill
@@ -16299,10 +14046,7 @@ G1 X10.591 Y11.323 E2882.22207 ; infill
 G1 X-11.323 Y-10.591 E2883.04176 ; infill
 G1 X-11.323 Y-7.259 E2883.12989 ; infill
 G1 X7.259 Y11.323 E2883.82494 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X3.926 Y11.323 E2883.91308 ; infill
 G1 X-11.323 Y-3.926 E2884.48349 ; infill
 G1 X-11.323 Y-0.594 E2884.57162 ; infill
@@ -16313,11 +14057,8 @@ G1 X-11.323 Y6.070 E2885.51480 ; infill
 G1 X-6.070 Y11.323 E2885.71130 ; infill
 G1 X-9.402 Y11.323 E2885.79943 ; infill
 G1 X-11.323 Y9.402 E2885.87129 ; infill
+
 G1 Z25.100 F60000.000 ; move to next layer (249)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2886.29823 F1095.553 ; perimeter
 G1 X-11.678 Y-11.678 E2886.72518 ; perimeter
@@ -16336,10 +14077,7 @@ G1 X12.550 Y12.505 E2890.40258 ; perimeter
 G1 X12.290 Y12.400 F60000.000 ; move inwards before travel
 G1 X7.937 Y11.323 F60000.000 ; move to first infill point
 G1 X11.323 Y7.937 E2890.52926 F1095.553 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.323 Y4.605 E2890.61739 ; infill
 G1 X4.605 Y11.323 E2890.86870 ; infill
 G1 X1.272 Y11.323 E2890.95684 ; infill
@@ -16354,10 +14092,7 @@ G1 X-11.323 Y10.591 E2893.54431 ; infill
 G1 X10.591 Y-11.323 E2894.36400 ; infill
 G1 X7.259 Y-11.323 E2894.45213 ; infill
 G1 X-11.323 Y7.259 E2895.14718 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-11.323 Y3.926 E2895.23531 ; infill
 G1 X3.926 Y-11.323 E2895.80572 ; infill
 G1 X0.594 Y-11.323 E2895.89386 ; infill
@@ -16368,11 +14103,8 @@ G1 X-6.070 Y-11.323 E2896.83703 ; infill
 G1 X-11.323 Y-6.070 E2897.03353 ; infill
 G1 X-11.323 Y-9.402 E2897.12166 ; infill
 G1 X-9.402 Y-11.323 E2897.19353 ; infill
+
 G1 Z25.200 F60000.000 ; move to next layer (250)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2897.62047 F3637.793 ; perimeter
 G1 X-11.678 Y-11.678 E2898.04742 ; perimeter
@@ -16575,11 +14307,8 @@ G1 X-11.426 Y10.740 E2942.71403 ; infill
 G1 X-11.426 Y11.238 E2942.72740 ; infill
 G1 X-11.238 Y11.426 E2942.73456 ; infill
 M106 S255 ; enable fan
+
 G1 Z25.300 F60000.000 ; move to next layer (251)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
 G1 X11.678 Y11.678 F60000.000 ; move to first perimeter point
 G1 X-11.678 Y11.678 E2943.16150 F2788.021 ; perimeter
 G1 X-11.678 Y-11.678 E2943.58845 ; perimeter
@@ -16650,10 +14379,7 @@ G1 X11.386 Y-6.188 E2953.13624 ; infill
 G1 X-6.188 Y11.386 E2953.59201 ; infill
 G1 X-6.881 Y11.386 E2953.60472 ; infill
 G1 X11.386 Y-6.881 E2954.07847 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X11.386 Y-7.574 E2954.09118 ; infill
 G1 X-7.574 Y11.386 E2954.58290 ; infill
 G1 X-8.267 Y11.386 E2954.59561 ; infill
@@ -16698,10 +14424,7 @@ G1 X1.336 Y-11.386 E2964.06822 ; infill
 G1 X-11.386 Y1.336 E2964.39817 ; infill
 G1 X-11.386 Y0.643 E2964.41088 ; infill
 G1 X0.643 Y-11.386 E2964.72286 ; infill
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
 G1 X-0.050 Y-11.386 E2964.73557 ; infill
 G1 X-11.386 Y-0.050 E2965.02957 ; infill
 G1 X-11.386 Y-0.743 E2965.04228 ; infill
@@ -16736,8 +14459,4 @@ G1 X-11.386 Y-10.446 E2967.44892 ; infill
 G1 X-10.446 Y-11.386 E2967.47331 ; infill
 G1 X-11.139 Y-11.386 E2967.48602 ; infill
 G1 X-11.386 Y-11.139 E2967.49243 ; infill
-G1 Z25.400 F60000.000 ; move to next layer (252)
-G91 ; relative position
-G1 Z5
-G1 Z-5
-G90 ; absolute position
+
