@@ -91,7 +91,7 @@ while first_layer_sum_extrusion <= 0:
             #print("first layer insertion needed")
             new_layer += extra_lift_code
             previous_sum_distance = current_extrusion_distance
-
+    new_layer += [extra_lift_code]
     if first_layer_sum_extrusion <= 0:
         new_data += [new_layer]
     else:
