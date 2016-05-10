@@ -12,12 +12,14 @@ extra_lift_code = ['G91 ; relative position\n', 'G1 Z5\n', 'G1 Z-5\n', 'G90 ; ab
 #print ('Number of arguments:', len(sys.argv), 'arguments.')
 #print ('Argument List:', str(sys.argv))
 
-if len(sys.argv) != 2:
-    print ('usage: python sli3r_script.py filename')
+if len(sys.argv) < 2 or len(sys.argv) > 3:
+    print ('usage: python sli3r_script.py filename or pythong sli3r_script.py infile outfile')
     exit(1)
 
-file_location = sys.argv[1]
-
+in_file_location = sys.argv[1]
+out_file_location = in_file_location
+if len(sys.argv) == 3:
+    out_file_location = sys.argv[2]
 
 layer_data = []
 layer_num = 0
@@ -43,7 +45,7 @@ def process(line):
         one_layer = []
     one_layer += [line]
 
-with open(file_location, 'r') as f:
+with open(in_file_location, 'r') as f:
     #data = f.read()
     #print ('file length:', len(data))
     for line in f:
@@ -72,6 +74,7 @@ feed_rate = 1
 while first_layer_sum_extrusion <= 0:
     first_layer = layer_data[layer_index]
     layer_index += 1
+    new_layer = []
     for line in first_layer:
         new_layer += [line]
         match = re.match(r'^[g][01].+[f]([0-9]+[\.]?[0-9]*)', line, re.I)
@@ -91,16 +94,21 @@ while first_layer_sum_extrusion <= 0:
             #print("first layer insertion needed")
             new_layer += extra_lift_code
             previous_sum_distance = current_extrusion_distance
-    new_layer += extra_lift_code
+
     if first_layer_sum_extrusion <= 0:
         new_data += [new_layer]
+        #print(new_layer)
     else:
+        new_layer += extra_lift_code
         new_data += [new_layer] * first_layer_repeat
+
     #print(new_data)
+    #print("firstlayer sum")
     #print(first_layer_sum_extrusion)
 
 
 extra_lift_threshold = first_layer_sum_extrusion / extra_lift_retraction_factor
+#print(extra_lift_threshold)
 
 feed_rate = 1
 
@@ -152,7 +160,9 @@ for layer in layer_data[layer_index:]:
     new_layer += extra_lift_code
     new_data += [new_layer]
 
-with open(file_location, 'w') as f:
+
+
+with open(out_file_location, 'w') as f:
     for layer in new_data:
         for line in layer:
             f.write(line)
