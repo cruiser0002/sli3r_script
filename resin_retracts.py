@@ -4,7 +4,7 @@ import sys
 import re
 
 first_layer_threshold = 20 #config
-first_layer_repeat = 3 #config
+first_layer_repeat = 1 #config
 
 extra_lift_retraction_factor = 3.0 #config
 extra_lift_code = ['G91 ; relative position\n', 'G1 Z5\n', 'G1 Z-5\n', 'G90 ; absolute position\n']
@@ -32,24 +32,18 @@ def isLayerChange(line):
     return 0
 
 
-one_layer = []
-def process(line):
-    global layer_num
-    global one_layer
-    global layer_data
-    #append line into the end of this layer's data
-
-    if isLayerChange(line):
-        layer_num += 1
-        layer_data += [one_layer]
-        one_layer = []
-    one_layer += [line]
-
+#stuff file data into layer_data
 with open(in_file_location, 'r') as f:
     #data = f.read()
     #print ('file length:', len(data))
+    one_layer = []
     for line in f:
-        process(line)
+        if isLayerChange(line):
+            layer_num += 1
+            layer_data += [one_layer]
+            one_layer = []
+        one_layer += [line]
+    layer_data += [one_layer]
 
 if len(layer_data) < 2:
     exit(1)
