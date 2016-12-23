@@ -3,9 +3,11 @@
 import sys
 import re
 
+
+
 z_lift_feed_rate = 300
-xy_feed_rate = 20000
-move_feed_rate = 90000
+xy_feed_rate = 12000
+move_feed_rate = 12000
 extra_lift_code = ['G91 ; relative position\n',
                    'G1 Z5 F%d\n' %(z_lift_feed_rate),
                    'G1 Z-5\n',

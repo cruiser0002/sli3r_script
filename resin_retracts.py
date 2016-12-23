@@ -125,7 +125,7 @@ for layer in layer_data[layer_index:]:
     for line in layer:
         new_layer += [line]
         #find out if the feed rate changed
-        match = re.match(r'^[g][01].+[f]([0-9]+[\.]?[0-9]*)', line, re.I)
+        match = re.match(r'^([g][01].+[f]([0-9]+[\.]?[0-9]*)', line, re.I)
         if match:
             feed_rate = float(match.group(1))
         #find out if the line contains extrusion
