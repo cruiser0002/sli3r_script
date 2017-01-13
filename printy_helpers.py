@@ -7,3 +7,6 @@ def isLayerChange(line):
     if match:
         return 1
     return 0
+
+def insertExtraLift(layer):
+    return 0
