@@ -20,12 +20,16 @@ G28 ; home all axes
 G91 ; relative position
 G1 Z10 F200
 G1 Z-10 F20
-G1 Z1 F200
-G1 Z-1 F200
-G1 Z1 F200
-G1 Z-1 F200
-G1 Z1 F200
-G1 Z-1 F200
+G1 Z5 F200
+G1 Z-4 F200
+G1 Z4 F200
+G1 Z-4 F200
+G1 Z4 F200
+G1 Z-4 F200
+G1 Z4 F200
+G1 Z-4 F200
+G1 Z4 F200
+G1 Z-4 F200
 G90 ; absolute position
 G1 Z0.100 F3000000.000 ; move to next layer (0)
 G1 X-5.074 Y2.204 F3000000.000 ; move to first brim point
@@ -33,14 +37,6 @@ G1 Z0.100 F3000000.000 ; move to next layer (0)
 G1 X-5.074 Y2.204 F3000000.000 ; move to first brim point
 G1 Z0.100 F3000000.000 ; move to next layer (0)
 G1 X-5.074 Y2.204 F3000000.000 ; move to first brim point
-G1 Z0.100 F3000000.000 ; move to next layer (0)
-G1 X-5.074 Y2.204 F3000000.000 ; move to first brim point
-G1 Z0.100 F3000000.000 ; move to next layer (0)
-G1 X-5.074 Y2.204 F3000000.000 ; move to first brim point
-G91 ; relative position
-G1 Z2.5 F100
-G1 Z-2.5
-G90 ; absolute position
 G1 Z0.200 F3000000.000 ; move to next layer (1)
 G92 E0 ; reset extrusion distance
 G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
@@ -48,19 +44,6 @@ G1 Z0.200 F3000000.000 ; move to next layer (1)
 G92 E0 ; reset extrusion distance
 G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
 G1 Z0.200 F3000000.000 ; move to next layer (1)
-G92 E0 ; reset extrusion distance
-G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
-G1 Z0.200 F3000000.000 ; move to next layer (1)
-G92 E0 ; reset extrusion distance
-G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
-G1 Z0.200 F3000000.000 ; move to next layer (1)
-G92 E0 ; reset extrusion distance
-G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
-G91 ; relative position
-G1 Z2.5 F100
-G1 Z-2.5
-G90 ; absolute position
-G1 Z0.300 F3000000.000 ; move to next layer (2)
 G92 E0 ; reset extrusion distance
 G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
 G1 Z0.300 F3000000.000 ; move to next layer (2)
@@ -72,37 +55,18 @@ G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
 G1 Z0.300 F3000000.000 ; move to next layer (2)
 G92 E0 ; reset extrusion distance
 G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
-G1 Z0.300 F3000000.000 ; move to next layer (2)
-G92 E0 ; reset extrusion distance
-G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
-G91 ; relative position
-G1 Z2.5 F100
-G1 Z-2.5
-G90 ; absolute position
 G1 Z0.400 F3000000.000 ; move to next layer (3)
 G92 E0 ; reset extrusion distance
 G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
-G91 ; relative position
-G1 Z2.5 F100
-G1 Z-2.5
-G90 ; absolute position
 G1 Z0.500 F3000000.000 ; move to next layer (4)
 G1 X-3.093 Y-1.220 F3000000.000 ; move to first perimeter point
 G1 X-2.269 Y-2.431 E0.76728 F360000.000 ; perimeter
 G1 X-3.628 Y-1.410 E1.49630 ; perimeter
 G1 X-3.422 Y-1.452 F3000000.000 ; move inwards before travel
-G91 ; relative position
-G1 Z2.5 F100
-G1 Z-2.5
-G90 ; absolute position
 G1 Z0.600 F3000000.000 ; move to next layer (5)
 G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
 G1 X-2.269 Y-2.431 E1.51552 F360000.000 ; perimeter
 G1 X-3.425 Y-1.446 F3000000.000 ; move inwards before travel
-G91 ; relative position
-G1 Z2.5 F100
-G1 Z-2.5
-G90 ; absolute position
 G1 Z0.700 F3000000.000 ; move to next layer (6)
 G1 X-3.096 Y-1.214 F3000000.000 ; move to first perimeter point
 G1 X-2.269 Y-2.431 E2.26367 F360000.000 ; perimeter
@@ -243,7 +207,3 @@ M84     ; disable motors
 ; top_infill_extrusion_width = 0
 ; top_solid_infill_speed = 200%
 ; top_solid_layers = 3
-G91 ; relative position
-G1 Z2.5 F100
-G1 Z-2.5
-G90 ; absolute position
