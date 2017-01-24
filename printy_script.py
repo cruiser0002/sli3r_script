@@ -2,36 +2,45 @@
 
 import sys
 import re
-import printy_helpers
 import math
-#from printy_helpers import *
+import printy_helpers
+from printy_keys import *
 
 #repeat the first M layers N times to promote adhesion to build platform
 base_layer_count = 3 #M layers, minimum 1
-base_layer_over_cure = 3 #N times, minimum 1
+base_layer_over_cure = 5 #N times, minimum 1
 
 #repeat other layers by P times within the same layer
-normal_layer_over_cure = 1 #P times, minimum 1
+normal_layer_over_cure = 2 #P times, minimum 1
 
 laser_power = 0.02 #0.02 = 20mW
 
-#layers with path length greater than A (joules) is considered to be sticky, will insert an extra retract within the layer
+#layers with path energy greater than A (joules) is considered to be sticky, will insert an extra retract within the layer
 max_energy_threshold = 0.3 #joules
+
+#layers with fairly low energy should not stick too hard, this allows us to use a faster retract and less retract distance
+#not implemented yet
+fast_retract_energy_threshold = 0.03
 
 #layers with less energy than this threshold is not considered a printing layer and does not get any extra retracts.
 #this can come in handy for vase prints!
-min_energy_threshold = 0.0001 #joules
+min_energy_threshold = 0.00000000001 #joules
 
 #this is the extra lift code to be inserted within a layer so it doesn't peel too hard
-extra_lift_code = ['G91 ; relative position\n',
-                   'G1 Z5 F100 ; extra lift code within a slice\n',
-                   'G1 Z-5\n',
+sublayer_lift_code = ['G91 ; relative position\n',
+                   'G1 Z5 F100 ; extra lift code between sublayers\n',
+                   'G1 Z-5 F300\n', #go down faster since there's no resistance
                    'G90 ; absolute position\n']
 
 #this is the code to be inserted between layers if this is determined not to be a vase print
 layer_lift_code = ['G91 ; relative position\n',
                    'G1 Z5 F100 ; layer lift code\n',
-                   'G1 Z-4.8\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
+                   'G1 Z-4.8 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
+                   'G90 ; absolute position\n']
+
+layer_lift_code_fast = ['G91 ; relative position\n',
+                   'G1 Z2 F200 ; layer lift code\n',
+                   'G1 Z-1.9 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
                    'G90 ; absolute position\n']
 
 #this is the initial code for homing
@@ -61,30 +70,6 @@ layer_data = []
 
 #layer_data is an array whose index reflects sliced layers
 #each layer_data element is a dictionary
-#raw_data contains a list whose elements represent a line of G-code
-
-#statistics about each layer in a list of dictionaries
-#layer_stats contains a dictionary where
-#layer_length is printing length in mm
-#layer_time is total time in seconds
-#layer_energy in joules
-#line_energy is a list of the energy of each line of G-code
-
-#processed_data is a list whose elements are sublayers of a layer
-#each sublayer is a list whose elements are lines of G-code
-
-#The naive implementation is to insert extra lift codes whenever the accumulated energy looks too high.
-#The best implementation is to rearrange the gocdes so print chunks are grouped together for the most efficient lift while maintaining boundaries
-
-raw_data = 'raw_data'
-
-stats = 'layer_stats'
-stat_length = 'stat_length' #in mm
-stat_time = 'stat_time' #in seconds
-stat_energy = 'stat_energy' #in joules
-stat_line_energy = 'stat_line_energy'
-
-processed_data = 'processed_data'
 
 
 #each print layer is now an array element in layer_data
@@ -120,6 +105,12 @@ current_eloc = 0
 for layer_data_element in layer_data:
     layer_data_element[stats] = {}
     layer_data_element[stats][stat_line_energy] = []
+    layer_data_element[stats][stat_line_feedrate] = []
+    layer_data_element[stats][stat_sublayer_indices] = []
+    layer_data_element[processed_data] = []
+    layer_data_element[extra_feedrate_data] = []
+    layer_data_element[extra_move_data] = []
+
     draw_energy = 0
     print_length = 0
     print_time = 0
@@ -131,7 +122,7 @@ for layer_data_element in layer_data:
         temp_z = printy_helpers.getZLoc(line)
 
         if temp_rate != -1:
-            current_feed_rate = float(temp_rate)/60.0 #convert mm/min to mm/sec
+            current_feed_rate = float(temp_rate) #convert mm/min to mm/sec
         if temp_x == -1:
             current_xloc = previous_xloc
         else:
@@ -152,12 +143,13 @@ for layer_data_element in layer_data:
 
         if not printy_helpers.isMove(line):
             layer_data_element[stats][stat_line_energy] += [draw_energy]
+            layer_data_element[stats][stat_line_feedrate] += [current_feed_rate]
             continue
 
         if current_eloc > previous_eloc:
             segment_distance = ((current_xloc - previous_xloc)**2 + (current_yloc - previous_yloc)**2)**0.5
             print_length += segment_distance
-            segment_time = segment_distance / current_feed_rate
+            segment_time = segment_distance / current_feed_rate * 60.0
             print_time += segment_time
             draw_energy += segment_time * laser_power
 
@@ -165,6 +157,7 @@ for layer_data_element in layer_data:
         previous_yloc = current_yloc
         previous_eloc = current_eloc
         layer_data_element[stats][stat_line_energy] += [draw_energy]
+        layer_data_element[stats][stat_line_feedrate] += [current_feed_rate]
 
     layer_data_element[stats][stat_time]=print_time
     layer_data_element[stats][stat_length]=print_length
@@ -177,52 +170,79 @@ for layer_data_element in layer_data:
     else: #time to divide
         sublayer_threshold = draw_energy/math.ceil(draw_energy/max_energy_threshold) #figure out how many slices
         current_section = sublayer_threshold
-        layer_data_element[processed_data] = []
-        #print(len(layer_data_element[stats][stat_line_energy]))
-        sublayer = [] #store a list of indices where the sublayer splits should happen
-        sublayer_number = 1
+        #store a list of indices where the sublayer splits should happen
+        sublayer_indices = []
         index = 0
         for current_energy in layer_data_element[stats][stat_line_energy]:
             if current_energy > current_section:
-                sublayer += [index]
-                sublayer_number += 1
-                current_section = sublayer_threshold * sublayer_number
+                sublayer_indices += [index]
+                current_section += sublayer_threshold
             index += 1
+        layer_data_element[stats][stat_sublayer_indices] = sublayer_indices
 
+        #used the indices to split each layer into multiple sublayers
         previous_index = 0
-        for index in sublayer:
+        for index in sublayer_indices:
             layer_data_element[processed_data] += [layer_data_element[raw_data][previous_index:index]]
             previous_index = index
         layer_data_element[processed_data] += [layer_data_element[raw_data][previous_index:]]
 
+        #use the indices to find out the gcode
+
+    #need to add a line for feedrate so the G-code resumes correctly
+    #this grabs the starting feedrate for each sublayer
+    extra_gcode = []
+    for sublayerindex in [0]+layer_data_element[stats][stat_sublayer_indices]:
+        extra_gcode += ['G0 F%d ; extra feedrate data\n' %(layer_data_element[stats][stat_line_feedrate][sublayerindex])]
+    layer_data_element[extra_feedrate_data] = extra_gcode
+
+    #need to add a line to go back to the beginning without any e value so the laser can start from the right spot
+    extra_gcode = []
+    for sublayer in layer_data_element[processed_data]:
+        stripped_first = printy_helpers.stripELoc(sublayer)
+        if stripped_first != -1:
+            extra_gcode += [stripped_first + ';extra move data\n']
+        else:
+            extra_gcode += [';failed to generate extra move data\n']
+    #store it in the data structure
+    layer_data_element[extra_move_data] = extra_gcode
+
+    #print(layer_data_element[extra_feedrate_data])
+
+
+#take all the processed data to the output
 output_data = []
-output_data += layer_data[0][processed_data]
-output_data += [initial_lift_code]
 
+home_layer = 1
+for layer in layer_data:
+    #just copy and paste until we find G92 (home axes)
+    if home_layer > 0:
+        output_data += layer[processed_data]
+        for sublayer in layer[processed_data]:
+            for line in sublayer:
+                if printy_helpers.isG92(line):
+                    home_layer = 0
+                    output_data += [initial_lift_code]
 
-for layer in layer_data[1:base_layer_count+1]:
-    if (len(layer[processed_data]) <= 1):
-        output_data += layer[processed_data]*base_layer_over_cure
+    #for the next M layers, repeat N times
+    elif base_layer_count > 0:
+        #repeat each subslice N times
+        output_data += printy_helpers.repeatLayerData(layer, base_layer_over_cure, sublayer_lift_code)
+
+        #insert extra lift between layers
+        #if the energy is low, such as a vase print, don't add a lift between layers
+        if layer[stats][stat_energy] > min_energy_threshold:
+            output_data += [layer_lift_code]
+        base_layer_count -= 1
+    #for all other layers, repeat P times
     else:
-        for sublayer in layer[processed_data][:-1]:
-            output_data += sublayer*base_layer_over_cure
-            output_data += [extra_lift_code]
-        output_data += layer[processed_data][-1]*base_layer_over_cure
-    if layer[stats][stat_energy] > min_energy_threshold:
-        output_data += [layer_lift_code]
+        output_data += printy_helpers.repeatLayerData(layer, normal_layer_over_cure, sublayer_lift_code)
 
-
-for layer in layer_data[base_layer_count+1:]:
-    if (len(layer[processed_data]) <= 1):
-        output_data += layer[processed_data]*normal_layer_over_cure
-    else:
-        for sublayer in layer[processed_data][:-1]:
-            output_data += sublayer*normal_layer_over_cure
-            output_data += [extra_lift_code]
-        output_data += layer[processed_data][-1]*normal_layer_over_cure
-    if layer[stats][stat_energy] > min_energy_threshold:
-        output_data += [layer_lift_code]
-    print(layer[raw_data])
+        #insert extra lift between layers
+        #if the energy is low, such as a vase print, don't add a lift between layers
+        if layer[stats][stat_energy] > min_energy_threshold:
+            output_data += [layer_lift_code]
+        #print(layer[raw_data])
 
 #output the processed gcode file
 with open(out_file_location, 'w') as f:
