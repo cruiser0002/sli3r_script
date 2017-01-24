@@ -8,7 +8,7 @@ from printy_keys import *
 
 #repeat the first M layers N times to promote adhesion to build platform
 base_layer_count = 3 #M layers, minimum 1
-base_layer_over_cure = 5 #N times, minimum 1
+base_layer_over_cure = 10 #N times, minimum 1
 
 #repeat other layers by P times within the same layer
 normal_layer_over_cure = 2 #P times, minimum 1
@@ -16,7 +16,7 @@ normal_layer_over_cure = 2 #P times, minimum 1
 laser_power = 0.02 #0.02 = 20mW
 
 #layers with path energy greater than A (joules) is considered to be sticky, will insert an extra retract within the layer
-max_energy_threshold = 0.3 #joules
+max_energy_threshold = 1 #joules
 
 #layers with fairly low energy should not stick too hard, this allows us to use a faster retract and less retract distance
 #not implemented yet
@@ -27,31 +27,43 @@ fast_retract_energy_threshold = 0.03
 min_energy_threshold = 0.00000000001 #joules
 
 #this is the extra lift code to be inserted within a layer so it doesn't peel too hard
-sublayer_lift_code = ['G91 ; relative position\n',
-                   'G1 Z5 F100 ; extra lift code between sublayers\n',
-                   'G1 Z-5 F300\n', #go down faster since there's no resistance
-                   'G90 ; absolute position\n']
+sublayer_lift_code = ['; start lift code between sublayers\n',
+                      'G91 ; relative position\n',
+                      'G1 Z5 F100\n',
+                      'G1 Z-5 F300\n', #go down faster since there's no resistance
+                      'G90 ; absolute position\n',
+                      'G4 P200 ; dwell in milliseconds\n',
+                      '; end lift code between sublayers\n']
 
 #this is the code to be inserted between layers if this is determined not to be a vase print
-layer_lift_code = ['G91 ; relative position\n',
+layer_lift_code = ['; start lift code between layers\n',
+                   'G91 ; relative position\n',
                    'G1 Z5 F100 ; layer lift code\n',
                    'G1 Z-4.8 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
-                   'G90 ; absolute position\n']
+                   'G90 ; absolute position\n',
+                   'G4 P200 ; dwell in milliseconds\n',
+                   '; end lift code between layers\n']
 
-layer_lift_code_fast = ['G91 ; relative position\n',
+layer_lift_code_fast = ['; start fast lift code between layers\n',
+                   'G91 ; relative position\n',
                    'G1 Z2 F200 ; layer lift code\n',
-                   'G1 Z-1.9 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
-                   'G90 ; absolute position\n']
+                   'G1 Z-1.8 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
+                   'G90 ; absolute position\n',
+                   'G4 P200 ; dwell in milliseconds\n',
+                   '; end fast lift code between layers\n']
 
 #this is the initial code for homing
-initial_lift_code = ['G28 ; home all axes\n', 'G91 ; relative position\n',
+initial_lift_code = ['; start initial lift code\n',
+                     'G28 ; home all axes\n', 'G91 ; relative position\n',
                      'G1 Z10 F200\n', 'G1 Z-10 F20\n', #drop slowly to squeeze out any air bubbles
                      'G1 Z5 F200\n', 'G1 Z-4 F200\n', #asymmetric, slosh a few times to mix the resin
                      'G1 Z4 F200\n', 'G1 Z-4 F200\n'  ,
                      'G1 Z4 F200\n', 'G1 Z-4 F200\n',
                      'G1 Z4 F200\n', 'G1 Z-4 F200\n',
                      'G1 Z4 F200\n', 'G1 Z-4 F200\n', #doesn't go all the way back to 0 so the gcode move down to the correct location.
-                     'G90 ; absolute position\n'] #avoids the very sticky lift from 0
+                     'G90 ; absolute position\n', #avoids the very sticky lift from 0
+                     'G4 P1000 ; dwell in milliseconds\n',
+                     '; end initial lift code\n']
 
 
 #argument processing
@@ -102,6 +114,9 @@ current_xloc = 0
 current_yloc = 0
 current_eloc = 0
 
+home_layer = 1
+base_layer = base_layer_count
+
 for layer_data_element in layer_data:
     layer_data_element[stats] = {}
     layer_data_element[stats][stat_line_energy] = []
@@ -110,6 +125,19 @@ for layer_data_element in layer_data:
     layer_data_element[processed_data] = []
     layer_data_element[extra_feedrate_data] = []
     layer_data_element[extra_move_data] = []
+
+    if home_layer == 1:
+        layer_data_element[stats][stat_over_cure] = -1
+    elif base_layer > 0:
+        layer_data_element[stats][stat_over_cure] = base_layer_over_cure
+        base_layer -= 1
+    else:
+        layer_data_element[stats][stat_over_cure] = normal_layer_over_cure
+
+    #total energy should depend on the amount of over cure
+    over_cure_factor = 1
+    if layer_data_element[stats][stat_over_cure] > 1:
+        over_cure_factor = layer_data_element[stats][stat_over_cure]
 
     draw_energy = 0
     print_length = 0
@@ -141,6 +169,9 @@ for layer_data_element in layer_data:
                 current_eloc = temp_e
                 previous_eloc = temp_e
 
+        if printy_helpers.isG28(line):
+            home_layer = 0
+
         if not printy_helpers.isMove(line):
             layer_data_element[stats][stat_line_energy] += [draw_energy]
             layer_data_element[stats][stat_line_feedrate] += [current_feed_rate]
@@ -151,7 +182,7 @@ for layer_data_element in layer_data:
             print_length += segment_distance
             segment_time = segment_distance / current_feed_rate * 60.0
             print_time += segment_time
-            draw_energy += segment_time * laser_power
+            draw_energy += segment_time * laser_power * over_cure_factor
 
         previous_xloc = current_xloc
         previous_yloc = current_yloc
@@ -161,6 +192,8 @@ for layer_data_element in layer_data:
 
     layer_data_element[stats][stat_time]=print_time
     layer_data_element[stats][stat_length]=print_length
+
+
     layer_data_element[stats][stat_energy]=draw_energy
 
 
@@ -209,6 +242,8 @@ for layer_data_element in layer_data:
 
     #print(layer_data_element[extra_feedrate_data])
 
+#for layer in layer_data:
+#    print(layer)
 
 #take all the processed data to the output
 output_data = []
@@ -216,27 +251,15 @@ output_data = []
 home_layer = 1
 for layer in layer_data:
     #just copy and paste until we find G92 (home axes)
-    if home_layer > 0:
+    if home_layer == 1:
         output_data += layer[processed_data]
-        for sublayer in layer[processed_data]:
-            for line in sublayer:
-                if printy_helpers.isG92(line):
-                    home_layer = 0
-                    output_data += [initial_lift_code]
+        if layer[stats][stat_over_cure] != -1:
+            home_layer = 0
+            output_data += [initial_lift_code]
 
-    #for the next M layers, repeat N times
-    elif base_layer_count > 0:
-        #repeat each subslice N times
-        output_data += printy_helpers.repeatLayerData(layer, base_layer_over_cure, sublayer_lift_code)
-
-        #insert extra lift between layers
-        #if the energy is low, such as a vase print, don't add a lift between layers
-        if layer[stats][stat_energy] > min_energy_threshold:
-            output_data += [layer_lift_code]
-        base_layer_count -= 1
-    #for all other layers, repeat P times
+    #for the reset of the layers, repeat controled by stat_over_cure
     else:
-        output_data += printy_helpers.repeatLayerData(layer, normal_layer_over_cure, sublayer_lift_code)
+        output_data += printy_helpers.repeatLayerData(layer, layer[stats][stat_over_cure], sublayer_lift_code)
 
         #insert extra lift between layers
         #if the energy is low, such as a vase print, don't add a lift between layers

@@ -7,6 +7,7 @@
 #stat_length is printing length in mm
 #stat_time is total time in seconds
 #stat_energy in joules
+#stat_over_cure is the number of times this layer is repeated
 #stat_line_energy is a list of the energy of each line of G-code
 #stat_line_feedrate is a list of the feedrate of each line of G-code
 
@@ -28,6 +29,7 @@ stats = 'layer_stats'
 stat_length = 'stat_length' #in mm
 stat_time = 'stat_time' #in seconds
 stat_energy = 'stat_energy' #in joules
+stat_over_cure = 'stat_over_cure'
 stat_line_energy = 'stat_line_energy'
 stat_line_feedrate = 'stat_line_feedrate'
 
