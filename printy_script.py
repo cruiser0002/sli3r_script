@@ -7,20 +7,26 @@ import printy_helpers
 from printy_keys import *
 
 #repeat the first M layers N times to promote adhesion to build platform
-base_layer_count = 3 #M layers, minimum 1
+#the first layer is usually thicker than the slicer thinks it is
+#thus we should independently increase the over curing of the first layer
+base_layer_count = 1 #M layers, minimum 1
 base_layer_over_cure = 10 #N times, minimum 1
 
-#repeat other layers by P times within the same layer
-normal_layer_over_cure = 2 #P times, minimum 1
+#repeat the next O layers by P times
+#this is handly for making the previous layer where the actual object is much much harder so the object can be extracted more easily from the brim
+early_layer_count = 2 #O layers, minimum 0
+early_layer_over_cure = 3 #P times, minimum 1
+
+#repeat other layers by Q times within the same layer
+normal_layer_over_cure = 1 #Q times, minimum 1
 
 laser_power = 0.02 #0.02 = 20mW
 
 #layers with path energy greater than A (joules) is considered to be sticky, will insert an extra retract within the layer
-max_energy_threshold = 1 #joules
+max_energy_threshold = 0.4 #joules
 
 #layers with fairly low energy should not stick too hard, this allows us to use a faster retract and less retract distance
-#not implemented yet
-fast_retract_energy_threshold = 0.03
+fast_retract_energy_threshold = 0.04
 
 #layers with less energy than this threshold is not considered a printing layer and does not get any extra retracts.
 #this can come in handy for vase prints!
@@ -46,10 +52,10 @@ layer_lift_code = ['; start lift code between layers\n',
 
 layer_lift_code_fast = ['; start fast lift code between layers\n',
                    'G91 ; relative position\n',
-                   'G1 Z2 F200 ; layer lift code\n',
+                   'G1 Z2 F300 ; layer lift code\n',
                    'G1 Z-1.8 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
                    'G90 ; absolute position\n',
-                   'G4 P200 ; dwell in milliseconds\n',
+                   'G4 P1 ; dwell in milliseconds\n',
                    '; end fast lift code between layers\n']
 
 #this is the initial code for homing
@@ -104,19 +110,7 @@ with open(in_file_location, 'r') as f:
 if len(layer_data) < 2:
     exit(1)
 
-
-
-previous_xloc = 0
-previous_yloc = 0
-previous_eloc = 0
-current_feed_rate = 0
-current_xloc = 0
-current_yloc = 0
-current_eloc = 0
-
-home_layer = 1
-base_layer = base_layer_count
-
+#initialize the data structure
 for layer_data_element in layer_data:
     layer_data_element[stats] = {}
     layer_data_element[stats][stat_line_energy] = []
@@ -126,14 +120,36 @@ for layer_data_element in layer_data:
     layer_data_element[extra_feedrate_data] = []
     layer_data_element[extra_move_data] = []
 
+
+#figure out how many times each layer should be duplicated by
+home_layer = 1
+base_layer = base_layer_count
+early_layer = early_layer_count
+for layer_data_element in layer_data:
+    for line in layer_data_element[raw_data]:
+        if printy_helpers.isMove(line):
+            home_layer = 0
     if home_layer == 1:
         layer_data_element[stats][stat_over_cure] = -1
     elif base_layer > 0:
         layer_data_element[stats][stat_over_cure] = base_layer_over_cure
         base_layer -= 1
+    elif early_layer > 0:
+        layer_data_element[stats][stat_over_cure] = early_layer_over_cure
+        early_layer -= 1
     else:
         layer_data_element[stats][stat_over_cure] = normal_layer_over_cure
 
+
+#tabulate total distances and energy
+previous_xloc = 0
+previous_yloc = 0
+previous_eloc = 0
+current_feed_rate = 0
+current_xloc = 0
+current_yloc = 0
+current_eloc = 0
+for layer_data_element in layer_data:
     #total energy should depend on the amount of over cure
     over_cure_factor = 1
     if layer_data_element[stats][stat_over_cure] > 1:
@@ -169,8 +185,6 @@ for layer_data_element in layer_data:
                 current_eloc = temp_e
                 previous_eloc = temp_e
 
-        if printy_helpers.isG28(line):
-            home_layer = 0
 
         if not printy_helpers.isMove(line):
             layer_data_element[stats][stat_line_energy] += [draw_energy]
@@ -242,29 +256,35 @@ for layer_data_element in layer_data:
 
     #print(layer_data_element[extra_feedrate_data])
 
-#for layer in layer_data:
-#    print(layer)
+for layer in layer_data:
+    print("sulayers: %d\tlayer energy: %f\n" %(len(layer[processed_data]), layer[stats][stat_energy]))
+#with open('out.txt', 'w') as f:
+#    for layer in layer_data:
+#        f.write('%d\n' % len(layer[processed_data]))
 
 #take all the processed data to the output
 output_data = []
 
 home_layer = 1
 for layer in layer_data:
-    #just copy and paste until we find G92 (home axes)
-    if home_layer == 1:
+    #just copy and paste until we find real printing layers
+    if layer[stats][stat_over_cure] == -1:
         output_data += layer[processed_data]
-        if layer[stats][stat_over_cure] != -1:
-            home_layer = 0
-            output_data += [initial_lift_code]
 
     #for the reset of the layers, repeat controled by stat_over_cure
     else:
-        output_data += printy_helpers.repeatLayerData(layer, layer[stats][stat_over_cure], sublayer_lift_code)
+        if home_layer == 1:
+            home_layer = 0
+            output_data += [initial_lift_code]
+        output_data += printy_helpers.repeatLayerData(layer, sublayer_lift_code)
 
         #insert extra lift between layers
         #if the energy is low, such as a vase print, don't add a lift between layers
         if layer[stats][stat_energy] > min_energy_threshold:
-            output_data += [layer_lift_code]
+            if layer[stats][stat_energy] < fast_retract_energy_threshold:
+                output_data += [layer_lift_code_fast]
+            else:
+                output_data += [layer_lift_code]
         #print(layer[raw_data])
 
 #output the processed gcode file

@@ -11,13 +11,13 @@ def isLayerChange(line):
 
 
 def hasFeedRate(line):
-    f_match = re.match(r'^[g][01].+[f](\d+\.?\d*)', line, re.I)
+    f_match = re.match(r'^[g][01].+[f]([-]?\d+\.?\d*)', line, re.I)
     if f_match:
         return 1
     return 0
 
 def getFeedRate(line):
-    f_match = re.match(r'^[g][01].+[f](\d+\.?\d*)', line, re.I)
+    f_match = re.match(r'^[g][01].+[f]([-]?\d+\.?\d*)', line, re.I)
     if f_match:
         return float(f_match.group(1))
     return -1
@@ -83,11 +83,10 @@ def isMCommand(line):
         return 1
     return 0
 
-def insertExtraLift(layer):
-    return 0
 
-def repeatLayerData(layer, overcure, sublayer_lift_code):
+def repeatLayerData(layer, sublayer_lift_code):
     output_data = []
+    overcure = layer[stats][stat_over_cure]
     sublayerindex = 0
     if len(layer) == 0:
         return [[]]
