@@ -1,0 +1,938 @@
+sulayers: 1	layer energy: 0.000000
+
+sulayers: 1	layer energy: 0.000000
+
+sulayers: 1	layer energy: 0.000000
+
+sulayers: 1	layer energy: 0.000000
+
+sulayers: 1	layer energy: 0.000000
+
+sulayers: 4	layer energy: 0.375000
+
+sulayers: 2	layer energy: 0.106300
+
+sulayers: 2	layer energy: 0.106200
+
+sulayers: 2	layer energy: 0.106298
+
+sulayers: 2	layer energy: 0.103797
+
+sulayers: 1	layer energy: 0.086200
+
+sulayers: 1	layer energy: 0.085600
+
+sulayers: 1	layer energy: 0.084598
+
+sulayers: 1	layer energy: 0.084298
+
+sulayers: 1	layer energy: 0.084898
+
+sulayers: 1	layer energy: 0.085400
+
+sulayers: 1	layer energy: 0.085999
+
+sulayers: 1	layer energy: 0.083899
+
+sulayers: 1	layer energy: 0.084698
+
+sulayers: 1	layer energy: 0.085400
+
+sulayers: 1	layer energy: 0.083898
+
+sulayers: 1	layer energy: 0.085500
+
+sulayers: 1	layer energy: 0.084098
+
+sulayers: 1	layer energy: 0.083700
+
+sulayers: 1	layer energy: 0.085300
+
+sulayers: 1	layer energy: 0.082898
+
+sulayers: 1	layer energy: 0.084497
+
+sulayers: 1	layer energy: 0.083098
+
+sulayers: 1	layer energy: 0.084198
+
+sulayers: 1	layer energy: 0.083800
+
+sulayers: 1	layer energy: 0.084498
+
+sulayers: 1	layer energy: 0.084098
+
+sulayers: 1	layer energy: 0.084498
+
+sulayers: 1	layer energy: 0.085500
+
+sulayers: 1	layer energy: 0.084898
+
+sulayers: 1	layer energy: 0.083798
+
+sulayers: 1	layer energy: 0.085098
+
+sulayers: 1	layer energy: 0.085500
+
+sulayers: 1	layer energy: 0.085100
+
+sulayers: 1	layer energy: 0.085398
+
+sulayers: 1	layer energy: 0.085900
+
+sulayers: 1	layer energy: 0.085900
+
+sulayers: 1	layer energy: 0.085700
+
+sulayers: 1	layer energy: 0.085700
+
+sulayers: 1	layer energy: 0.086400
+
+sulayers: 1	layer energy: 0.085500
+
+sulayers: 1	layer energy: 0.085900
+
+sulayers: 1	layer energy: 0.085900
+
+sulayers: 1	layer energy: 0.084698
+
+sulayers: 1	layer energy: 0.086000
+
+sulayers: 1	layer energy: 0.085900
+
+sulayers: 1	layer energy: 0.085498
+
+sulayers: 1	layer energy: 0.084898
+
+sulayers: 1	layer energy: 0.085600
+
+sulayers: 1	layer energy: 0.085700
+
+sulayers: 1	layer energy: 0.084398
+
+sulayers: 1	layer energy: 0.084399
+
+sulayers: 1	layer energy: 0.083498
+
+sulayers: 1	layer energy: 0.085200
+
+sulayers: 1	layer energy: 0.084700
+
+sulayers: 1	layer energy: 0.085100
+
+sulayers: 1	layer energy: 0.083398
+
+sulayers: 1	layer energy: 0.084400
+
+sulayers: 1	layer energy: 0.083050
+
+sulayers: 1	layer energy: 0.083898
+
+sulayers: 1	layer energy: 0.084200
+
+sulayers: 1	layer energy: 0.083600
+
+sulayers: 1	layer energy: 0.083800
+
+sulayers: 1	layer energy: 0.083600
+
+sulayers: 1	layer energy: 0.083500
+
+sulayers: 1	layer energy: 0.083100
+
+sulayers: 1	layer energy: 0.083300
+
+sulayers: 1	layer energy: 0.082700
+
+sulayers: 1	layer energy: 0.083200
+
+sulayers: 1	layer energy: 0.082400
+
+sulayers: 1	layer energy: 0.082500
+
+sulayers: 1	layer energy: 0.082100
+
+sulayers: 1	layer energy: 0.082100
+
+sulayers: 1	layer energy: 0.081798
+
+sulayers: 1	layer energy: 0.081597
+
+sulayers: 1	layer energy: 0.080797
+
+sulayers: 1	layer energy: 0.080496
+
+sulayers: 1	layer energy: 0.079196
+
+sulayers: 1	layer energy: 0.080298
+
+sulayers: 1	layer energy: 0.078896
+
+sulayers: 1	layer energy: 0.079196
+
+sulayers: 1	layer energy: 0.078496
+
+sulayers: 1	layer energy: 0.078596
+
+sulayers: 1	layer energy: 0.077997
+
+sulayers: 1	layer energy: 0.078296
+
+sulayers: 1	layer energy: 0.077896
+
+sulayers: 1	layer energy: 0.077697
+
+sulayers: 1	layer energy: 0.078198
+
+sulayers: 1	layer energy: 0.077299
+
+sulayers: 1	layer energy: 0.078498
+
+sulayers: 1	layer energy: 0.078899
+
+sulayers: 1	layer energy: 0.077697
+
+sulayers: 1	layer energy: 0.078699
+
+sulayers: 1	layer energy: 0.078100
+
+sulayers: 1	layer energy: 0.078200
+
+sulayers: 1	layer energy: 0.077297
+
+sulayers: 1	layer energy: 0.077999
+
+sulayers: 1	layer energy: 0.078000
+
+sulayers: 1	layer energy: 0.077700
+
+sulayers: 1	layer energy: 0.077700
+
+sulayers: 1	layer energy: 0.077400
+
+sulayers: 1	layer energy: 0.076398
+
+sulayers: 1	layer energy: 0.076597
+
+sulayers: 1	layer energy: 0.077300
+
+sulayers: 1	layer energy: 0.077200
+
+sulayers: 1	layer energy: 0.077300
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.075798
+
+sulayers: 1	layer energy: 0.075797
+
+sulayers: 1	layer energy: 0.075497
+
+sulayers: 1	layer energy: 0.075897
+
+sulayers: 1	layer energy: 0.076098
+
+sulayers: 1	layer energy: 0.076600
+
+sulayers: 1	layer energy: 0.075697
+
+sulayers: 1	layer energy: 0.076497
+
+sulayers: 1	layer energy: 0.076300
+
+sulayers: 1	layer energy: 0.076300
+
+sulayers: 1	layer energy: 0.076200
+
+sulayers: 1	layer energy: 0.076400
+
+sulayers: 1	layer energy: 0.076300
+
+sulayers: 1	layer energy: 0.075900
+
+sulayers: 1	layer energy: 0.076400
+
+sulayers: 1	layer energy: 0.071600
+
+sulayers: 1	layer energy: 0.072000
+
+sulayers: 1	layer energy: 0.071500
+
+sulayers: 1	layer energy: 0.072200
+
+sulayers: 1	layer energy: 0.071900
+
+sulayers: 1	layer energy: 0.071500
+
+sulayers: 1	layer energy: 0.071700
+
+sulayers: 1	layer energy: 0.071500
+
+sulayers: 1	layer energy: 0.073798
+
+sulayers: 1	layer energy: 0.075500
+
+sulayers: 1	layer energy: 0.075600
+
+sulayers: 1	layer energy: 0.075500
+
+sulayers: 1	layer energy: 0.075700
+
+sulayers: 1	layer energy: 0.075400
+
+sulayers: 1	layer energy: 0.075400
+
+sulayers: 1	layer energy: 0.075400
+
+sulayers: 1	layer energy: 0.073700
+
+sulayers: 1	layer energy: 0.069500
+
+sulayers: 1	layer energy: 0.069400
+
+sulayers: 1	layer energy: 0.069100
+
+sulayers: 1	layer energy: 0.069300
+
+sulayers: 1	layer energy: 0.069100
+
+sulayers: 1	layer energy: 0.069300
+
+sulayers: 1	layer energy: 0.093998
+
+sulayers: 2	layer energy: 0.102896
+
+sulayers: 2	layer energy: 0.101800
+
+sulayers: 2	layer energy: 0.107800
+
+sulayers: 1	layer energy: 0.068699
+
+sulayers: 1	layer energy: 0.068290
+
+sulayers: 1	layer energy: 0.039389
+
+sulayers: 1	layer energy: 0.039800
+
+sulayers: 1	layer energy: 0.038988
+
+sulayers: 1	layer energy: 0.039088
+
+sulayers: 1	layer energy: 0.038893
+
+sulayers: 1	layer energy: 0.039089
+
+sulayers: 1	layer energy: 0.038800
+
+sulayers: 1	layer energy: 0.038590
+
+sulayers: 1	layer energy: 0.038800
+
+sulayers: 1	layer energy: 0.038900
+
+sulayers: 1	layer energy: 0.038600
+
+sulayers: 1	layer energy: 0.038093
+
+sulayers: 1	layer energy: 0.038500
+
+sulayers: 1	layer energy: 0.038500
+
+sulayers: 1	layer energy: 0.038600
+
+sulayers: 1	layer energy: 0.038700
+
+sulayers: 1	layer energy: 0.038500
+
+sulayers: 1	layer energy: 0.038400
+
+sulayers: 1	layer energy: 0.038400
+
+sulayers: 1	layer energy: 0.038400
+
+sulayers: 1	layer energy: 0.038400
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038200
+
+sulayers: 1	layer energy: 0.038200
+
+sulayers: 1	layer energy: 0.038700
+
+sulayers: 1	layer energy: 0.038398
+
+sulayers: 1	layer energy: 0.038600
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038500
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038500
+
+sulayers: 1	layer energy: 0.038100
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038000
+
+sulayers: 1	layer energy: 0.038200
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038100
+
+sulayers: 1	layer energy: 0.038100
+
+sulayers: 1	layer energy: 0.038100
+
+sulayers: 1	layer energy: 0.038000
+
+sulayers: 1	layer energy: 0.038000
+
+sulayers: 1	layer energy: 0.037900
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.038100
+
+sulayers: 1	layer energy: 0.038000
+
+sulayers: 1	layer energy: 0.038000
+
+sulayers: 1	layer energy: 0.037900
+
+sulayers: 1	layer energy: 0.038000
+
+sulayers: 1	layer energy: 0.037900
+
+sulayers: 1	layer energy: 0.037900
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.037500
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.037600
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.037500
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.037300
+
+sulayers: 1	layer energy: 0.037700
+
+sulayers: 1	layer energy: 0.037400
+
+sulayers: 1	layer energy: 0.037500
+
+sulayers: 1	layer energy: 0.037400
+
+sulayers: 1	layer energy: 0.037300
+
+sulayers: 1	layer energy: 0.037396
+
+sulayers: 1	layer energy: 0.037500
+
+sulayers: 1	layer energy: 0.037300
+
+sulayers: 1	layer energy: 0.037500
+
+sulayers: 1	layer energy: 0.037100
+
+sulayers: 1	layer energy: 0.037300
+
+sulayers: 1	layer energy: 0.037000
+
+sulayers: 1	layer energy: 0.037300
+
+sulayers: 1	layer energy: 0.037000
+
+sulayers: 1	layer energy: 0.036493
+
+sulayers: 1	layer energy: 0.036697
+
+sulayers: 1	layer energy: 0.036900
+
+sulayers: 1	layer energy: 0.037199
+
+sulayers: 1	layer energy: 0.037100
+
+sulayers: 1	layer energy: 0.036486
+
+sulayers: 1	layer energy: 0.036898
+
+sulayers: 1	layer energy: 0.036800
+
+sulayers: 1	layer energy: 0.037200
+
+sulayers: 1	layer energy: 0.037200
+
+sulayers: 1	layer energy: 0.036789
+
+sulayers: 1	layer energy: 0.036900
+
+sulayers: 1	layer energy: 0.037100
+
+sulayers: 1	layer energy: 0.037200
+
+sulayers: 1	layer energy: 0.037300
+
+sulayers: 1	layer energy: 0.036898
+
+sulayers: 1	layer energy: 0.037300
+
+sulayers: 1	layer energy: 0.037800
+
+sulayers: 1	layer energy: 0.037700
+
+sulayers: 1	layer energy: 0.037197
+
+sulayers: 1	layer energy: 0.037500
+
+sulayers: 1	layer energy: 0.038200
+
+sulayers: 1	layer energy: 0.038000
+
+sulayers: 1	layer energy: 0.038200
+
+sulayers: 1	layer energy: 0.038500
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038600
+
+sulayers: 1	layer energy: 0.038300
+
+sulayers: 1	layer energy: 0.038800
+
+sulayers: 1	layer energy: 0.038500
+
+sulayers: 1	layer energy: 0.039000
+
+sulayers: 1	layer energy: 0.038900
+
+sulayers: 1	layer energy: 0.039200
+
+sulayers: 1	layer energy: 0.039200
+
+sulayers: 1	layer energy: 0.039700
+
+sulayers: 1	layer energy: 0.039500
+
+sulayers: 1	layer energy: 0.040000
+
+sulayers: 1	layer energy: 0.051700
+
+sulayers: 1	layer energy: 0.064200
+
+sulayers: 1	layer energy: 0.064200
+
+sulayers: 1	layer energy: 0.064400
+
+sulayers: 1	layer energy: 0.064400
+
+sulayers: 1	layer energy: 0.064900
+
+sulayers: 1	layer energy: 0.064500
+
+sulayers: 1	layer energy: 0.065000
+
+sulayers: 1	layer energy: 0.065100
+
+sulayers: 1	layer energy: 0.065300
+
+sulayers: 1	layer energy: 0.068698
+
+sulayers: 1	layer energy: 0.069298
+
+sulayers: 1	layer energy: 0.069199
+
+sulayers: 1	layer energy: 0.069898
+
+sulayers: 1	layer energy: 0.069699
+
+sulayers: 1	layer energy: 0.070199
+
+sulayers: 1	layer energy: 0.070100
+
+sulayers: 1	layer energy: 0.070585
+
+sulayers: 1	layer energy: 0.070300
+
+sulayers: 1	layer energy: 0.071000
+
+sulayers: 1	layer energy: 0.070500
+
+sulayers: 1	layer energy: 0.071300
+
+sulayers: 1	layer energy: 0.070600
+
+sulayers: 1	layer energy: 0.071500
+
+sulayers: 1	layer energy: 0.070900
+
+sulayers: 1	layer energy: 0.071599
+
+sulayers: 1	layer energy: 0.071600
+
+sulayers: 1	layer energy: 0.071700
+
+sulayers: 1	layer energy: 0.073800
+
+sulayers: 1	layer energy: 0.074400
+
+sulayers: 1	layer energy: 0.072798
+
+sulayers: 1	layer energy: 0.075099
+
+sulayers: 1	layer energy: 0.074799
+
+sulayers: 1	layer energy: 0.074500
+
+sulayers: 1	layer energy: 0.074200
+
+sulayers: 1	layer energy: 0.071500
+
+sulayers: 1	layer energy: 0.071500
+
+sulayers: 1	layer energy: 0.071100
+
+sulayers: 1	layer energy: 0.071000
+
+sulayers: 1	layer energy: 0.070500
+
+sulayers: 1	layer energy: 0.070700
+
+sulayers: 1	layer energy: 0.070500
+
+sulayers: 1	layer energy: 0.072100
+
+sulayers: 1	layer energy: 0.071800
+
+sulayers: 1	layer energy: 0.071600
+
+sulayers: 1	layer energy: 0.071000
+
+sulayers: 1	layer energy: 0.070998
+
+sulayers: 1	layer energy: 0.070398
+
+sulayers: 1	layer energy: 0.051996
+
+sulayers: 1	layer energy: 0.045297
+
+sulayers: 1	layer energy: 0.043297
+
+sulayers: 1	layer energy: 0.042996
+
+sulayers: 1	layer energy: 0.041096
+
+sulayers: 1	layer energy: 0.040396
+
+sulayers: 1	layer energy: 0.040999
+
+sulayers: 1	layer energy: 0.049200
+
+sulayers: 1	layer energy: 0.051900
+
+sulayers: 1	layer energy: 0.054798
+
+sulayers: 1	layer energy: 0.053597
+
+sulayers: 1	layer energy: 0.052300
+
+sulayers: 1	layer energy: 0.056500
+
+sulayers: 1	layer energy: 0.058800
+
+sulayers: 1	layer energy: 0.058600
+
+sulayers: 1	layer energy: 0.059000
+
+sulayers: 1	layer energy: 0.063400
+
+sulayers: 1	layer energy: 0.057997
+
+sulayers: 1	layer energy: 0.057196
+
+sulayers: 1	layer energy: 0.064000
+
+sulayers: 1	layer energy: 0.064700
+
+sulayers: 1	layer energy: 0.058898
+
+sulayers: 1	layer energy: 0.060000
+
+sulayers: 1	layer energy: 0.063897
+
+sulayers: 1	layer energy: 0.065796
+
+sulayers: 1	layer energy: 0.065497
+
+sulayers: 1	layer energy: 0.069100
+
+sulayers: 1	layer energy: 0.064500
+
+sulayers: 1	layer energy: 0.064399
+
+sulayers: 1	layer energy: 0.071200
+
+sulayers: 1	layer energy: 0.069998
+
+sulayers: 1	layer energy: 0.067800
+
+sulayers: 1	layer energy: 0.069300
+
+sulayers: 1	layer energy: 0.065500
+
+sulayers: 1	layer energy: 0.065600
+
+sulayers: 1	layer energy: 0.069500
+
+sulayers: 1	layer energy: 0.071600
+
+sulayers: 1	layer energy: 0.071598
+
+sulayers: 1	layer energy: 0.070697
+
+sulayers: 1	layer energy: 0.070897
+
+sulayers: 1	layer energy: 0.071898
+
+sulayers: 1	layer energy: 0.072400
+
+sulayers: 1	layer energy: 0.070898
+
+sulayers: 1	layer energy: 0.072200
+
+sulayers: 1	layer energy: 0.073799
+
+sulayers: 1	layer energy: 0.073198
+
+sulayers: 1	layer energy: 0.075998
+
+sulayers: 1	layer energy: 0.074700
+
+sulayers: 1	layer energy: 0.072200
+
+sulayers: 1	layer energy: 0.073698
+
+sulayers: 1	layer energy: 0.074298
+
+sulayers: 1	layer energy: 0.074900
+
+sulayers: 1	layer energy: 0.076398
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.076300
+
+sulayers: 1	layer energy: 0.076600
+
+sulayers: 1	layer energy: 0.076096
+
+sulayers: 1	layer energy: 0.076600
+
+sulayers: 1	layer energy: 0.076700
+
+sulayers: 1	layer energy: 0.076700
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.076900
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.077100
+
+sulayers: 1	layer energy: 0.077200
+
+sulayers: 1	layer energy: 0.076900
+
+sulayers: 1	layer energy: 0.077100
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.077100
+
+sulayers: 1	layer energy: 0.076600
+
+sulayers: 1	layer energy: 0.077100
+
+sulayers: 1	layer energy: 0.076700
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.076900
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.077000
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.076600
+
+sulayers: 1	layer energy: 0.076600
+
+sulayers: 1	layer energy: 0.076600
+
+sulayers: 1	layer energy: 0.074300
+
+sulayers: 1	layer energy: 0.075200
+
+sulayers: 1	layer energy: 0.076500
+
+sulayers: 1	layer energy: 0.076800
+
+sulayers: 1	layer energy: 0.074300
+
+sulayers: 1	layer energy: 0.076700
+
+sulayers: 1	layer energy: 0.076300
+
+sulayers: 1	layer energy: 0.072600
+
+sulayers: 1	layer energy: 0.075398
+
+sulayers: 1	layer energy: 0.074700
+
+sulayers: 1	layer energy: 0.074100
+
+sulayers: 1	layer energy: 0.074400
+
+sulayers: 1	layer energy: 0.074100
+
+sulayers: 1	layer energy: 0.074100
+
+sulayers: 1	layer energy: 0.070898
+
+sulayers: 1	layer energy: 0.073297
+
+sulayers: 1	layer energy: 0.071097
+
+sulayers: 1	layer energy: 0.068797
+
+sulayers: 1	layer energy: 0.070798
+
+sulayers: 1	layer energy: 0.067600
+
+sulayers: 1	layer energy: 0.067500
+
+sulayers: 1	layer energy: 0.069276
+
+sulayers: 1	layer energy: 0.066398
+
+sulayers: 1	layer energy: 0.067500
+
+sulayers: 1	layer energy: 0.067698
+
+sulayers: 1	layer energy: 0.070298
+
+sulayers: 1	layer energy: 0.069898
+
+sulayers: 1	layer energy: 0.062300
+
+sulayers: 1	layer energy: 0.065200
+
+sulayers: 1	layer energy: 0.068300
+
+sulayers: 1	layer energy: 0.066698
+
+sulayers: 1	layer energy: 0.066998
+
+sulayers: 1	layer energy: 0.061485
+
+sulayers: 1	layer energy: 0.060599
+
+sulayers: 1	layer energy: 0.060800
+
+sulayers: 1	layer energy: 0.061800
+
+sulayers: 1	layer energy: 0.065800
+
+sulayers: 1	layer energy: 0.061496
+
+sulayers: 1	layer energy: 0.061600
+
+sulayers: 1	layer energy: 0.059898
+
+sulayers: 1	layer energy: 0.060800
+
+sulayers: 1	layer energy: 0.059000
+
+sulayers: 1	layer energy: 0.056800
+
+sulayers: 1	layer energy: 0.054198
+
+sulayers: 1	layer energy: 0.054100
+
+sulayers: 1	layer energy: 0.055898
+
+sulayers: 1	layer energy: 0.051800
+
+sulayers: 1	layer energy: 0.051700
+
+sulayers: 1	layer energy: 0.045300
+
+sulayers: 1	layer energy: 0.044900
+
+sulayers: 1	layer energy: 0.042600
+
+sulayers: 1	layer energy: 0.044400
+
+sulayers: 1	layer energy: 0.041791
+
+sulayers: 1	layer energy: 0.043700
+
+sulayers: 1	layer energy: 0.041095
+
+sulayers: 1	layer energy: 0.039085
+
+sulayers: 1	layer energy: 0.039000
+
+sulayers: 1	layer energy: 0.036094
+
+sulayers: 1	layer energy: 0.042489
+
+sulayers: 1	layer energy: 0.041100
+
+sulayers: 1	layer energy: 0.035591
+
+sulayers: 1	layer energy: 0.024030
+
+sulayers: 1	layer energy: 0.011470
+
+sulayers: 1	layer energy: 0.000000
+
+sulayers: 1	layer energy: 0.000000
+
+sulayers: 1	layer energy: 0.000000
+
+total print time (excluding extra lifts): 6216.607046
+

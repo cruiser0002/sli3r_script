@@ -21,12 +21,22 @@ early_layer_over_cure = 3 #P times, minimum 1
 normal_layer_over_cure = 1 #Q times, minimum 1
 
 laser_power = 0.02 #0.02 = 20mW
+laser_dot_diameter = 0.1 #0.1mm
+layer_height = 0.1 #0.1mm
 
 #layers with path energy greater than A (joules) is considered to be sticky, will insert an extra retract within the layer
-max_energy_threshold = 0.4 #joules
+#make this a big number to avoid this feature all together
+max_energy_threshold = 0.1 #joules
+
+#the resin likely doesn't absorb energy in a linear scale and stickiness is related to energy absorbtion
+#assume derating of absorbed laser power as a function of time. C*(1-e^(-t/tau))
+#where C is the max curing energy absorbtion and tau is the time constant
+#initial math based on speed of 100mm/s and a laser diameter of 0.1mm and assuming layer thickness of 0.1mm to keep math simple
+resin_cure_tau = 0.001 #1ms to start
+resin_max_cure = 0.01 #10mW/mm^2 to start
 
 #layers with fairly low energy should not stick too hard, this allows us to use a faster retract and less retract distance
-fast_retract_energy_threshold = 0.04
+fast_retract_energy_threshold = 0.08
 
 #layers with less energy than this threshold is not considered a printing layer and does not get any extra retracts.
 #this can come in handy for vase prints!
@@ -38,22 +48,22 @@ sublayer_lift_code = ['; start lift code between sublayers\n',
                       'G1 Z5 F100\n',
                       'G1 Z-5 F300\n', #go down faster since there's no resistance
                       'G90 ; absolute position\n',
-                      'G4 P200 ; dwell in milliseconds\n',
+                      'G4 P100 ; dwell in milliseconds\n',
                       '; end lift code between sublayers\n']
 
 #this is the code to be inserted between layers if this is determined not to be a vase print
 layer_lift_code = ['; start lift code between layers\n',
                    'G91 ; relative position\n',
                    'G1 Z5 F100 ; layer lift code\n',
-                   'G1 Z-4.8 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
+                   'G1 Z-4.9 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
                    'G90 ; absolute position\n',
-                   'G4 P200 ; dwell in milliseconds\n',
+                   'G4 P100 ; dwell in milliseconds\n',
                    '; end lift code between layers\n']
 
 layer_lift_code_fast = ['; start fast lift code between layers\n',
                    'G91 ; relative position\n',
                    'G1 Z2 F300 ; layer lift code\n',
-                   'G1 Z-1.8 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
+                   'G1 Z-1.9 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
                    'G90 ; absolute position\n',
                    'G4 P1 ; dwell in milliseconds\n',
                    '; end fast lift code between layers\n']
@@ -61,12 +71,12 @@ layer_lift_code_fast = ['; start fast lift code between layers\n',
 #this is the initial code for homing
 initial_lift_code = ['; start initial lift code\n',
                      'G28 ; home all axes\n', 'G91 ; relative position\n',
-                     'G1 Z10 F200\n', 'G1 Z-10 F20\n', #drop slowly to squeeze out any air bubbles
-                     'G1 Z5 F200\n', 'G1 Z-4 F200\n', #asymmetric, slosh a few times to mix the resin
-                     'G1 Z4 F200\n', 'G1 Z-4 F200\n'  ,
-                     'G1 Z4 F200\n', 'G1 Z-4 F200\n',
-                     'G1 Z4 F200\n', 'G1 Z-4 F200\n',
-                     'G1 Z4 F200\n', 'G1 Z-4 F200\n', #doesn't go all the way back to 0 so the gcode move down to the correct location.
+                     'G1 Z10 F300\n', 'G1 Z-10 F20\n', #drop slowly to squeeze out any air bubbles
+                     'G1 Z5 F300\n', 'G1 Z-4 F300\n', #asymmetric, slosh a few times to mix the resin
+                     'G1 Z4 F300\n', 'G1 Z-4 F300\n'  ,
+                     'G1 Z4 F300\n', 'G1 Z-4 F300\n',
+                     'G1 Z4 F300\n', 'G1 Z-4 F300\n',
+                     'G1 Z4 F300\n', 'G1 Z-4 F300\n', #doesn't go all the way back to 0 so the gcode move down to the correct location.
                      'G90 ; absolute position\n', #avoids the very sticky lift from 0
                      'G4 P1000 ; dwell in milliseconds\n',
                      '; end initial lift code\n']
@@ -149,6 +159,7 @@ current_feed_rate = 0
 current_xloc = 0
 current_yloc = 0
 current_eloc = 0
+total_print_time = 0
 for layer_data_element in layer_data:
     #total energy should depend on the amount of over cure
     over_cure_factor = 1
@@ -196,7 +207,9 @@ for layer_data_element in layer_data:
             print_length += segment_distance
             segment_time = segment_distance / current_feed_rate * 60.0
             print_time += segment_time
-            draw_energy += segment_time * laser_power * over_cure_factor
+            #draw_energy += segment_time * laser_power * over_cure_factor
+            segment_energy = resin_max_cure * laser_dot_diameter**2 * (1 - math.e**(-(segment_time*over_cure_factor)/laser_dot_diameter/resin_cure_tau))
+            draw_energy += segment_energy
 
         previous_xloc = current_xloc
         previous_yloc = current_yloc
@@ -205,8 +218,8 @@ for layer_data_element in layer_data:
         layer_data_element[stats][stat_line_feedrate] += [current_feed_rate]
 
     layer_data_element[stats][stat_time]=print_time
+    total_print_time += print_time * over_cure_factor
     layer_data_element[stats][stat_length]=print_length
-
 
     layer_data_element[stats][stat_energy]=draw_energy
 
@@ -258,6 +271,7 @@ for layer_data_element in layer_data:
 
 for layer in layer_data:
     print("sulayers: %d\tlayer energy: %f\n" %(len(layer[processed_data]), layer[stats][stat_energy]))
+print("total print time (excluding extra lifts): %f\n" %total_print_time)
 #with open('out.txt', 'w') as f:
 #    for layer in layer_data:
 #        f.write('%d\n' % len(layer[processed_data]))
