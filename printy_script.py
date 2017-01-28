@@ -18,15 +18,19 @@ early_layer_count = 2 #O layers, minimum 0
 early_layer_over_cure = 3 #P times, minimum 1
 
 #repeat other layers by Q times within the same layer
-normal_layer_over_cure = 1 #Q times, minimum 1
+normal_layer_over_cure = 2 #Q times, minimum 1
 
 laser_power = 0.02 #0.02 = 20mW
 laser_dot_diameter = 0.1 #0.1mm
 layer_height = 0.1 #0.1mm
 
 #layers with path energy greater than A (joules) is considered to be sticky, will insert an extra retract within the layer
-#make this a big number to avoid this feature all together
-max_energy_threshold = 0.1 #joules
+#make this a big number to disable
+max_energy_threshold = 100 #0.1 joules to start
+
+#layers with fairly low energy should not stick too hard, this allows us to use a faster retract and less retract distance
+#make this a small number to disable
+fast_retract_energy_threshold = 0.02
 
 #the resin likely doesn't absorb energy in a linear scale and stickiness is related to energy absorbtion
 #assume derating of absorbed laser power as a function of time. C*(1-e^(-t/tau))
@@ -34,9 +38,6 @@ max_energy_threshold = 0.1 #joules
 #initial math based on speed of 100mm/s and a laser diameter of 0.1mm and assuming layer thickness of 0.1mm to keep math simple
 resin_cure_tau = 0.001 #1ms to start
 resin_max_cure = 0.01 #10mW/mm^2 to start
-
-#layers with fairly low energy should not stick too hard, this allows us to use a faster retract and less retract distance
-fast_retract_energy_threshold = 0.08
 
 #layers with less energy than this threshold is not considered a printing layer and does not get any extra retracts.
 #this can come in handy for vase prints!
@@ -46,6 +47,7 @@ min_energy_threshold = 0.00000000001 #joules
 sublayer_lift_code = ['; start lift code between sublayers\n',
                       'G91 ; relative position\n',
                       'G1 Z5 F100\n',
+                      'G4 P100 ; dwell in milliseconds\n',
                       'G1 Z-5 F300\n', #go down faster since there's no resistance
                       'G90 ; absolute position\n',
                       'G4 P100 ; dwell in milliseconds\n',
@@ -55,6 +57,7 @@ sublayer_lift_code = ['; start lift code between sublayers\n',
 layer_lift_code = ['; start lift code between layers\n',
                    'G91 ; relative position\n',
                    'G1 Z5 F100 ; layer lift code\n',
+                   'G4 P100 ; dwell in milliseconds\n',
                    'G1 Z-4.9 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
                    'G90 ; absolute position\n',
                    'G4 P100 ; dwell in milliseconds\n',
@@ -63,6 +66,7 @@ layer_lift_code = ['; start lift code between layers\n',
 layer_lift_code_fast = ['; start fast lift code between layers\n',
                    'G91 ; relative position\n',
                    'G1 Z2 F300 ; layer lift code\n',
+                   'G4 P100 ; dwell in milliseconds\n',
                    'G1 Z-1.9 F300\n', # be careful with this one, it relies on the next line to contain Z to get to the right spot
                    'G90 ; absolute position\n',
                    'G4 P1 ; dwell in milliseconds\n',
@@ -72,11 +76,11 @@ layer_lift_code_fast = ['; start fast lift code between layers\n',
 initial_lift_code = ['; start initial lift code\n',
                      'G28 ; home all axes\n', 'G91 ; relative position\n',
                      'G1 Z10 F300\n', 'G1 Z-10 F20\n', #drop slowly to squeeze out any air bubbles
-                     'G1 Z5 F300\n', 'G1 Z-4 F300\n', #asymmetric, slosh a few times to mix the resin
+                     'G1 Z4.5 F300\n', 'G1 Z-4 F300\n', #asymmetric, slosh a few times to mix the resin
                      'G1 Z4 F300\n', 'G1 Z-4 F300\n'  ,
                      'G1 Z4 F300\n', 'G1 Z-4 F300\n',
                      'G1 Z4 F300\n', 'G1 Z-4 F300\n',
-                     'G1 Z4 F300\n', 'G1 Z-4 F300\n', #doesn't go all the way back to 0 so the gcode move down to the correct location.
+                     'G1 Z4 F300\n', 'G1 Z-4.4 F100\n', #doesn't go all the way back to 0 so the gcode move down to the correct location.
                      'G90 ; absolute position\n', #avoids the very sticky lift from 0
                      'G4 P1000 ; dwell in milliseconds\n',
                      '; end initial lift code\n']

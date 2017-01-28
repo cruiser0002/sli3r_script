@@ -224,3 +224,4 @@ pip-log.txt
 *.xml
 .idea/workspace.xml
 *.pyc
+.idea/workspace.xml
